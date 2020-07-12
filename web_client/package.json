@@ -1,0 +1,44 @@
+{
+  "name": "citizenship-portal",
+  "version": "1.0.0",
+  "description": "Initial demo of what a Citizenship Portal could look like.",
+  "author": "Ricky Lalwani",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest",
+    "test:watch": "jest test --watch"
+  },
+  "dependencies": {
+    "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.13.3",
+    "uswds": "^2.8.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^26.1.0",
+    "eslint": "7.4.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "jest": "^26.1.0",
+    "jest-serializer-vue": "^2.0.2",
+    "node-sass": "^4.14.1",
+    "nuxt-purgecss": "^1.0.0",
+    "prettier": "2.0.5",
+    "sass-loader": "^9.0.2",
+    "vue-jest": "^5.0.0-alpha.1"
+  }
+}
