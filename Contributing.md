@@ -1,7 +1,7 @@
 # Contributing to the Citizen Center
 
 - **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/n74rXDV), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
-- **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Citizenship-Portal/Backend/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+- **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Tech stack
 
@@ -15,8 +15,8 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
 
 ## Getting started
 
-1. Make sure to read [the wiki](https://github.com/https://github.com/Citizenship-Portal/backend/wiki) if you're not 100% on what the Citizen Portal is (TODO: create the wiki)
-2. See what's up in the [projects](https://github.com/Citizenship-Portal/Backend/projects) and [issues](https://github.com/Citizenship-Portal/Backend/issues)
+1. Make sure to read [the wiki](https://github.com/https://github.com/Citizenship-Portal/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is (TODO: create the wiki)
+2. See what's up in the [projects](https://github.com/Citizenship-Portal/Citizen-Center/projects) and [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 3. [Set up commit signing](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 
 ## Writing commit messages
@@ -28,7 +28,7 @@ This commit, in which I add this section of this document, might look like:
 `docs(contrib): #17 add conventional commits`
 
 If I was doing this from a fork, I would instead say:
-`docs(contrib): Citizenship-Portal/Backend#17 add conventional commits`
+`docs(contrib): Citizenship-Portal/Citizen-Center#17 add conventional commits`
 
 ## Submitting a pull request
 
@@ -49,7 +49,7 @@ New to rebasing? It can be daunting the first time, but we'll get through this t
 1. The first time you do this, add this repo as a remote in your forked repo:
 
    ```sh
-   git remote add upstream https://github.com/Citizenship-Portal/Backend.git
+   git remote add upstream https://github.com/Citizenship-Portal/Citizen-Center.git
    git fetch upstream
    ```
 
@@ -93,8 +93,8 @@ Great question. Whatever you want!
 
 We have our own priorities for our 2020 launch which you can see:
 
-- summarized in our [README](https://github.com/Citizenship-Portal/Backend/blob/master/README.md),
-- broken down a bit more in our [Projects](https://github.com/Citizenship-Portal/Backend/projects), and
-- fully broken down in the [issues](https://github.com/Citizenship-Portal/Backend/issues)
+- summarized in our [README](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/README.md),
+- broken down a bit more in our [Projects](https://github.com/Citizenship-Portal/Citizen-Center/projects), and
+- fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 
-Are we missing something super important? [Create an issue](https://github.com/Citizenship-Portal/Backend/issues/new), assign it to yourself, and get going!
+Are we missing something super important? [Create an issue](https://github.com/Citizenship-Portal/Citizen-Center/issues/new), assign it to yourself, and get going!
