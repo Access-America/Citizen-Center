@@ -35,4 +35,4 @@ https://www.terraform.io/docs/cli-index.html
 
 # Submitting and Testing Infrastructure Code
 
-Coming soon™
+Coming <b>Soon™</b>
