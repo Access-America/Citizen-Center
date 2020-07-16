@@ -5,8 +5,8 @@ resource "azurerm_resource_group" "front_end_rg" {
 
 resource "azurerm_storage_account" "front_end_storage" {
   name                     = "storageaccountname"
-  resource_group_name      = azurerm_resource_group.front_end.name
-  location                 = azurerm_resource_group.front_end.location
+  resource_group_name      = azurerm_resource_group.front_end_rg.name
+  location                 = azurerm_resource_group.front_end_rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
   account_kind             = "StorageV2"
@@ -20,6 +20,6 @@ resource "azurerm_storage_account" "front_end_storage" {
 
 resource "azurerm_storage_container" "website" {
   name                  = "$web"
-  storage_account_name  = azurerm_storage_account.front_end.name
+  storage_account_name  = azurerm_storage_account.front_end_storage.name
   container_access_type = "public"
 }

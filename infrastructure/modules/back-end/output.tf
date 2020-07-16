@@ -1,5 +1,5 @@
 output "back_end_rg" {
-    value = azurerm_resource_group.back_end
+    value = azurerm_resource_group.back_end_rg
 }
 
 output "back_end_storage" {
