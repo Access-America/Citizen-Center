@@ -24,7 +24,7 @@ resource "azurerm_app_service_plan" "back_end_compute" {
   }
 }
 
-resource "azurerm_function_app" "backe_end_function" {
+resource "azurerm_function_app" "back_end_function" {
   name                      = "test-azure-functions"
   location                  = azurerm_resource_group.back_end.location
   resource_group_name       = azurerm_resource_group.back_end.name
