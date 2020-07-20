@@ -1,3 +1,3 @@
-variable "client_secret" {}
+variable "INFRA_DEPLOY_CLIENT_SECRET" {}
 
-variable "subscription_id" {}
+variable "INFRA_SUBSCRIPTION_ID" {}
