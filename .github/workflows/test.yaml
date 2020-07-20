@@ -9,15 +9,15 @@ on:
     - master
 
 jobs:
+  env:
+    TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
+    TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./infrastructure
-      env:
-        TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
-        TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
