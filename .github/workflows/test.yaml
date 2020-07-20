@@ -13,7 +13,7 @@ jobs:
     name: 'Terraform'
     runs-on: ubuntu-latest
     defaults:
-      run:q 
+      run:
         working-directory: ./infrastructure
     steps:
       - name: Checkout
