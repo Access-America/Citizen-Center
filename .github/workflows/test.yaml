@@ -12,6 +12,9 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
+    defaults:
+      run:q 
+        working-directory: ./infrastructure/test.tf
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -24,3 +27,8 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
 
+      - name: Terraform Init
+        run: terraform init
+        
+      - name: Terraform Plan
+        run: terraform plan
