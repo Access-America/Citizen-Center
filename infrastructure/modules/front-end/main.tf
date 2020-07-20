@@ -17,9 +17,3 @@ resource "azurerm_storage_account" "front_end_storage" {
   }
 
 }
-
-resource "azurerm_storage_container" "website" {
-  name                  = "$web"
-  storage_account_name  = "test"
-  container_access_type = "public"
-}
