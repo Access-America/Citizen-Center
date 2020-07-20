@@ -8,10 +8,10 @@ on:
     branches:
     - master
 
+env:
+  TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
+  TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
 jobs:
-  env:
-    TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
-    TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
