@@ -1,0 +1,29 @@
+name: Infrastructure CI
+
+on:
+  push: 
+    branches:
+    - master
+
+env:
+  TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
+  TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
+jobs:
+  terraform:
+    name: 'Terraform'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./infrastructure
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+
+      - name: Terraform Init
+        run: terraform init
+        
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
