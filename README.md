@@ -1,6 +1,4 @@
-# Citizen Center
-
-# [Humanity Forward's Citizenship Portal Backend](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
+# [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
 
 ## Getting Started
 
