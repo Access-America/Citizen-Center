@@ -1,16 +1,58 @@
-# Development
+# Citizen Center
 
 # [Humanity Forward's Citizenship Portal Backend](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
 
 ## Getting Started
 
-Welcome to a world where everyone can benefit from the information age. Our goal is to create a citizenship portal for the citizens of the United States of America. This repo contains the project's backend development hub.
+Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record without a trip to the post office or your search engine. Imagine being able to do that without telling the government who you are. This is the world of decentralized identity. Our goal is to make every interaction with government simple and more secure to make it easier than ever for Americans to engage in democracy.  
 
-If you are eager to contribute but don't know where to start, feel free to check out the issues tab
-Leave a comment on the issue if you decide to tackle it and let us know if you have any questions
+## Project overview
 
-If you find something you like and wanna get started, follow the instructions below to get up and running
+### Right now: Giving the project a presence
+
+- [x] Roadmap
+- [x] Architecture
+- [x] CI/CD
+- [ ] UI/UX [partially done]
+- [ ] Github Issues created from Roadmap => Feel free to submit your own issues based on our Roadmap and work on them
+- [ ] Github Projects for documentation details
+
+
+### What's next: MVP
+
+- [ ] SAML/OIDC sign-in with Guest level access. More privacy tiers will be provisioned based on the [Just-In-Time principle](https://www.cyberark.com/what-is/just-in-time-access/).
+- [ ] Sign in form for trust level: Guest
+- [ ] Option to subscribe to continuous updates about the project
+- [ ] Account page to edit information
+- [ ] Gamification - Trust levels: 
+      - Visitor (no trust)
+      - Guest (email/password)
+      - Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
+      - Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+
+### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
+
+- [ ] Multi-User Dual Power Projects
+- [ ] Public change-tracking & votes
+- [ ] Resources for developing Dual Power Projects
+- [ ] Crowdfunding
+- [ ] Team chat
+- [ ] Support for other organizations, such as [WSDEs](https://github.com/BSA-US/dual-power-app/wiki/Worker-self‐directed-enterprise)
 
 ## Contributing
 
 Make sure you read the [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/Contributing.md) before you move on :slightly_smiling_face:
+
+## Setup
+
+1. git clone repo
+
+2. Check out the `dev` branch:
+    ```sh
+    git checkout dev
+    ```
+2. Create a new branch using Git Flow branch naming structure:
+    ```sh
+    git checkout -b feature/my-fun-thing
+    ```
+3. Check out individual READMEs in frontend and backend root directories for specific setup instructions
