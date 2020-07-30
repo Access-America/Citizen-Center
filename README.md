@@ -2,17 +2,17 @@
 
 ## Getting Started
 
-Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record all in one place. Imagine being able to do that without telling the government everything about you. Welcome to the world of decentralized identity. Our goal is to make every interaction with government simple, more secure and easier than ever for Americans to engage in democracy.  
+Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record all in one place. Imagine being able to do that without telling the government everything about you. Welcome to the world of decentralized identity. Our goal is to make engaging in democracy simple, more secure and easier than ever for Americans by digitizing as much government interaction as possible.  
 
 ## Project overview
 
 ### Right now: Giving the project a presence
 
 - [x] Roadmap
-- [x] Architecture
+- [x] [Architecture](https://i.imgur.com/NyCJfwR.png)
 - [x] CI/CD
-- [ ] UI/UX [partially done]
-- [ ] Github Issues created from Roadmap => Feel free to submit your own issues based on our Roadmap and work on them
+- [ ] [UI/UX](https://www.figma.com/file/KfTQBdRSBA2Q7LEZuxV8FC/Citizenship-Portal?node-id=0%3A1)
+- [ ] Github Issues created from Roadmap (feel free to create your own issues based on our Roadmap and work on them)
 - [ ] Github Projects for documentation details
 
 
@@ -60,3 +60,5 @@ Make sure you read the [contributor guidelines](https://github.com/Citizenship-P
     git checkout -b feature/my-fun-thing
     ```
 3. Check out individual READMEs in frontend and backend root directories for specific setup instructions
+
+4. Don't forget to read our [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/Contributing.md)
