@@ -23,11 +23,7 @@ Welcome to a world where democracy is digital. With Andrew Yang and Humanity For
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
 - [ ] Gamification 
-            * Trust levels: 
-            - [ ] Visitor (no trust)
-            - [ ] Guest (email/password)
-            - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
-            - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+- [ ] Trust levels: Visitor (no trust), Guest (email/password), Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release), Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
 
 ### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
 
@@ -40,8 +36,8 @@ Welcome to a world where democracy is digital. With Andrew Yang and Humanity For
 - [ ] Reviewing special interest money in politics
 - [ ] Viewing government actions
 - [ ] Applying for Government Assistance Programs
-- [ ] Actually voting online?
 - [ ] Having a digital and secure equivalent to a social security number
+- [ ] Actually voting online?
 
 ## Contributing
 
