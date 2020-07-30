@@ -49,7 +49,7 @@ Make sure you read the [contributor guidelines](https://github.com/Citizenship-P
 
 ## Setup
 
-1. git clone repo
+1. `git clone` repo
 
 2. Check out the `dev` branch:
     ```sh
