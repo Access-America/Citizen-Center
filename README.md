@@ -13,7 +13,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [x] Roadmap
 - [x] [Architecture](https://i.imgur.com/NyCJfwR.png)
 - [x] CI/CD
-- [ ] [UI/UX](https://www.figma.com/file/KfTQBdRSBA2Q7LEZuxV8FC/Citizenship-Portal?node-id=0%3A1)
+- [ ] [UI/UX](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395)
 - [ ] Github Issues created from Roadmap (feel free to create your own issues based on our Roadmap and work on them)
 - [ ] Github Projects for documentation details
 
