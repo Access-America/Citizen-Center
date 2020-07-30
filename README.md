@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record without a trip to the post office or your search engine. Imagine being able to do that without telling the government who you are. This is the world of decentralized identity. Our goal is to make every interaction with government simple and more secure to make it easier than ever for Americans to engage in democracy.  
+Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record all in one place. Imagine being able to do that without telling the government everything about you. Welcome to the world of decentralized identity. Our goal is to make every interaction with government simple, more secure and easier than ever for Americans to engage in democracy.  
 
 ## Project overview
 
