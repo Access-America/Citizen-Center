@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Az CLI
+        uses: azure/CLI@v1
+
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
 
