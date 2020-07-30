@@ -56,5 +56,3 @@ Make sure you read the [contributor guidelines](https://github.com/Citizenship-P
     git checkout -b feature/my-fun-thing
     ```
 3. Check out individual READMEs in frontend and backend root directories for specific setup instructions
-
-4. Don't forget to read our [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/Contributing.md)
