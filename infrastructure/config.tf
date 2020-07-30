@@ -1,11 +1,11 @@
-terraform {
-  backend "azurerm" {
-    resource_group_name  = "terraform-backend"
-    storage_account_name = "citizencentertfbackend"
-    container_name       = "citizen-center-tf-state"
-    key                  = "citizencenter.tfstate"
-  }
-}
+# terraform {
+#   backend "azurerm" {
+#     resource_group_name  = "terraform-backend"
+#     storage_account_name = "citizencentertfbackend"
+#     container_name       = "citizen-center-tf-state"
+#     key                  = "citizencenter.tfstate"
+#   }
+# }
 
 provider "azurerm" {
     features {}

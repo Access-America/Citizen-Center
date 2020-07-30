@@ -1,3 +1,0 @@
-variable "INFRA_DEPLOY_CLIENT_SECRET" {}
-
-variable "AZ_SUBSCRIPTION_ID" {}
