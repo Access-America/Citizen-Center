@@ -4,6 +4,8 @@
 
 Welcome to a world where democracy is digital. With Andrew Yang and Humanity Forward's leadership, a group of Americans have come together to build a Citizen Center. Imagine being able to register to vote, apply for and receive government benefits and be informed of a congressional candidate's voting record all in one place. Imagine being able to do that without telling the government everything about yourself. Welcome to the world of decentralized identity. Our goal is to make engaging in democracy simple, more secure and easier than ever for all Americans.
 
+Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Citizenship-Portal/Citizen-Center/wiki)
+
 ## Project overview
 
 ### Right now: Giving the project a presence
