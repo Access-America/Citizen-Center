@@ -4,6 +4,8 @@ on:
   push: 
     branches:
     - master
+    paths: 
+    - 'infrastructure/**'
 
 env:
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
