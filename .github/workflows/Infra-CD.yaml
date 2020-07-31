@@ -1,16 +1,16 @@
-name: Infrastructure CI
+name: Infrastructure CD
 
 on:
   push: 
     branches:
     - master
-  pull_request:
-    branches:
-    - master
 
 env:
-  TF_VAR_INFRA_DEPLOY_CLIENT_SECRET: ${{ secrets.INFRA_DEPLOY_CLIENT_SECRET }}
-  TF_VAR_INFRA_SUBSCRIPTION_ID: ${{ secrets.AZ_SUBSCRIPTION_ID }}
+  ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+  ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+  ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+  ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+
 jobs:
   terraform:
     name: 'Terraform'
@@ -28,5 +28,5 @@ jobs:
       - name: Terraform Init
         run: terraform init
         
-      - name: Terraform Plan
-        run: terraform plan
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
