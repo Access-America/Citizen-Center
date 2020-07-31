@@ -1,3 +1,0 @@
-variable "INFRA_DEPLOY_CLIENT_SECRET" {}
-
-variable "INFRA_SUBSCRIPTION_ID" {}
