@@ -53,8 +53,8 @@ Make sure you read the [contributor guidelines](https://github.com/Citizenship-P
     ```sh
     git checkout dev
     ```
-2. Create a new branch using Git Flow branch naming structure:
+2. Create a new branch using Git Flow branch naming structure and mention Github Issue number:
     ```sh
-    git checkout -b feature/my-fun-thing
+    git checkout -b gi-12345/my-fun-thing
     ```
 3. Check out individual READMEs in frontend and backend root directories for specific setup instructions
