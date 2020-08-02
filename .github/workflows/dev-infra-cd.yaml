@@ -1,11 +1,11 @@
-name: Infrastructure CD
+name: Dev Infrastructure CD
 
 on:
-  push: 
+  push:
     branches:
-    - master
+    - develop
     paths: 
-    - 'infrastructure/**'
+    - 'infrastructure/dev/**'
 
 env:
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./infrastructure
+        working-directory: ./infrastructure/dev
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -29,6 +29,9 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        
+
+      - name: Terraform Validate
+        run: terraform validate
+
       - name: Terraform Apply
         run: terraform apply -auto-approve
