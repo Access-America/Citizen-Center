@@ -18,6 +18,7 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
 1. Make sure to read [the wiki](https://github.com/Citizenship-Portal/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is
 2. See what's up in the [projects](https://github.com/Citizenship-Portal/Citizen-Center/projects) and [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 3. [Set up commit signing](https://help.github.com/en/github/authenticating-to-github/signing-commits)
+4. Get familiar with the [design file](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395) if you're working on a frontend component.
 
 ## Writing commit messages
 
@@ -36,7 +37,7 @@ If I was doing this from a fork, I would instead say:
 2. Bring your work up to date by rebasing it onto this repo's `master` branch (see below)
 3. Test your work again
 4. Create a pull request
-5. Change the target branch of the PR to `dev`
+5. Change the target branch of the PR to `develop`
 6. Summarize your changes and [mention any relevant issues](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls#issues-and-pull-requests)
 7. Submit your PR
 
