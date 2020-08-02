@@ -39,6 +39,6 @@
     "nuxt-purgecss": "^1.0.0",
     "prettier": "2.0.5",
     "sass-loader": "^9.0.2",
-    "vue-jest": "^5.0.0-alpha.1"
+    "vue-jest": "^5.0.0-alpha.2"
   }
 }
