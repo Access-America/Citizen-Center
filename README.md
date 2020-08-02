@@ -47,7 +47,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 ## Contributing
 
-Make sure you read the [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/Contributing.md) before you move on :slightly_smiling_face:
+Make sure you read the [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/CONTRIBUTING.md) before you move on :slightly_smiling_face:
 
 ## Setup
 
