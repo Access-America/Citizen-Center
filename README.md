@@ -14,8 +14,8 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [x] [Architecture](https://i.imgur.com/NyCJfwR.png)
 - [x] CI/CD
 - [ ] [UI/UX](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395)
-- [ ] Github Issues created from Roadmap (feel free to create your own issues based on our Roadmap and work on them)
-- [ ] Github Projects for documentation details
+- [ ] GitHub Issues created from Roadmap (feel free to create your own issues based on our Roadmap and work on them)
+- [ ] GitHub Projects for documentation details
 
 
 ### What's next: MVP
@@ -25,7 +25,11 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
 - [ ] Gamification 
-- [ ] Trust levels: Visitor (no trust), Guest (email/password), Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release), Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+- [ ] Trust levels: 
+    - [ ] Visitor (no trust)
+    - [ ] Guest (email/password)
+    - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
+    - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
 
 ### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
 
