@@ -18,6 +18,7 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
 1. Make sure to read [the wiki](https://github.com/Citizenship-Portal/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is
 2. See what's up in the [projects](https://github.com/Citizenship-Portal/Citizen-Center/projects) and [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 3. [Set up commit signing](https://help.github.com/en/github/authenticating-to-github/signing-commits)
+4. Get familiar with the [design file](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395) if you're working on a frontend component.
 
 ## Writing commit messages
 
