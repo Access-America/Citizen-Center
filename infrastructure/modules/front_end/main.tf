@@ -1,10 +1,10 @@
 resource "azurerm_resource_group" "front_end_rg" {
-  name     = "front-end"
+  name     = join("-", [var.front_end_module.environment, "front-end"])
   location = "eastus2"
 }
 
 resource "azurerm_storage_account" "front_end_storage" {
-  name                     = "citizencenterfrontend"
+  name                     = join("", [var.front_end_module.environment, "ccfrontend"])
   resource_group_name      = azurerm_resource_group.front_end_rg.name
   location                 = azurerm_resource_group.front_end_rg.location
   account_tier             = "Standard"
@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "front_end_storage" {
   account_kind             = "StorageV2"
 
   static_website {
-    index_document     = var.front_end_module.index_document
-    error_404_document = var.front_end_module.error_document
+    index_document     = "index.html"
+    error_404_document = "index.html"
   }
 }

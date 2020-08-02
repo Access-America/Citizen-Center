@@ -1,11 +1,11 @@
-name: Infrastructure CI
+name: Dev Infrastructure CI
 
 on:
   pull_request:
     branches:
-    - master
+    - develop
     paths: 
-    - 'infrastructure/**'
+    - 'infrastructure/dev/**'
 
 env:
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
@@ -19,13 +19,16 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./infrastructure
+        working-directory: ./infrastructure/dev
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
+
+      - name: Terraform Validate
+        run: terraform validate
 
       - name: Terraform Init
         run: terraform init
