@@ -12228,10 +12228,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-jest@^5.0.0-alpha.1:
-  version "5.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-5.0.0-alpha.1.tgz#081a20e585420f19b441beb2cb2cd9869ecdfa5b"
-  integrity sha512-ZeLrhMBLFlAMvew3OZ5/Cyswa6oJq4jHAsp4SOyIqB/X6mchQmAe3t3wovUfCrqXiSzJH+BgVcNcMybUIsjcrg==
+vue-jest@^5.0.0-alpha.2:
+  version "5.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-5.0.0-alpha.2.tgz#4aa945dd27edd6c463673586c331999cd6312b37"
+  integrity sha512-WngRkmvutKsrzC9N95phLg/yv+SikkAqT10g/KLvQQyajue1idYv3igY2YYtLezcLnAJl3fdbnJlrj3DahrJ4Q==
   dependencies:
     "@babel/plugin-transform-modules-commonjs" "^7.2.0"
     chalk "^2.1.0"
