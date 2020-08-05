@@ -30,12 +30,12 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
     - [ ] Guest (email/password)
     - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
     - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+- [ ] Register to vote
 
 ### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
 
-- [ ] Register to vote
 - [ ] Apply/Renew a Passport
-- [ ] Filing federal taxes (?)
+- [ ] Filing federal taxes (maybe)
 - [ ] Reviewing the voting histories of congressional representatives
 - [ ] Connecting a bank account
 - [ ] Contacting congressional representatives by way of jurisdiction or committee
