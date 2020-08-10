@@ -1,42 +1,51 @@
+# Development
+
+# [Humanity Forward's Citizenship Portal Backend](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
+
+## Get Started
+
+Welcome to a world where everyone can benefit from the information age. Our goal is to create a citizenship portal for the citizens of the United States of America. This repo contains the project's backend development hub. 
+
+If you are eager to contribute but don't know where to start, feel free to check out the issues tab
+Leave a comment on the issue if you decide to tackle it and let us know if you have any questions
+
+If you find something you like and wanna get started, follow the instructions below to get up and running
+
+------ Make sure to add your name to the contributors under the _README_ ------
+
 ## Setup
 
-### Requirements For Only Running The Backend Server
+### Requirements
 
-- Docker
+* npm
+* Python 3
+* Pip
+* Pipenv
 
-### Requirements For Backend Development
+### Running
 
-- Python 3
-- FastAPI
-- uvicorn
-
-### Running The Backend in Docker
-
-This project includes a simple backend using Python 3 and the FastAPI framework. You can either run this locally (for doing backend development), or run it in a Docker container (to make the backend server available while doing front-end development). To run the server in a Docker container, run the following commands:
+This project includes a simple backend using Python 3 and Azure serverless functions. To run it locally, run the following commands:
 
 ```
-docker build -t citzenship-portal . && docker run --name citizenship-portal -d -p 8000:8000 citizenship-portal
+pip install pipenv
+pipenv install
+pipenv shell
+npm run start-local
 ```
 
-Once everything's done, you can confirm the portal is working by opening a browser and typing http://127.0.0.1:8000/.
+Once everything's done, you can confirm the backend is working by opening a browser and typing http://localhost:7071/api/status.
+
 
 ### Backend Development Setup
 
-Make sure you have Python 3 and Pip installed on your machine. 
+If you would like to develop for the backend itself, you can get your development environment up and running 
 
-* Install the requirements:  
-`pip install -r requirements.txt`
+```
+pip install pipenv
+pipenv install
+pipenv shell
+```
 
-* Run the development server:  
-`uvicorn main:app --reload`  
+### Development Notes:
 
-    You should see:
-    ```
-    INFO: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-    INFO: Started reloader process [28720]
-    INFO: Started server process [28722]
-    INFO: Waiting for application startup.
-    INFO: Application startup complete.
-    ```
-
-You can confirm the portal is working by opening a browser and visiting http://127.0.0.1:8000/.
+This server contains a `/status` endpoint that can be used as a health check on the backend. If you add any other component (e.g. a database, or another service), please update the endpoint implementation to include it in the JSON object returned by the `/status` endpoint. The `status` value should only be `OK` if all the backend services and dependencies are healthy. 

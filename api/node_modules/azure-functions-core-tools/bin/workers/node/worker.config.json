@@ -1,0 +1,8 @@
+{
+    "description":{
+        "language":"node",
+        "extensions":[".js"],
+        "defaultExecutablePath":"node",
+        "defaultWorkerPath":"dist/src/nodejsWorker.js"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "command-exists",
+  "version": "1.2.8",
+  "description": "check whether a command line command exists in the current environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mathisonian/command-exists"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "exists"
+  ],
+  "author": "Matthew Conlen",
+  "contributors": [
+    "Arthur Silber <arthur@arthursilber.de> (https://arthursilber.de)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathisonian/command-exists/issues"
+  },
+  "homepage": "https://github.com/mathisonian/command-exists",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jshint": "^2.9.1",
+    "mocha": "^2.5.3"
+  }
+
+,"_resolved": "https://registry.npmjs.org/command-exists/-/command-exists-1.2.8.tgz"
+,"_integrity": "sha512-PM54PkseWbiiD/mMsbvW351/u+dafwTJ0ye2qB60G1aGQP9j3xK2gmMDc+R34L3nDtx4qMCitXT75mkbkGJDLw=="
+,"_from": "command-exists@1.2.8"
+}

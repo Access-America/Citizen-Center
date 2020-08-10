@@ -1,2 +1,2 @@
-fastapi
-uvicorn
+azure.functions
+azure-functions-worker

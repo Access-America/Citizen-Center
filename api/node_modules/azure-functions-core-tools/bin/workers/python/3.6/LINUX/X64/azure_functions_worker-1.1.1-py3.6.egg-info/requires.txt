@@ -1,0 +1,10 @@
+grpcio~=1.26.0
+grpcio-tools~=1.26.0
+
+[dev]
+azure-functions==1.2.1
+flake8~=3.7.9
+mypy
+pytest
+requests==2.*
+coverage
