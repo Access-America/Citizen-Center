@@ -49,7 +49,11 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
+<<<<<<< HEAD
 "@babel/core@^7.11.1":
+=======
+"@babel/core@^7.11.0":
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.1.tgz#2c55b604e73a40dc21b0e52650b11c65cf276643"
   integrity sha512-XqF7F6FWQdKGGWAzGELL+aCO1p+lRY5Tj5/tbT3St1G8NaH70jhhDIKknIZaDans0OQBG5wRAldROLHSt44BgQ==
@@ -992,10 +996,24 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+<<<<<<< HEAD
 "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+=======
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.4.tgz#a6724f1a6b8d2f6ea5236dbfe58c7d7ea9c5eb99"
+  integrity sha512-UpTN5yUJr9b4EX2CnGNWIvER7Ab83ibv0pcvvHc4UOdrBI5jb8bj+32cCwPX6xu0mt2daFNjYhoi+X7beH0RSw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.11.0":
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.1.tgz#087afc57e7bf1073e792fe54f8fb3cfa752f9230"
+  integrity sha512-nH5y8fLvVl3HAb+ezbgcgwrH8QbClWo8xzkOu7+oyqngo3EVorwpWJQaqXPjGRpfj7mQvsJCl/S8knkfkPWqrw==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1371,17 +1389,27 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+<<<<<<< HEAD
 "@nuxt/babel-preset-app@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.14.3.tgz#47916d0b66a5b368100af50c4c8e96dc1ef006ac"
   integrity sha512-GPodXma0jUQ8pViilV1R+C0X+TvjNZk2AFRKE8DxMw9WEC4WlS6QgUFTcPfN+GINtHtZTFCdwjB0BOR3iVi3kA==
   dependencies:
     "@babel/core" "^7.11.1"
+=======
+"@nuxt/babel-preset-app@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.14.1.tgz#239277e9df41a9e81019a9dc3acb9bdda49ce99a"
+  integrity sha512-kxNu168DBG2XlXEkylugQRi1gDcXsljLT7juyFcMr7OgfUNX5nbJGuEAUFVeC1tqj1nD5HNVuFk6+itaQEBLVQ==
+  dependencies:
+    "@babel/core" "^7.11.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     "@babel/helper-compilation-targets" "^7.10.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/plugin-proposal-decorators" "^7.10.5"
     "@babel/plugin-transform-runtime" "^7.11.0"
     "@babel/preset-env" "^7.11.0"
+<<<<<<< HEAD
     "@babel/runtime" "^7.11.2"
     "@vue/babel-preset-jsx" "^1.1.2"
     core-js "^2.6.5"
@@ -1395,6 +1423,21 @@
     "@nuxt/utils" "2.14.3"
     "@nuxt/vue-app" "2.14.3"
     "@nuxt/webpack" "2.14.3"
+=======
+    "@babel/runtime" "^7.11.0"
+    "@vue/babel-preset-jsx" "^1.1.2"
+    core-js "^2.6.5"
+
+"@nuxt/builder@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/builder/-/builder-2.14.1.tgz#56873bbb76cd1df4635657bc1618be4ef9bbc429"
+  integrity sha512-q4sY+/lWgMaI31s5oLingaYwuxH84jYmegPH1slObwFKNAzWblYgIi/GuGzUv2CuMM9rfAzMYEEg/enPPLNmtQ==
+  dependencies:
+    "@nuxt/devalue" "^1.2.4"
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-app" "2.14.1"
+    "@nuxt/webpack" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     chalk "^3.0.0"
     chokidar "^3.4.2"
     consola "^2.15.0"
@@ -1408,6 +1451,7 @@
     serialize-javascript "^4.0.0"
     upath "^1.2.0"
 
+<<<<<<< HEAD
 "@nuxt/cli@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.3.tgz#3c2251b15f25a9512f0b084485f42b7490998f82"
@@ -1416,6 +1460,16 @@
     "@nuxt/config" "2.14.3"
     "@nuxt/static" "^1.0.0"
     "@nuxt/utils" "2.14.3"
+=======
+"@nuxt/cli@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.1.tgz#2cd4d36650387c44db4ca4bc6cba4b5624091cbf"
+  integrity sha512-1SKZKU1vmHQcihFknzQnKQHW4ra7kajI/JK9MMARXWKvVvjr9UOG1Udm/AZvwnwvB+0shokQy2s5obqlXQZT2w==
+  dependencies:
+    "@nuxt/config" "2.14.1"
+    "@nuxt/static" "^1.0.0"
+    "@nuxt/utils" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     boxen "^4.2.0"
     chalk "^3.0.0"
     compression "^1.7.4"
@@ -1449,6 +1503,7 @@
     lodash "^4.17.19"
     semver "^7.3.2"
 
+<<<<<<< HEAD
 "@nuxt/config@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.3.tgz#536ce975e9aa93c3bbaddf415040dd815a0c2bb2"
@@ -1456,6 +1511,15 @@
   dependencies:
     "@nuxt/utils" "2.14.3"
     consola "^2.15.0"
+=======
+"@nuxt/config@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.1.tgz#14461b46e761fc531de883f8ae972a11096fa72e"
+  integrity sha512-Cw34T6MQrkfN/rrHH69HhXBrvfyQsErPInO1GQDeF/ySzEGWm2cn3IORJIt9wp6ZQ35yAe+UXPoEnXTGtjoE0Q==
+  dependencies:
+    "@nuxt/utils" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     create-require "^1.0.2"
     defu "^2.0.4"
     destr "^1.0.0"
@@ -1465,6 +1529,7 @@
     rc9 "^1.0.0"
     std-env "^2.2.1"
 
+<<<<<<< HEAD
 "@nuxt/core@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.3.tgz#36cacfbd895761685274448a8f3e61efb2aeccc7"
@@ -1476,6 +1541,19 @@
     "@nuxt/utils" "2.14.3"
     "@nuxt/vue-renderer" "2.14.3"
     consola "^2.15.0"
+=======
+"@nuxt/core@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.1.tgz#745eb9b16b5680087380718769f217f079ed4d78"
+  integrity sha512-Zu1iVQIsT3TV089NQ1OK8QdSU4MAJ4dNHE2hkj4gspOIZzD9bjxGfC6qN1zUCHd2C64VsbeXR3n5NNi6irlBKw==
+  dependencies:
+    "@nuxt/config" "2.14.1"
+    "@nuxt/devalue" "^1.2.4"
+    "@nuxt/server" "2.14.1"
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-renderer" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     debug "^4.1.1"
     esm "^3.2.25"
     fs-extra "^8.1.0"
@@ -1500,12 +1578,21 @@
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
 
+<<<<<<< HEAD
 "@nuxt/generator@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.14.3.tgz#06dd84a082e453c4ed5bbd9eed6668ce3650b30a"
   integrity sha512-rtDhrjaIuOb3X8RrOJt30c2EAlm2M3j5fLTc/11d3oCREn8Grdfz+XaKaV1PmlS8+7Jm3nG8rCGCb5pnXsUF/w==
   dependencies:
     "@nuxt/utils" "2.14.3"
+=======
+"@nuxt/generator@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.14.1.tgz#ec21286d30a67d8c387205158945050bec6dbf92"
+  integrity sha512-78KzXe3fwImE4zH2Fyc361pKRwa7FAaowYTwopmviiw+AZcxWWovdPTBn91fnSP7C/xr8OT70rWcoFaUHgGBpg==
+  dependencies:
+    "@nuxt/utils" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     chalk "^3.0.0"
     consola "^2.15.0"
     fs-extra "^8.1.0"
@@ -1532,6 +1619,7 @@
     consola "^2.10.1"
     node-fetch "^2.6.0"
 
+<<<<<<< HEAD
 "@nuxt/server@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.14.3.tgz#0221e6da2fdc8a920850d1417b9277c006961f0e"
@@ -1540,6 +1628,16 @@
     "@nuxt/config" "2.14.3"
     "@nuxt/utils" "2.14.3"
     "@nuxt/vue-renderer" "2.14.3"
+=======
+"@nuxt/server@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.14.1.tgz#c1dc8a2b5a6eacc7ad7d3fe4256d80d6da20b1b3"
+  integrity sha512-M/zzvuzfL+ojvSbJD93QjQpPYv/Dv8H4L84dD3V9cjQ+/imzfadv8+S81kCgYvzwbn3bNUCsoRI24UvPBqeESA==
+  dependencies:
+    "@nuxt/config" "2.14.1"
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-renderer" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     "@nuxtjs/youch" "^4.2.3"
     chalk "^3.0.0"
     compression "^1.7.4"
@@ -1590,10 +1688,17 @@
     rc9 "^1.0.0"
     std-env "^2.2.1"
 
+<<<<<<< HEAD
 "@nuxt/utils@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.3.tgz#a0fc50cd098bdf29c8a5354ae4b99b187c10eaa8"
   integrity sha512-a5TfeLdGEX5NPR8Vc0Zqi3DRr5SmIwuczKD5r80825NZ2A1PGexUNJa9/vUnOLxXfGLrv561tJN11sx9AxihOA==
+=======
+"@nuxt/utils@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.1.tgz#cb689d924dd460922f8bd23e36aca6738f1e522a"
+  integrity sha512-TVcAJiqOCJINx7t5vVwD4GXdn2I7P3ZlnT+kgsx10A9Blfs9idrA4YDz85lvxSZaQ4Cdx43qBtj54lCWlVdqAQ==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   dependencies:
     consola "^2.15.0"
     fs-extra "^8.1.0"
@@ -1604,10 +1709,17 @@
     signal-exit "^3.0.3"
     ua-parser-js "^0.7.21"
 
+<<<<<<< HEAD
 "@nuxt/vue-app@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.3.tgz#e373f06a9b027bd6077747da1ff7fc6cc019b9ae"
   integrity sha512-cS6f2Uu0EYjc9PWjTFSSie1Ts+H+cZBTOWkcb8mjPlkYxb0rU29mKFLXt1JpzadpA5s/iQJ6jKBp3zZCZRHDqg==
+=======
+"@nuxt/vue-app@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.1.tgz#d00cbeca205f3ab7ee5791d8bf06e4cce4117904"
+  integrity sha512-d6G4p/LPcEDgi4Dl5vm1E+ekgqg77p892qJyDE06xs7EyLoMOc1tYR6N3dhEbIuIg3pOOFwygBACvwQAnnr28w==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   dependencies:
     node-fetch "^2.6.0"
     unfetch "^4.1.0"
@@ -1619,6 +1731,7 @@
     vue-template-compiler "^2.6.11"
     vuex "^3.5.1"
 
+<<<<<<< HEAD
 "@nuxt/vue-renderer@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.14.3.tgz#0f400a2fceab2efd92e44e9f4ea591e371793537"
@@ -1627,12 +1740,23 @@
     "@nuxt/devalue" "^1.2.4"
     "@nuxt/utils" "2.14.3"
     consola "^2.15.0"
+=======
+"@nuxt/vue-renderer@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.14.1.tgz#15a00b08b53929830890f81d96ac9fcd7736a7ff"
+  integrity sha512-Dlio8iqq7T9Z+JvEE/0igMSscpqiMPX2vMdlY/zvXf6IqsF8KoDQC6NYEsFnWDDqmKPyfMvckkQ0G+cKjOTMlg==
+  dependencies:
+    "@nuxt/devalue" "^1.2.4"
+    "@nuxt/utils" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     fs-extra "^8.1.0"
     lru-cache "^5.1.1"
     vue "^2.6.11"
     vue-meta "^2.4.0"
     vue-server-renderer "^2.6.11"
 
+<<<<<<< HEAD
 "@nuxt/webpack@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.3.tgz#83c6e4af71d67b573be0df9e27872cabbc15205f"
@@ -1645,6 +1769,20 @@
     babel-loader "^8.1.0"
     cache-loader "^4.1.0"
     caniuse-lite "^1.0.30001114"
+=======
+"@nuxt/webpack@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.1.tgz#773666208f1b373f7bc1db8fb282cda9b324d428"
+  integrity sha512-DBTkTKH5wJmhKKWaPaAY0Qzc4O+so0BhlXiLkTD0DruPuAIyk/tE81g8PN9FAh1SEnK7sBKCkPhpWa0g320K6w==
+  dependencies:
+    "@babel/core" "^7.11.0"
+    "@nuxt/babel-preset-app" "2.14.1"
+    "@nuxt/friendly-errors-webpack-plugin" "^2.5.0"
+    "@nuxt/utils" "2.14.1"
+    babel-loader "^8.1.0"
+    cache-loader "^4.1.0"
+    caniuse-lite "^1.0.30001110"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     chalk "^3.0.0"
     consola "^2.15.0"
     create-require "^1.0.2"
@@ -1742,6 +1880,7 @@
     jimp-compact "^0.12.1"
     workbox-cdn "^5.1.3"
 
+<<<<<<< HEAD
 "@nuxtjs/tailwindcss@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-3.0.1.tgz#8535fddb8bfb5fd27a17c4f2c54a48abb1a5422e"
@@ -1751,6 +1890,17 @@
     defu "^3.1.0"
     fs-extra "^9.0.1"
     tailwindcss "^1.7.3"
+=======
+"@nuxtjs/tailwindcss@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-3.0.0.tgz#7ad85bad52d4637366dd29800a476fe36d242e3a"
+  integrity sha512-UuDGt2QWuKw1/29mAEiKce2ikZ4TPIpjL4vECcY/DcNzeYgzfIDpebzvOH6UXvgN3LGjNiCirtJfB94j7XzBfw==
+  dependencies:
+    consola "^2.14.0"
+    defu "^3.1.0"
+    fs-extra "^9.0.1"
+    tailwindcss "^1.6.2"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -3486,10 +3636,17 @@ caniuse-lite@^1.0.30001109:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001113.tgz#22016ab55b5a8b04fa00ca342d9ee1b98df48065"
   integrity sha512-qMvjHiKH21zzM/VDZr6oosO6Ri3U0V2tC015jRXjOecwQCJtsU5zklTNTk31jQbIOP8gha0h1ccM/g0ECP+4BA==
 
+<<<<<<< HEAD
 caniuse-lite@^1.0.30001114:
   version "1.0.30001114"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001114.tgz#2e88119afb332ead5eaa330e332e951b1c4bfea9"
   integrity sha512-ml/zTsfNBM+T1+mjglWRPgVsu2L76GAaADKX5f4t0pbhttEp0WMawJsHDYlFkVZkoA+89uvBRrVrEE4oqenzXQ==
+=======
+caniuse-lite@^1.0.30001110:
+  version "1.0.30001111"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001111.tgz#dd0ce822c70eb6c7c068e4a55c22e19ec1501298"
+  integrity sha512-xnDje2wchd/8mlJu8sXvWxOGvMgv+uT3iZ3bkIAynKOzToCssWCmkz/ZIkQBs/2pUB4uwnJKVORWQ31UkbVjOg==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -7854,10 +8011,17 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
+<<<<<<< HEAD
 klona@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.3.tgz#98274552c513583ad7a01456a789a2a0b4a2a538"
   integrity sha512-CgPOT3ZadDpXxKcfV56lEQ9OQSZ42Mk26gnozI+uN/k39vzD8toUhRQoqsX0m9Q3eMPEfsLWmtyUpK/yqST4yg==
+=======
+klona@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-1.1.2.tgz#a79e292518a5a5412ec8d097964bff1571a64db0"
+  integrity sha512-xf88rTeHiXk+XE2Vhi6yj8Wm3gMZrygGdKjJqN8HkV+PwF/t50/LdAKHoHpPcxFAlmQszTZ1CugrK25S7qDRLA==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
@@ -8844,6 +9008,7 @@ nuxt-purgecss@^1.0.0:
     purgecss "^2.0.5"
     purgecss-webpack-plugin "^2.0.5"
 
+<<<<<<< HEAD
 nuxt@^2.14.3:
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.3.tgz#1e1fb762d407dc275253360b87f3257c609b4dfd"
@@ -8854,11 +9019,27 @@ nuxt@^2.14.3:
     "@nuxt/components" "^1.1.0"
     "@nuxt/core" "2.14.3"
     "@nuxt/generator" "2.14.3"
+=======
+nuxt@^2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.1.tgz#e3e6e0a553a38c29b1d915d5ec75af9da2808c95"
+  integrity sha512-baf5/GeLxEtgZm5lcEsanULok+fk6iCPi+BSLdfdSHQJQIyzD9OIJ94FiXigRjNfiR+765VPvB9YMtmbS3Ho3A==
+  dependencies:
+    "@nuxt/builder" "2.14.1"
+    "@nuxt/cli" "2.14.1"
+    "@nuxt/components" "^1.1.0"
+    "@nuxt/core" "2.14.1"
+    "@nuxt/generator" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     "@nuxt/loading-screen" "^2.0.2"
     "@nuxt/opencollective" "^0.3.0"
     "@nuxt/static" "^1.0.0"
     "@nuxt/telemetry" "^1.2.3"
+<<<<<<< HEAD
     "@nuxt/webpack" "2.14.3"
+=======
+    "@nuxt/webpack" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
 nwsapi@^2.2.0:
   version "2.2.0"
@@ -11002,12 +11183,21 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
+<<<<<<< HEAD
 sass-loader@^10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.0.1.tgz#10c0364d8034f22fee25ddcc9eded20f99bbe3b4"
   integrity sha512-b2PSldKVTS3JcFPHSrEXh3BeAfR7XknGiGCAO5aHruR3Pf3kqLP3Gb2ypXLglRrAzgZkloNxLZ7GXEGDX0hBUQ==
   dependencies:
     klona "^2.0.3"
+=======
+sass-loader@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
+  integrity sha512-fOwsP98ac1VMme+V3+o0HaaMHp8Q/C9P+MUazLFVi3Jl7ORGHQXL1XeRZt3zLSGZQQPC8xE42Y2WptItvGjDQg==
+  dependencies:
+    klona "^1.1.2"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
     loader-utils "^2.0.0"
     neo-async "^2.6.2"
     schema-utils "^2.7.0"
@@ -11836,10 +12026,17 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+<<<<<<< HEAD
 tailwindcss@^1.4.6, tailwindcss@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.7.3.tgz#4aa53a482c8060e12a4a477caad562a4af0bfb16"
   integrity sha512-e6o/qhn80hcJ+cB1jIK3C1xlDPkFHU98c2m4ONMfeIOf8jvKQ+bowD39QKsWN+JMOvfATtMjgScpjSaqO1hffQ==
+=======
+tailwindcss@^1.4.6, tailwindcss@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.6.2.tgz#352da9e1b0d9154c95ce12483daa1c2fa1f1eea8"
+  integrity sha512-Cpa0kElG8Sg5sJSvTYi2frmIQZq0w37RLNNrYyy/W6HIWKspqSdTfb9tIN6X1gm4KV5a+TE/n7EKmn5Q9C7EUQ==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
@@ -12834,7 +13031,40 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
+<<<<<<< HEAD
 webpack@^4.0.0, webpack@^4.42.1, webpack@^4.44.1:
+=======
+webpack@^4.0.0, webpack@^4.42.1:
+  version "4.43.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.43.0.tgz#c48547b11d563224c561dad1172c8aa0b8a678e6"
+  integrity sha512-GW1LjnPipFW2Y78OOab8NJlCflB7EFskMih2AHdvjbpKMeDJqEgSx24cXXXiPS65+WSwVyxtDsJH6jGX2czy+g==
+  dependencies:
+    "@webassemblyjs/ast" "1.9.0"
+    "@webassemblyjs/helper-module-context" "1.9.0"
+    "@webassemblyjs/wasm-edit" "1.9.0"
+    "@webassemblyjs/wasm-parser" "1.9.0"
+    acorn "^6.4.1"
+    ajv "^6.10.2"
+    ajv-keywords "^3.4.1"
+    chrome-trace-event "^1.0.2"
+    enhanced-resolve "^4.1.0"
+    eslint-scope "^4.0.3"
+    json-parse-better-errors "^1.0.2"
+    loader-runner "^2.4.0"
+    loader-utils "^1.2.3"
+    memory-fs "^0.4.1"
+    micromatch "^3.1.10"
+    mkdirp "^0.5.3"
+    neo-async "^2.6.1"
+    node-libs-browser "^2.2.1"
+    schema-utils "^1.0.0"
+    tapable "^1.1.3"
+    terser-webpack-plugin "^1.4.3"
+    watchpack "^1.6.1"
+    webpack-sources "^1.4.1"
+
+webpack@^4.44.1:
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
   version "4.44.1"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.44.1.tgz#17e69fff9f321b8f117d1fda714edfc0b939cc21"
   integrity sha512-4UOGAohv/VGUNQJstzEywwNxqX417FnjZgZJpJQegddzPmTvph37eBIRbRTfdySXzVtJXLJfbMN3mMYhM6GdmQ==

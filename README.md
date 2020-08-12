@@ -28,6 +28,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Sign in form for trust level: Guest
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
+<<<<<<< HEAD
 - [ ] Connecting a bank account
 - [ ] Opt-in for Humanity Forward's UBI pilot program
 - [ ] Trust levels:
@@ -35,6 +36,14 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
   - [ ] Guest (email/password)
   - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
   - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
+=======
+- [ ] Gamification 
+- [ ] Trust levels: 
+    - [ ] Visitor (no trust)
+    - [ ] Guest (email/password)
+    - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
+    - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 - [ ] Register to vote
 
 ### In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
