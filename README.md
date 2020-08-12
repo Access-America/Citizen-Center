@@ -41,6 +41,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Sign in form for trust level: Guest
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
+<<<<<<< HEAD
 - [ ] Connecting a bank account
 - [ ] Opt-in for Humanity Forward's UBI pilot program
 - [ ] Register to vote
@@ -49,10 +50,22 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
   - [ ] User (email/password)
   - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
   - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
+=======
+- [ ] Gamification 
+- [ ] Trust levels: 
+    - [ ] Visitor (no trust)
+    - [ ] Guest (email/password)
+    - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
+    - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+- [ ] Register to vote
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
 
+<<<<<<< HEAD
 ## In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
 
+=======
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 - [ ] Apply/Renew a Passport
 - [ ] Filing federal taxes (maybe)
 - [ ] Reviewing the voting histories of congressional representatives
