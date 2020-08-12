@@ -36,7 +36,11 @@ provider:
       - name: CitizenPortalV1
         subscriptionRequired: false # if true must provide an api key
         displayName: Citizen Portal API V1
+<<<<<<< HEAD
         description: Back-end APIs for the Citizen Center
+=======
+        description: Back-end APIs for the Citizenship Portal
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
         protocols:
           - https
         path: v1
