@@ -45,7 +45,26 @@ If I was doing this from a fork, I would instead say:
 
 New to rebasing? It can be daunting the first time, but we'll get through this together.
 
-#### Rebasing when collaborating from a fork
+
+#### Rebasing when collaborating from within this repo
+
+1. Rebase your local branch onto `master`
+
+   ```sh
+   git checkout my-branch
+   git rebase master
+   ```
+
+2. Resolve the merge conflicts, choosing to keep your changes wherever you made them, and for all other conflicts choosing what is on `master`
+3. When finished, force-push your newly in-sync branch:
+
+   ```sh
+   git push -f origin my-branch
+   ```
+
+4. Create a pull request, making note of your changes
+
+#### Rebasing when collaborating from a fork (not recommended due to our Azure secret management policy, please discuss with the team if you'd like to do a fork)
 
 1. The first time you do this, add this repo as a remote in your forked repo:
 
@@ -69,24 +88,6 @@ New to rebasing? It can be daunting the first time, but we'll get through this t
    ```
 
 5. Create a pull request across forks, making note of your changes
-
-#### Rebasing when collaborating from within this repo
-
-1. Rebase your local branch onto `master`
-
-   ```sh
-   git checkout my-branch
-   git rebase master
-   ```
-
-2. Resolve the merge conflicts, choosing to keep your changes wherever you made them, and for all other conflicts choosing what is on `master`
-3. When finished, force-push your newly in-sync branch:
-
-   ```sh
-   git push -f origin my-branch
-   ```
-
-4. Create a pull request, making note of your changes
 
 ## But what should I work on?
 
