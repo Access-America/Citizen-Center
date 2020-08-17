@@ -16,7 +16,7 @@
     "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
     "@nuxtjs/axios": "^5.12.1",
     "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/pwa": "^3.0.0",
     "nuxt": "^2.14.1",
     "uswds": "^2.8.0"
   },
