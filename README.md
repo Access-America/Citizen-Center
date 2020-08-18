@@ -13,9 +13,9 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [x] Roadmap
 - [x] [Architecture](https://i.imgur.com/NyCJfwR.png)
 - [x] CI/CD
-- [ ] [UI/UX](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395)
 - [x] Adding GitHub Issues based on Roadmap (feel free to create your own issues or pick up ones based on milestones)
 - [ ] Breaking down Epics into smaller issues
+- [ ] [UI/UX](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395)
 
 
 ### What's next: MVP
