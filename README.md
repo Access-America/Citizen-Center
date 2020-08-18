@@ -24,12 +24,13 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Sign in form for trust level: Guest
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
-- [ ] Gamification 
+- [ ] Connecting a bank account
+- [ ] Opt-in for Humanity Forward's UBI pilot program
 - [ ] Trust levels: 
     - [ ] Visitor (no trust)
     - [ ] Guest (email/password)
-    - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
-    - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+    - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
+    - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy) 
 - [ ] Register to vote
 
 ### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
