@@ -62,7 +62,11 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
+=======
+### In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
+>>>>>>> 43a337a... Update docs (#98)
 
 =======
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
@@ -78,6 +82,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Actually voting online?
 
 
+<<<<<<< HEAD
 # Contributing
 
 - **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/n74rXDV), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
@@ -92,6 +97,9 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
 - **CSS:** [Tailwind](https://tailwindcss.com/#what-is-tailwind).
 - **Interacting with APIs:** [Isomorphic Unfetch](https://github.com/developit/unfetch/tree/master/packages/isomorphic-unfetch) (it's like axios, but waaay smaller)
 - **Interacting with the database:** TBD
+=======
+Make sure you read the [contributor guidelines](https://github.com/Access-America/Citizen-Center/blob/master/CONTRIBUTING.md) before you move on :slightly_smiling_face:
+>>>>>>> 43a337a... Update docs (#98)
 
 ## Getting started
 
