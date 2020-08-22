@@ -37,9 +37,8 @@ If I was doing this from a fork, I would instead say:
 2. Bring your work up to date by rebasing it onto this repo's `master` branch (see below)
 3. Test your work again
 4. Create a pull request
-5. Change the target branch of the PR to `develop`
-6. Summarize your changes and [mention any relevant issues](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls#issues-and-pull-requests)
-7. Submit your PR
+5. Summarize your changes and [mention any relevant issues](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls#issues-and-pull-requests)
+6. Submit your PR
 
 ### Rebasing
 
