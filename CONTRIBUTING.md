@@ -44,7 +44,18 @@ If I was doing this from a fork, I would instead say:
 
 New to rebasing? It can be daunting the first time, but we'll get through this together.
 
+<<<<<<< HEAD
 #### Rebasing when collaborating from within this repo
+=======
+#### Rebasing when collaborating from a fork
+
+1. The first time you do this, add this repo as a remote in your forked repo:
+
+   ```sh
+   git remote add upstream https://github.com/Access-America/Citizen-Center.git
+   git fetch upstream
+   ```
+>>>>>>> 43a337a... Update docs (#98)
 
 1. Rebase your local branch onto `master`
 
@@ -93,8 +104,14 @@ Great question. Whatever you want!
 
 We have our own priorities for our 2020 launch which you can see:
 
+<<<<<<< HEAD
 - summarized in our [README](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/README.md),
 - broken down a bit more in our [Milestones](https://github.com/Access-America/Citizen-Center/milestones), and
 - fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
+=======
+- summarized in our [README](https://github.com/Access-America/Citizen-Center/blob/master/README.md),
+- broken down a bit more in our [Projects](https://github.com/Access-America/Citizen-Center/projects), and
+- fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)
+>>>>>>> 43a337a... Update docs (#98)
 
 Are we missing something super important? [Create an issue](https://github.com/Access-America/Citizen-Center/issues/new), assign it to yourself, and get going!
