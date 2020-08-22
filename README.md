@@ -4,7 +4,7 @@
 
 The Citizen Center is an open-source platform in development by [Humanity Forward](https://movehumanityforward.com/) and the [Yang Gang](https://www.youtube.com/watch?v=6Is7tdnnbYI). Through a familiar dashboard interface with a decentralized identity model, Americans will be able to connect with their government in a more secure, more simple and more instantaneous manner to propel our democracy into the 21st century. 
 
-Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Citizenship-Portal/Citizen-Center/wiki)
+Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Access-America/Citizen-Center/wiki)
 
 ## Project overview
 
@@ -32,7 +32,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
     - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
 - [ ] Register to vote
 
-### In the [roadmap](https://github.com/Citizenship-Portal/Citizen-Center/projects/2?fullscreen=true)
+### In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
 
 - [ ] Apply/Renew a Passport
 - [ ] Filing federal taxes (maybe)
@@ -47,7 +47,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 ## Contributing
 
-Make sure you read the [contributor guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/CONTRIBUTING.md) before you move on :slightly_smiling_face:
+Make sure you read the [contributor guidelines](https://github.com/Access-America/Citizen-Center/blob/master/CONTRIBUTING.md) before you move on :slightly_smiling_face:
 
 ## Setup
 
