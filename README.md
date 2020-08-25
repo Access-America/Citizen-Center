@@ -58,9 +58,9 @@ Make sure you read the [contributor guidelines](https://github.com/Citizenship-P
 
 1. `git clone` repo
 
-2. Check out the `develop` branch:
+2. Check out the `master` branch:
     ```sh
-    git checkout develop
+    git checkout master
     ```
 2. Create a new branch using Git Flow branch naming structure and mention Github Issue number:
     ```sh
