@@ -1,5 +1,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/86a32f9feb586dcafb43/maintainability)](https://codeclimate.com/github/Access-America/Citizen-Center/maintainability)
+<<<<<<< HEAD
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+=======
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)  
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffe056e0994346dc9fd55637ed9cff65)](https://www.codacy.com/gh/Access-America/Citizen-Center?utm_source=github.com&utm_medium=referral&utm_content=Access-America/Citizen-Center&utm_campaign=Badge_Grade)
 
 # [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
@@ -42,6 +46,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Connecting a bank account
 - [ ] Opt-in for Humanity Forward's UBI pilot program
 - [ ] Register to vote
@@ -57,6 +62,15 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
     - [ ] Guest (email/password)
     - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
     - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+=======
+- [ ] Connecting a bank account
+- [ ] Opt-in for Humanity Forward's UBI pilot program
+- [ ] Trust levels:
+  - [ ] Visitor (no trust)
+  - [ ] Guest (email/password)
+  - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
+  - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
 - [ ] Register to vote
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 
@@ -106,6 +120,7 @@ Make sure you read the [contributor guidelines](https://github.com/Access-Americ
 1. Make sure to read [the wiki](https://github.com/Access-America/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is
 2. `git clone` repo
 
+<<<<<<< HEAD
 3.  Check out the `master` branch:
     ```sh
     git checkout master
@@ -146,3 +161,14 @@ We have our own priorities for our 2020 launch which you can see:
 - Fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)
 
 Are we missing something super important? [Create an issue](https://github.com/Access-America/Citizen-Center/issues/new), assign it to yourself, and get going!
+=======
+2. Check out the `master` branch:
+   ```sh
+   git checkout master
+   ```
+3. Create a new branch using Git Flow branch naming structure and mention Github Issue number:
+   ```sh
+   git checkout -b #12345/my-fun-thing
+   ```
+4. Check out individual READMEs in frontend and backend root directories for specific setup instructions
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
