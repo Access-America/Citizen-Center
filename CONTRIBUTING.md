@@ -1,11 +1,11 @@
 # Contributing to the Citizen Center
 
 - **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/n74rXDV), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
-- **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+- **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Access-America/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Tech stack
 
-The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightweight [Flask](https://github.com/pallets/flask) backend hosted on [Azure](https://azure.microsoft.com/en-us/), utilizing [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) for the API and [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/) for the database with [Redis](https://redis.io/documentation) for caching. The frontend is written in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the backend is written in [Python](https://docs.python.org/3/).
+The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightweight [Flask](https://github.com/pallets/flask) backend hosted on [Azure](https://azure.microsoft.com/en-us/), utilizing [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) for the API and [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/) for the database with [Redis](https://redis.io/documentation) for caching. The frontend is written in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the backend is written in [Node.JS](https://nodejs.org/en/about/).
 
 ### Working on the Nuxt.js client
 
@@ -15,8 +15,8 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
 
 ## Getting started
 
-1. Make sure to read [the wiki](https://github.com/Citizenship-Portal/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is
-2. See what's up in the [projects](https://github.com/Citizenship-Portal/Citizen-Center/projects) and [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
+1. Make sure to read [the wiki](https://github.com/Access-America/Citizen-Center/wiki) if you're not 100% on what the Citizen Portal is
+2. See what's up in the [projects](https://github.com/Access-America/Citizen-Center/projects) and [issues](https://github.com/Access-America/Citizen-Center/issues)
 3. [Set up commit signing](https://help.github.com/en/github/authenticating-to-github/signing-commits)
 4. Get familiar with the [design file](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395) if you're working on a frontend component.
 
@@ -29,7 +29,7 @@ This commit, in which I add this section of this document, might look like:
 `docs(contrib): #17 add conventional commits`
 
 If I was doing this from a fork, I would instead say:
-`docs(contrib): Citizenship-Portal/Citizen-Center#17 add conventional commits`
+`docs(contrib): Access-America/Citizen-Center#17 add conventional commits`
 
 ## Submitting a pull request
 
@@ -43,7 +43,6 @@ If I was doing this from a fork, I would instead say:
 ### Rebasing
 
 New to rebasing? It can be daunting the first time, but we'll get through this together.
-
 
 #### Rebasing when collaborating from within this repo
 
@@ -96,6 +95,9 @@ We have our own priorities for our 2020 launch which you can see:
 
 - summarized in our [README](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/README.md),
 - broken down a bit more in our [Milestones](https://github.com/Access-America/Citizen-Center/milestones), and
-- fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
+- # fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
+- summarized in our [README](https://github.com/Access-America/Citizen-Center/blob/master/README.md),
+- broken down a bit more in our [Projects](https://github.com/Access-America/Citizen-Center/projects), and
+- fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)
 
-Are we missing something super important? [Create an issue](https://github.com/Citizenship-Portal/Citizen-Center/issues/new), assign it to yourself, and get going!
+Are we missing something super important? [Create an issue](https://github.com/Access-America/Citizen-Center/issues/new), assign it to yourself, and get going!
