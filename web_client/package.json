@@ -18,27 +18,38 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nuxt": "^2.14.3",
     "uswds": "^2.8.1"
 =======
     "nuxt": "^2.14.1",
     "uswds": "^2.8.0"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "nuxt": "^2.14.3",
+    "uswds": "^2.8.1"
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     "@nuxtjs/tailwindcss": "^3.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@vue/cli-service": "^4.5.4",
     "@vue/test-utils": "^1.0.4",
+<<<<<<< HEAD
 =======
     "@nuxtjs/tailwindcss": "^3.0.0",
     "@testing-library/jest-dom": "^5.11.2",
     "@vue/cli-service": "^4.4.6",
     "@vue/test-utils": "^1.0.0-beta.27",
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     "babel-eslint": "^10.0.1",
     "babel-jest": "^26.3.0",
     "eslint": "7.7.0",
@@ -51,11 +62,16 @@
     "nuxt-purgecss": "^1.0.0",
     "prettier": "2.0.5",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "sass-loader": "^10.0.1",
     "vue-jest": "^5.0.0-alpha.3"
 =======
     "sass-loader": "^9.0.3",
     "vue-jest": "^5.0.0-alpha.2"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "sass-loader": "^10.0.1",
+    "vue-jest": "^5.0.0-alpha.3"
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   }
 }
