@@ -1,5 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/86a32f9feb586dcafb43/maintainability)](https://codeclimate.com/github/Access-America/Citizen-Center/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)  
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffe056e0994346dc9fd55637ed9cff65)](https://www.codacy.com/gh/Access-America/Citizen-Center?utm_source=github.com&utm_medium=referral&utm_content=Access-America/Citizen-Center&utm_campaign=Badge_Grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffe056e0994346dc9fd55637ed9cff65)](https://www.codacy.com/gh/Access-America/Citizen-Center?utm_source=github.com&utm_medium=referral&utm_content=Access-America/Citizen-Center&utm_campaign=Badge_Grade)
 
 # [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
@@ -55,14 +56,22 @@ Make sure you read the [contributor guidelines](https://github.com/Access-Americ
 
 ## Setup
 
-1. `git clone` repo
+1.  `git clone` repo
 
-2. Check out the `master` branch:
-   ```sh
-   git checkout master
-   ```
-3. Create a new branch using Git Flow branch naming structure and mention Github Issue number:
-   ```sh
-   git checkout -b #12345/my-fun-thing
-   ```
-4. Check out individual READMEs in frontend and backend root directories for specific setup instructions
+2.  Check out the `master` branch:
+    ```sh
+    git checkout master
+    ```
+3.  Create a new branch using Git Flow branch naming structure and mention Github Issue number:
+    ```sh
+    git checkout -b #12345/my-fun-thing
+    ```
+4.  # Check out individual READMEs in frontend and backend root directories for specific setup instructions
+        ```sh
+        git checkout master
+        ```
+5.  Create a new branch using Git Flow branch naming structure and mention Github Issue number:
+    ```sh
+    git checkout -b #12345/my-fun-thing
+    ```
+6.  Check out individual READMEs in frontend and backend root directories for specific setup instructions

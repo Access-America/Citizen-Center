@@ -95,9 +95,6 @@ We have our own priorities for our 2020 launch which you can see:
 
 - summarized in our [README](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/README.md),
 - broken down a bit more in our [Milestones](https://github.com/Access-America/Citizen-Center/milestones), and
-- # fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
-- summarized in our [README](https://github.com/Access-America/Citizen-Center/blob/master/README.md),
-- broken down a bit more in our [Projects](https://github.com/Access-America/Citizen-Center/projects), and
-- fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)
+- fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 
 Are we missing something super important? [Create an issue](https://github.com/Access-America/Citizen-Center/issues/new), assign it to yourself, and get going!
