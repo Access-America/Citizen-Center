@@ -37,38 +37,12 @@ If I was doing this from a fork, I would instead say:
 2. Bring your work up to date by rebasing it onto this repo's `master` branch (see below)
 3. Test your work again
 4. Create a pull request
-5. Change the target branch of the PR to `develop`
-6. Summarize your changes and [mention any relevant issues](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls#issues-and-pull-requests)
-7. Submit your PR
+5. Summarize your changes and [mention any relevant issues](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls#issues-and-pull-requests)
+6. Submit your PR
 
 ### Rebasing
 
 New to rebasing? It can be daunting the first time, but we'll get through this together.
-
-#### Rebasing when collaborating from a fork
-
-1. The first time you do this, add this repo as a remote in your forked repo:
-
-   ```sh
-   git remote add upstream https://github.com/Access-America/Citizen-Center.git
-   git fetch upstream
-   ```
-
-2. Rebase your local branch onto `upstream/master`
-
-   ```sh
-   git checkout my-branch
-   git rebase upstream/master
-   ```
-
-3. Resolve the merge conflicts, choosing to keep your changes wherever you made them, and for all other conflicts choosing what is on `upstream/master`
-4. When finished, force-push your newly in-sync branch:
-
-   ```sh
-   git push -f origin my-branch
-   ```
-
-5. Create a pull request across forks, making note of your changes
 
 #### Rebasing when collaborating from within this repo
 
@@ -88,12 +62,40 @@ New to rebasing? It can be daunting the first time, but we'll get through this t
 
 4. Create a pull request, making note of your changes
 
+#### Rebasing when collaborating from a fork (not recommended due to our Azure secret management policy, please discuss with the team if you'd like to do a fork)
+
+1. The first time you do this, add this repo as a remote in your forked repo:
+
+   ```sh
+   git remote add upstream https://github.com/Citizenship-Portal/Citizen-Center.git
+   git fetch upstream
+   ```
+
+2. Rebase your local branch onto `upstream/master`
+
+   ```sh
+   git checkout my-branch
+   git rebase upstream/master
+   ```
+
+3. Resolve the merge conflicts, choosing to keep your changes wherever you made them, and for all other conflicts choosing what is on `upstream/master`
+4. When finished, force-push your newly in-sync branch:
+
+   ```sh
+   git push -f origin my-branch
+   ```
+
+5. Create a pull request across forks, making note of your changes
+
 ## But what should I work on?
 
 Great question. Whatever you want!
 
 We have our own priorities for our 2020 launch which you can see:
 
+- summarized in our [README](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/README.md),
+- broken down a bit more in our [Milestones](https://github.com/Access-America/Citizen-Center/milestones), and
+- # fully broken down in the [issues](https://github.com/Citizenship-Portal/Citizen-Center/issues)
 - summarized in our [README](https://github.com/Access-America/Citizen-Center/blob/master/README.md),
 - broken down a bit more in our [Projects](https://github.com/Access-America/Citizen-Center/projects), and
 - fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)

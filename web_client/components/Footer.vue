@@ -49,7 +49,7 @@
           </div>
           <div class="grid-col-auto">
             <h3 class="usa-footer__logo-heading">
-              Department of Technology
+            Access America
             </h3>
           </div>
         </div>
