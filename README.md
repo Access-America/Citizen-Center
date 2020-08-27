@@ -45,7 +45,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Opt-in for Humanity Forward's UBI pilot program
 - [ ] Register to vote
 - [ ] Trust levels:
-  - [ ] Visitor (no trust)
+  - [ ] Guest (no trust)
   - [ ] User (email/password)
   - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
   - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
