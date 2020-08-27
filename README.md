@@ -4,11 +4,27 @@
 
 # [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
 
+# Table of Contents
+- [Who and What Are We?](#Who%20and%20What%20Are%20We%3F)
+- [Project Overview](#project%20overview)
+    - [Right now: Giving the project a presence](#right%20now%3a%20giving%20the%20project%20a%20presence)
+    - [What's next: MVP](#what%27s%20next%3A%20mvp)
+    - [In the roadmap](#in%20the%20roadmap)
+- [Contributing](#contributing)
+    - [Tech stack](#tech%20stack)
+    - [Getting started](#getting%20started)
+    - [Running the project locally](#running%20the%20project%20locally)
+    - [Writing commit messages](#writing%20commit%20messages)
+    - [Submitting a pull request](#submitting%20a%20pull%20request)
+    - [I'm ready! But what should I work on?](#I%27m%20ready%21%20But%20what%20should%20I%20work%20on%3F)
+
+# Who and What Are We?
+
 The Citizen Center is an open-source platform in development by [Humanity Forward](https://movehumanityforward.com/) and the [Yang Gang](https://www.youtube.com/watch?v=6Is7tdnnbYI). Through a familiar dashboard interface with a decentralized identity model, Americans will be able to connect with their government in a more secure, more simple and more instantaneous manner to propel our democracy into the 21st century.
 
 Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Access-America/Citizen-Center/wiki)
 
-# Project overview
+# Project Overview
 
 ## Right now: Giving the project a presence
 
