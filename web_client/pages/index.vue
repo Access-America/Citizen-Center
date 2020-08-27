@@ -1,6 +1,6 @@
 <template>
   <div class="tw-flex tw-flex-col tw-min-h-screen">
-    <Header>Citizenship Portal</Header>
+    <Header>Citizen Center</Header>
     <img
       class="tw-mt-2 tw-object-cover tw-object-center tw-w-full"
       style="max-height: 418px;"

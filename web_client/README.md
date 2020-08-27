@@ -2,9 +2,7 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-# Citizenship Portal
-
-> Initial demo of what a Citizenship Portal could look like.
+# Citizen Center
 
 ## Build Setup
 
@@ -28,7 +26,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Live Demo
 https://citizenshipportal.org
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Citizenship-Portal/Frontend-Development)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Access-America/Frontend-Development)
 
 
 
