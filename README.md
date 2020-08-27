@@ -77,7 +77,11 @@ The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightwe
     ```sh
     git checkout -b #12345/my-fun-thing
     ```
-5.  Check out individual READMEs in frontend and backend root directories for specific setup instructions
+## Running the project locally 
+
+Check out the READMEs in the respective directories for instructions on setting up and running the project on your local machine:
+- [Frontend setup](https://github.com/Access-America/Citizen-Center/tree/master/web_client) 
+- [Backend setup](https://github.com/Access-America/Citizen-Center/tree/master/api) 
 
 ## Writing commit messages
 
