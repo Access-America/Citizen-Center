@@ -15,7 +15,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 ### Right now: Giving the project a presence
 
 - [x] Roadmap
-- [x] [Architecture](https://i.imgur.com/NyCJfwR.png)
+- [x] [Architecture](https://drive.google.com/file/d/1GzIsZQIHb_xJLFwMRSAgMFQhFUlqKacQ/view)
 - [x] CI/CD
 - [x] Adding GitHub Issues based on Roadmap (feel free to create your own issues or pick up ones based on milestones)
 - [ ] Breaking down Epics into smaller issues
