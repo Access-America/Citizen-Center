@@ -1,0 +1,17 @@
+{
+  "name": "sls-az-func-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm ci",
+    "start-local": "npm run build && export SENDGRID_API_KEY=123 && sls offline ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-azure-functions": "^2.0.13",
+    "serverless-python-requirements": "^5.1.0"
+  }
+}
