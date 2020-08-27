@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Citizenship Portal",
+    title: "Citizen Center",
 
     script: [
       {
@@ -19,7 +19,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Initial demo of what a Citizenship Portal could look like.",
+        content: "Initial demo of what a Citizen Center could look like.",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -55,13 +55,13 @@ export default {
   ],
   pwa: {
     meta: {
-      name: "Citizenship Portal",
+      name: "Citizen Center",
     },
     icon: {
       iconSrc: "~/assets/images/logo.png",
     },
     manifest: {
-      name: "Citizenship Portal",
+      name: "Citizen Center",
       lang: "en",
     },
   },

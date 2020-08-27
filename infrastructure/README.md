@@ -2,7 +2,7 @@
 
 <b>Description:</b>
 
-All Citizen Center infrastructure is represented within Terraform code. The base models enforce common design goals and governance in order to encourage consistent implementation from contributors. As additional functionality is required, the modules should be updated to support it. Infrastructure should not be created or modified directly. Please follow the [Contributor Guidelines](https://github.com/Citizenship-Portal/Citizen-Center/blob/master/Contributing.md) when submitting updates to modules.
+All Citizen Center infrastructure is represented within Terraform code. The base models enforce common design goals and governance in order to encourage consistent implementation from contributors. As additional functionality is required, the modules should be updated to support it. Infrastructure should not be created or modified directly. Please follow the [Contributor Guidelines](https://github.com/Access-America/Citizen-Center/blob/master/CONTRIBUTING.md) when submitting updates to modules.
 
 <b>Usage:</b>
 

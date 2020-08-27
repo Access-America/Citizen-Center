@@ -1,6 +1,6 @@
 <template>
   <div class="tw-min-h-screen tw-flex tw-flex-col">
-    <Header>Citizenship Portal - Sign Up</Header>
+    <Header>Citizen Center - Sign Up</Header>
     <div class="tw-flex-1 " id="main-content">
       <div class="tw-grid tw-grid-cols-12">
         <div class="tw-col-span-2 md:tw-col-span-3"></div>

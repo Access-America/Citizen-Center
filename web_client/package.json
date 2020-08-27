@@ -1,7 +1,7 @@
 {
-  "name": "citizenship-portal",
+  "name": "citizen-center",
   "version": "1.0.0",
-  "description": "Initial demo of what a Citizenship Portal could look like.",
+  "description": "Initial demo of what a Citizen Center could look like.",
   "author": "Ricky Lalwani",
   "private": true,
   "scripts": {
