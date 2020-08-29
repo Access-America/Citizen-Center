@@ -1,0 +1,127 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "profiles_ccusfrontendcdn_name": {
+            "defaultValue": "ccusfrontendcdn",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Cdn/profiles",
+            "apiVersion": "2020-04-15",
+            "name": "[parameters('profiles_ccusfrontendcdn_name')]",
+            "location": "Global",
+            "sku": {
+                "name": "Standard_Microsoft"
+            },
+            "properties": {}
+        },
+        {
+            "type": "Microsoft.Cdn/profiles/endpoints/origins",
+            "apiVersion": "2020-04-15",
+            "name": "[concat(parameters('profiles_ccusfrontendcdn_name'), '/ccusfrontend/ccusfrontend')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles/endpoints', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend')]",
+                "[resourceId('Microsoft.Cdn/profiles', parameters('profiles_ccusfrontendcdn_name'))]"
+            ],
+            "properties": {
+                "hostName": "ccusfrontend.z13.web.core.windows.net",
+                "enabled": true,
+                "priority": 1,
+                "weight": 950,
+                "originHostHeader": "ccusfrontend.z13.web.core.windows.net"
+            }
+        },
+        {
+            "type": "Microsoft.Cdn/profiles/endpoints/origins",
+            "apiVersion": "2020-04-15",
+            "name": "[concat(parameters('profiles_ccusfrontendcdn_name'), '/ccusfrontend/stagingccusfrontend')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles/endpoints', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend')]",
+                "[resourceId('Microsoft.Cdn/profiles', parameters('profiles_ccusfrontendcdn_name'))]"
+            ],
+            "properties": {
+                "hostName": "stagingccusfrontend.z13.web.core.windows.net",
+                "enabled": true,
+                "priority": 1,
+                "weight": 50,
+                "originHostHeader": "stagingccusfrontend.z13.web.core.windows.net"
+            }
+        },
+        {
+            "type": "Microsoft.Cdn/profiles/endpoints",
+            "apiVersion": "2020-04-15",
+            "name": "[concat(parameters('profiles_ccusfrontendcdn_name'), '/ccusfrontend')]",
+            "location": "Global",
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles', parameters('profiles_ccusfrontendcdn_name'))]"
+            ],
+            "properties": {
+                "originHostHeader": "ccusfrontend.z13.web.core.windows.net",
+                "isHttpAllowed": false,
+                "isHttpsAllowed": true,
+                "queryStringCachingBehavior": "IgnoreQueryString",
+                "origins": [
+                    {
+                        "name": "stagingccusfrontend",
+                        "properties": {
+                            "hostName": "stagingccusfrontend.z13.web.core.windows.net",
+                            "originHostHeader": "stagingccusfrontend.z13.web.core.windows.net",
+                            "priority": 1,
+                            "weight": 50,
+                            "enabled": true
+                        }
+                    },
+                    {
+                        "name": "ccusfrontend",
+                        "properties": {
+                            "hostName": "ccusfrontend.z13.web.core.windows.net",
+                            "originHostHeader": "ccusfrontend.z13.web.core.windows.net",
+                            "priority": 1,
+                            "weight": 950,
+                            "enabled": true
+                        }
+                    }
+                ],
+                "originGroups": [
+                    {
+                        "name": "ccusfrontend",
+                        "properties": {
+                            "origins": [
+                                {
+                                    "id": "[resourceId('Microsoft.Cdn/profiles/endpoints/origins', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend', 'ccusfrontend')]"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "defaultOriginGroup": {
+                    "id": "[resourceId('Microsoft.Cdn/profiles/endpoints/origingroups', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend', 'ccusfrontend')]"
+                },
+                "optimizationType": "GeneralWebDelivery",
+                "geoFilters": [],
+                "urlSigningKeys": []
+            }
+        },
+        {
+            "type": "Microsoft.Cdn/profiles/endpoints/origingroups",
+            "apiVersion": "2020-04-15",
+            "name": "[concat(parameters('profiles_ccusfrontendcdn_name'), '/ccusfrontend/ccusfrontend')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Cdn/profiles/endpoints', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend')]",
+                "[resourceId('Microsoft.Cdn/profiles', parameters('profiles_ccusfrontendcdn_name'))]",
+                "[resourceId('Microsoft.Cdn/profiles/endpoints/origins', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend', 'ccusfrontend')]"
+            ],
+            "properties": {
+                "origins": [
+                    {
+                        "id": "[resourceId('Microsoft.Cdn/profiles/endpoints/origins', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend', 'ccusfrontend')]"
+                    }
+                ]
+            }
+        }
+    ]
+}
