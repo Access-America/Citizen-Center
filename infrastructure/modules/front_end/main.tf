@@ -31,14 +31,10 @@ resource "azurerm_storage_account" "front_end_storage_staging" {
   }
 }
 
-# resource "azurerm_template_deployment" "example" {
-#   name                = "cc_azure_cdn_deploy"
-#   resource_group_name = azurerm_resource_group.front_end_rg.name
-#   deployment_mode = "Incremental"
+resource "azurerm_template_deployment" "front_end_cdn" {
+  name                = "cc_azure_cdn_deploy"
+  resource_group_name = azurerm_resource_group.front_end_rg.name
+  deployment_mode = "Incremental"
 
-#   parameters = {
-
-#   }
-
-#   template_file = file("../../cc_az_cdn.json")
-# }
+  template_body = file("./arm_templates/ccusfrontend_cdn.json")
+}
