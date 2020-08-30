@@ -51,6 +51,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@babel/core@^7.11.4":
   version "7.11.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.4.tgz#4301dfdfafa01eeb97f1896c5501a3f0655d4229"
@@ -59,6 +60,14 @@
 "@babel/core@^7.11.0":
 =======
 "@babel/core@^7.11.1":
+=======
+"@babel/core@^7.11.1":
+=======
+"@babel/core@^7.11.0":
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+"@babel/core@^7.11.1":
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.1.tgz#2c55b604e73a40dc21b0e52650b11c65cf276643"
@@ -1424,6 +1433,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/babel-preset-app@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.14.4.tgz#0e53031d39efe51c750cfb83c18150c86e414488"
@@ -1439,18 +1449,38 @@
     "@babel/core" "^7.11.0"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/babel-preset-app@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.14.3.tgz#47916d0b66a5b368100af50c4c8e96dc1ef006ac"
   integrity sha512-GPodXma0jUQ8pViilV1R+C0X+TvjNZk2AFRKE8DxMw9WEC4WlS6QgUFTcPfN+GINtHtZTFCdwjB0BOR3iVi3kA==
+<<<<<<< HEAD
   dependencies:
     "@babel/core" "^7.11.1"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/babel-preset-app@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.14.1.tgz#239277e9df41a9e81019a9dc3acb9bdda49ce99a"
+  integrity sha512-kxNu168DBG2XlXEkylugQRi1gDcXsljLT7juyFcMr7OgfUNX5nbJGuEAUFVeC1tqj1nD5HNVuFk6+itaQEBLVQ==
+  dependencies:
+    "@babel/core" "^7.11.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+  dependencies:
+    "@babel/core" "^7.11.1"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     "@babel/helper-compilation-targets" "^7.10.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/plugin-proposal-decorators" "^7.10.5"
     "@babel/plugin-transform-runtime" "^7.11.0"
     "@babel/preset-env" "^7.11.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "@babel/runtime" "^7.11.2"
@@ -1466,6 +1496,33 @@
     "@nuxt/utils" "2.14.4"
     "@nuxt/vue-app" "2.14.4"
     "@nuxt/webpack" "2.14.4"
+=======
+    "@babel/runtime" "^7.11.0"
+=======
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
+    "@babel/runtime" "^7.11.2"
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+    "@vue/babel-preset-jsx" "^1.1.2"
+    core-js "^2.6.5"
+
+"@nuxt/builder@2.14.3":
+  version "2.14.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/builder/-/builder-2.14.3.tgz#a5460a5f1160dcac57934cf6864d957f64abf8c0"
+  integrity sha512-aqeUwSuoPU1ZZVdoBr/FyPtiknCnxmC1K9MP66uKCVl1QJEcuOjhG92slUVSwDrHE09Q7Q5aEtKOP8tjQSzerw==
+  dependencies:
+    "@nuxt/devalue" "^1.2.4"
+<<<<<<< HEAD
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-app" "2.14.1"
+    "@nuxt/webpack" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "@nuxt/utils" "2.14.3"
+    "@nuxt/vue-app" "2.14.3"
+    "@nuxt/webpack" "2.14.3"
+<<<<<<< HEAD
+=======
 =======
     "@babel/runtime" "^7.11.0"
 =======
@@ -1489,6 +1546,7 @@
     "@nuxt/utils" "2.14.3"
     "@nuxt/vue-app" "2.14.3"
     "@nuxt/webpack" "2.14.3"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     chalk "^3.0.0"
     chokidar "^3.4.2"
@@ -1505,6 +1563,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/cli@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.4.tgz#99a09d0b544e89d9bc32e040de87d1165e295220"
@@ -1519,10 +1578,35 @@
   resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.1.tgz#2cd4d36650387c44db4ca4bc6cba4b5624091cbf"
   integrity sha512-1SKZKU1vmHQcihFknzQnKQHW4ra7kajI/JK9MMARXWKvVvjr9UOG1Udm/AZvwnwvB+0shokQy2s5obqlXQZT2w==
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/cli@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.3.tgz#3c2251b15f25a9512f0b084485f42b7490998f82"
   integrity sha512-bCRuADpkPKQE60kTuoZdKcXoY4vipveNqWDaUIfiyWEpl1/64T8j4XR1wyvCVgvdZvBctoRUWSdxMp0jT3PUPA==
+<<<<<<< HEAD
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+=======
+<<<<<<< HEAD
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
+  dependencies:
+    "@nuxt/config" "2.14.3"
+    "@nuxt/static" "^1.0.0"
+<<<<<<< HEAD
+    "@nuxt/utils" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "@nuxt/utils" "2.14.3"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/cli@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/cli/-/cli-2.14.1.tgz#2cd4d36650387c44db4ca4bc6cba4b5624091cbf"
+  integrity sha512-1SKZKU1vmHQcihFknzQnKQHW4ra7kajI/JK9MMARXWKvVvjr9UOG1Udm/AZvwnwvB+0shokQy2s5obqlXQZT2w==
+=======
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     "@nuxt/config" "2.14.3"
@@ -1532,6 +1616,7 @@
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
     "@nuxt/utils" "2.14.3"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     boxen "^4.2.0"
     chalk "^3.0.0"
@@ -1568,6 +1653,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/config@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.4.tgz#1533c5a9d4071fb23f5436c17090803d34298eea"
@@ -1585,10 +1671,28 @@
     consola "^2.14.0"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/config@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.3.tgz#536ce975e9aa93c3bbaddf415040dd815a0c2bb2"
   integrity sha512-EAFr69NvrWnKYVjIxRz0Z7uz1s5C/RaB62s2UE2CZs7bEiZfpXf5ZIFYJoaSnXSjdiOgS1/NdRYCT0idRVYs5w==
+<<<<<<< HEAD
+  dependencies:
+    "@nuxt/utils" "2.14.3"
+    consola "^2.15.0"
+=======
+"@nuxt/config@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.14.1.tgz#14461b46e761fc531de883f8ae972a11096fa72e"
+  integrity sha512-Cw34T6MQrkfN/rrHH69HhXBrvfyQsErPInO1GQDeF/ySzEGWm2cn3IORJIt9wp6ZQ35yAe+UXPoEnXTGtjoE0Q==
+  dependencies:
+    "@nuxt/utils" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
   dependencies:
     "@nuxt/utils" "2.14.3"
     consola "^2.15.0"
@@ -1602,6 +1706,7 @@
     rc9 "^1.0.0"
     std-env "^2.2.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "@nuxt/core@2.14.4":
@@ -1621,10 +1726,41 @@
   resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.1.tgz#745eb9b16b5680087380718769f217f079ed4d78"
   integrity sha512-Zu1iVQIsT3TV089NQ1OK8QdSU4MAJ4dNHE2hkj4gspOIZzD9bjxGfC6qN1zUCHd2C64VsbeXR3n5NNi6irlBKw==
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/core@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.3.tgz#36cacfbd895761685274448a8f3e61efb2aeccc7"
   integrity sha512-3PSIs6UhnnxEG2NqtFv9yVJZSiiJOMBAd4DdyUmKDw2EGbqvwNr6drgxvgFH1XI0jrxFlZQw14YLBfnDA8MXBQ==
+<<<<<<< HEAD
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+=======
+<<<<<<< HEAD
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
+  dependencies:
+    "@nuxt/config" "2.14.3"
+    "@nuxt/devalue" "^1.2.4"
+<<<<<<< HEAD
+    "@nuxt/server" "2.14.1"
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-renderer" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "@nuxt/server" "2.14.3"
+    "@nuxt/utils" "2.14.3"
+    "@nuxt/vue-renderer" "2.14.3"
+    consola "^2.15.0"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/core@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.1.tgz#745eb9b16b5680087380718769f217f079ed4d78"
+  integrity sha512-Zu1iVQIsT3TV089NQ1OK8QdSU4MAJ4dNHE2hkj4gspOIZzD9bjxGfC6qN1zUCHd2C64VsbeXR3n5NNi6irlBKw==
+=======
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     "@nuxt/config" "2.14.3"
@@ -1640,6 +1776,7 @@
     "@nuxt/utils" "2.14.3"
     "@nuxt/vue-renderer" "2.14.3"
     consola "^2.15.0"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     debug "^4.1.1"
     esm "^3.2.25"
@@ -1667,6 +1804,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/generator@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.14.4.tgz#9cc91947a05ff87627b85ec67a90fa095015b166"
@@ -1682,12 +1820,31 @@
     "@nuxt/utils" "2.14.1"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/generator@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.14.3.tgz#06dd84a082e453c4ed5bbd9eed6668ce3650b30a"
   integrity sha512-rtDhrjaIuOb3X8RrOJt30c2EAlm2M3j5fLTc/11d3oCREn8Grdfz+XaKaV1PmlS8+7Jm3nG8rCGCb5pnXsUF/w==
+<<<<<<< HEAD
   dependencies:
     "@nuxt/utils" "2.14.3"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/generator@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/generator/-/generator-2.14.1.tgz#ec21286d30a67d8c387205158945050bec6dbf92"
+  integrity sha512-78KzXe3fwImE4zH2Fyc361pKRwa7FAaowYTwopmviiw+AZcxWWovdPTBn91fnSP7C/xr8OT70rWcoFaUHgGBpg==
+  dependencies:
+    "@nuxt/utils" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+  dependencies:
+    "@nuxt/utils" "2.14.3"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     chalk "^3.0.0"
     consola "^2.15.0"
@@ -1717,6 +1874,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/server@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.14.4.tgz#91bfe80084be04029cec6f258bee3d5c17936cf3"
@@ -1736,10 +1894,30 @@
     "@nuxt/vue-renderer" "2.14.1"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/server@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.14.3.tgz#0221e6da2fdc8a920850d1417b9277c006961f0e"
   integrity sha512-Tt1u7eMDqL/27ErsrbLeu1j7ZdJBBBP1sjpnlBWRrM9BtqLULiwHmCAxvMgSB6LX1784TiX5PtQBdQfML53HGg==
+<<<<<<< HEAD
+  dependencies:
+    "@nuxt/config" "2.14.3"
+    "@nuxt/utils" "2.14.3"
+    "@nuxt/vue-renderer" "2.14.3"
+=======
+"@nuxt/server@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/server/-/server-2.14.1.tgz#c1dc8a2b5a6eacc7ad7d3fe4256d80d6da20b1b3"
+  integrity sha512-M/zzvuzfL+ojvSbJD93QjQpPYv/Dv8H4L84dD3V9cjQ+/imzfadv8+S81kCgYvzwbn3bNUCsoRI24UvPBqeESA==
+  dependencies:
+    "@nuxt/config" "2.14.1"
+    "@nuxt/utils" "2.14.1"
+    "@nuxt/vue-renderer" "2.14.1"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
   dependencies:
     "@nuxt/config" "2.14.3"
     "@nuxt/utils" "2.14.3"
@@ -1797,6 +1975,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/utils@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.4.tgz#b046978a30b80ef9ff166476a13b09727546ee79"
@@ -1808,10 +1987,25 @@
   integrity sha512-TVcAJiqOCJINx7t5vVwD4GXdn2I7P3ZlnT+kgsx10A9Blfs9idrA4YDz85lvxSZaQ4Cdx43qBtj54lCWlVdqAQ==
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/utils@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.3.tgz#a0fc50cd098bdf29c8a5354ae4b99b187c10eaa8"
   integrity sha512-a5TfeLdGEX5NPR8Vc0Zqi3DRr5SmIwuczKD5r80825NZ2A1PGexUNJa9/vUnOLxXfGLrv561tJN11sx9AxihOA==
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+"@nuxt/utils@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.14.1.tgz#cb689d924dd460922f8bd23e36aca6738f1e522a"
+  integrity sha512-TVcAJiqOCJINx7t5vVwD4GXdn2I7P3ZlnT+kgsx10A9Blfs9idrA4YDz85lvxSZaQ4Cdx43qBtj54lCWlVdqAQ==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     consola "^2.15.0"
@@ -1825,6 +2019,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nuxt/vue-app@2.14.4":
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.4.tgz#053a4d5c4f113f519e9a102067131ff2da8a073c"
@@ -1836,10 +2031,25 @@
   integrity sha512-d6G4p/LPcEDgi4Dl5vm1E+ekgqg77p892qJyDE06xs7EyLoMOc1tYR6N3dhEbIuIg3pOOFwygBACvwQAnnr28w==
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/vue-app@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.3.tgz#e373f06a9b027bd6077747da1ff7fc6cc019b9ae"
   integrity sha512-cS6f2Uu0EYjc9PWjTFSSie1Ts+H+cZBTOWkcb8mjPlkYxb0rU29mKFLXt1JpzadpA5s/iQJ6jKBp3zZCZRHDqg==
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+"@nuxt/vue-app@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-app/-/vue-app-2.14.1.tgz#d00cbeca205f3ab7ee5791d8bf06e4cce4117904"
+  integrity sha512-d6G4p/LPcEDgi4Dl5vm1E+ekgqg77p892qJyDE06xs7EyLoMOc1tYR6N3dhEbIuIg3pOOFwygBACvwQAnnr28w==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     node-fetch "^2.6.0"
@@ -1876,14 +2086,37 @@
     vue-template-compiler "^2.6.11"
     vuex "^3.5.1"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
 "@nuxt/vue-renderer@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.14.3.tgz#0f400a2fceab2efd92e44e9f4ea591e371793537"
   integrity sha512-o5JmRRrhdnBtejqzJTm/fTC3mTUAAi+eH7RO+1AJVarWNEN2DdZr3Y3jS141PCLZrcpxgdAjw4v4zzMVYjz56g==
+<<<<<<< HEAD
   dependencies:
     "@nuxt/devalue" "^1.2.4"
     "@nuxt/utils" "2.14.3"
     consola "^2.15.0"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/vue-renderer@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vue-renderer/-/vue-renderer-2.14.1.tgz#15a00b08b53929830890f81d96ac9fcd7736a7ff"
+  integrity sha512-Dlio8iqq7T9Z+JvEE/0igMSscpqiMPX2vMdlY/zvXf6IqsF8KoDQC6NYEsFnWDDqmKPyfMvckkQ0G+cKjOTMlg==
+  dependencies:
+    "@nuxt/devalue" "^1.2.4"
+    "@nuxt/utils" "2.14.1"
+    consola "^2.14.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+  dependencies:
+    "@nuxt/devalue" "^1.2.4"
+    "@nuxt/utils" "2.14.3"
+    consola "^2.15.0"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     fs-extra "^8.1.0"
     lru-cache "^5.1.1"
@@ -1891,6 +2124,7 @@
     vue-meta "^2.4.0"
     vue-server-renderer "^2.6.12"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "@nuxt/webpack@2.14.4":
@@ -1911,10 +2145,39 @@
   resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.1.tgz#773666208f1b373f7bc1db8fb282cda9b324d428"
   integrity sha512-DBTkTKH5wJmhKKWaPaAY0Qzc4O+so0BhlXiLkTD0DruPuAIyk/tE81g8PN9FAh1SEnK7sBKCkPhpWa0g320K6w==
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 "@nuxt/webpack@2.14.3":
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.3.tgz#83c6e4af71d67b573be0df9e27872cabbc15205f"
   integrity sha512-iLLyTER4asYjXP4vkfpWCLtUzZ+bRCQua85musNCn7HuDnmc3nuQ3Fni2R8obUyKzNpNJG2Ucer12o2yQYr+jA==
+<<<<<<< HEAD
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+=======
+<<<<<<< HEAD
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
+  dependencies:
+    "@babel/core" "^7.11.1"
+    "@nuxt/babel-preset-app" "2.14.3"
+    "@nuxt/friendly-errors-webpack-plugin" "^2.5.0"
+    "@nuxt/utils" "2.14.3"
+    babel-loader "^8.1.0"
+    cache-loader "^4.1.0"
+<<<<<<< HEAD
+    caniuse-lite "^1.0.30001110"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    caniuse-lite "^1.0.30001114"
+<<<<<<< HEAD
+=======
+=======
+"@nuxt/webpack@2.14.1":
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/webpack/-/webpack-2.14.1.tgz#773666208f1b373f7bc1db8fb282cda9b324d428"
+  integrity sha512-DBTkTKH5wJmhKKWaPaAY0Qzc4O+so0BhlXiLkTD0DruPuAIyk/tE81g8PN9FAh1SEnK7sBKCkPhpWa0g320K6w==
+=======
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     "@babel/core" "^7.11.1"
@@ -1928,6 +2191,7 @@
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
     caniuse-lite "^1.0.30001114"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     chalk "^3.0.0"
     consola "^2.15.0"
@@ -3798,6 +4062,7 @@ caniuse-lite@^1.0.30001109:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 caniuse-lite@^1.0.30001118:
   version "1.0.30001119"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001119.tgz#99185d04bc00e76a86c9ff731dc5ec8e53aefca1"
@@ -3809,10 +4074,25 @@ caniuse-lite@^1.0.30001110:
   integrity sha512-xnDje2wchd/8mlJu8sXvWxOGvMgv+uT3iZ3bkIAynKOzToCssWCmkz/ZIkQBs/2pUB4uwnJKVORWQ31UkbVjOg==
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 caniuse-lite@^1.0.30001114:
   version "1.0.30001114"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001114.tgz#2e88119afb332ead5eaa330e332e951b1c4bfea9"
   integrity sha512-ml/zTsfNBM+T1+mjglWRPgVsu2L76GAaADKX5f4t0pbhttEp0WMawJsHDYlFkVZkoA+89uvBRrVrEE4oqenzXQ==
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+caniuse-lite@^1.0.30001110:
+  version "1.0.30001111"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001111.tgz#dd0ce822c70eb6c7c068e4a55c22e19ec1501298"
+  integrity sha512-xnDje2wchd/8mlJu8sXvWxOGvMgv+uT3iZ3bkIAynKOzToCssWCmkz/ZIkQBs/2pUB4uwnJKVORWQ31UkbVjOg==
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
 
 capture-exit@^2.0.0:
@@ -9190,6 +9470,7 @@ nuxt-purgecss@^1.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nuxt@^2.14.4:
   version "2.14.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.4.tgz#c12ee6060aa7660cdeed4ef9efdcefc4472077d9"
@@ -9206,10 +9487,30 @@ nuxt@^2.14.1:
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.1.tgz#e3e6e0a553a38c29b1d915d5ec75af9da2808c95"
   integrity sha512-baf5/GeLxEtgZm5lcEsanULok+fk6iCPi+BSLdfdSHQJQIyzD9OIJ94FiXigRjNfiR+765VPvB9YMtmbS3Ho3A==
 =======
+=======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 nuxt@^2.14.3:
   version "2.14.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.3.tgz#1e1fb762d407dc275253360b87f3257c609b4dfd"
   integrity sha512-7f5adPiIkZvv5Fu7tKhHuKdMv4IvSbBC1sbuBcgjtRedu4rP/tQPL4/8PZcEUieolcfwaN+WGPNz3sMGyPTLzg==
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  dependencies:
+    "@nuxt/builder" "2.14.3"
+    "@nuxt/cli" "2.14.3"
+    "@nuxt/components" "^1.1.0"
+    "@nuxt/core" "2.14.3"
+    "@nuxt/generator" "2.14.3"
+=======
+nuxt@^2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.14.1.tgz#e3e6e0a553a38c29b1d915d5ec75af9da2808c95"
+  integrity sha512-baf5/GeLxEtgZm5lcEsanULok+fk6iCPi+BSLdfdSHQJQIyzD9OIJ94FiXigRjNfiR+765VPvB9YMtmbS3Ho3A==
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   dependencies:
     "@nuxt/builder" "2.14.3"
@@ -9229,7 +9530,11 @@ nuxt@^2.14.3:
     "@nuxt/telemetry" "^1.2.3"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@nuxt/webpack" "2.14.4"
+=======
+    "@nuxt/webpack" "2.14.3"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 =======
     "@nuxt/webpack" "2.14.1"
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
@@ -11388,6 +11693,7 @@ sass-loader@^10.0.1:
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.0.1.tgz#10c0364d8034f22fee25ddcc9eded20f99bbe3b4"
   integrity sha512-b2PSldKVTS3JcFPHSrEXh3BeAfR7XknGiGCAO5aHruR3Pf3kqLP3Gb2ypXLglRrAzgZkloNxLZ7GXEGDX0hBUQ==
 <<<<<<< HEAD
+<<<<<<< HEAD
   dependencies:
     klona "^2.0.3"
 =======
@@ -11401,6 +11707,21 @@ sass-loader@^9.0.3:
 =======
   dependencies:
     klona "^2.0.3"
+=======
+  dependencies:
+    klona "^2.0.3"
+=======
+sass-loader@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
+  integrity sha512-fOwsP98ac1VMme+V3+o0HaaMHp8Q/C9P+MUazLFVi3Jl7ORGHQXL1XeRZt3zLSGZQQPC8xE42Y2WptItvGjDQg==
+  dependencies:
+    klona "^1.1.2"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+  dependencies:
+    klona "^2.0.3"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
     loader-utils "^2.0.0"
     neo-async "^2.6.2"

@@ -19,6 +19,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nuxt": "^2.14.4",
     "uswds": "^2.8.1"
 =======
@@ -28,6 +29,17 @@
 =======
     "nuxt": "^2.14.3",
     "uswds": "^2.8.1"
+=======
+    "nuxt": "^2.14.3",
+    "uswds": "^2.8.1"
+=======
+    "nuxt": "^2.14.1",
+    "uswds": "^2.8.0"
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+    "nuxt": "^2.14.3",
+    "uswds": "^2.8.1"
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
   },
   "devDependencies": {

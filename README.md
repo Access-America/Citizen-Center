@@ -1,6 +1,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/86a32f9feb586dcafb43/maintainability)](https://codeclimate.com/github/Access-America/Citizen-Center/maintainability)
 <<<<<<< HEAD
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+<<<<<<< HEAD
+=======
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ffe056e0994346dc9fd55637ed9cff65)](https://www.codacy.com/gh/Access-America/Citizen-Center?utm_source=github.com&utm_medium=referral&utm_content=Access-America/Citizen-Center&utm_campaign=Badge_Grade)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 =======
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)  
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
@@ -22,9 +26,15 @@
     - [Submitting a pull request](#submitting%20a%20pull%20request)
     - [I'm ready! But what should I work on?](#I%27m%20ready%21%20But%20what%20should%20I%20work%20on%3F)
 
+<<<<<<< HEAD
 # Who and What Are We?
 
 The Citizen Center is an open-source platform in development by [Humanity Forward](https://movehumanityforward.com/) and the [Yang Gang](https://www.youtube.com/watch?v=6Is7tdnnbYI). Through a familiar dashboard interface with a decentralized identity model, Americans will be able to connect with their government in a more secure, more simple and more instantaneous manner to propel our democracy into the 21st century.
+=======
+The Citizen Center is an open-source platform in development by [Humanity Forward](https://movehumanityforward.com/) and the [Yang Gang](https://www.youtube.com/watch?v=6Is7tdnnbYI). Through a familiar dashboard interface with a decentralized identity model, Americans will be able to connect with their government in a more secure, more simple and more instantaneous manner to propel our democracy into the 21st century.
+
+Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Access-America/Citizen-Center/wiki)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 
 Not quite sure what we're doing? [Check out our wiki for more information](https://github.com/Access-America/Citizen-Center/wiki)
 
@@ -39,12 +49,17 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 - [ ] Breaking down Epics into smaller issues
 - [ ] [UI/UX](https://www.figma.com/file/h0KXgHOhxSyttyzsosd2aN/Citizenship-Center?node-id=245%3A395)
 
+<<<<<<< HEAD
 ## What's next: MVP
+=======
+### What's next: MVP
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 
 - [ ] SAML/OIDC sign-in with Guest level access. More privacy tiers will be provisioned based on the [Just-In-Time principle](https://www.cyberark.com/what-is/just-in-time-access/).
 - [ ] Sign in form for trust level: Guest
 - [ ] Option to subscribe to continuous updates about the project
 - [ ] Account page to edit information
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [ ] Connecting a bank account
@@ -56,12 +71,25 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
   - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
   - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
 =======
+=======
+>>>>>>> 5fdd6d6... Issue #69 signup component (#113)
+- [ ] Connecting a bank account
+- [ ] Opt-in for Humanity Forward's UBI pilot program
+- [ ] Trust levels:
+  - [ ] Visitor (no trust)
+  - [ ] Guest (email/password)
+  - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
+  - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
+<<<<<<< HEAD
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
+=======
 - [ ] Gamification 
 - [ ] Trust levels: 
     - [ ] Visitor (no trust)
     - [ ] Guest (email/password)
     - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release)
     - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy to be implemented in later release) 
+<<<<<<< HEAD
 =======
 - [ ] Connecting a bank account
 - [ ] Opt-in for Humanity Forward's UBI pilot program
@@ -70,6 +98,10 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
   - [ ] Guest (email/password)
   - [ ] Resident (out of scope for MVP, dependent on decentralized authentication strategy)
   - [ ] Citizen (out of scope for MVP, dependent on decentralized authentication strategy)
+=======
+>>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
+=======
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 >>>>>>> 5fdd6d6... Issue #69 signup component (#113)
 - [ ] Register to vote
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
@@ -77,10 +109,14 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
 =======
 ### In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
 >>>>>>> 43a337a... Update docs (#98)
+=======
+### In the [roadmap](https://github.com/Access-America/Citizen-Center/projects/2?fullscreen=true)
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 
 =======
 >>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
@@ -97,11 +133,16 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Contributing
+=======
+Make sure you read the [contributor guidelines](https://github.com/Access-America/Citizen-Center/blob/master/CONTRIBUTING.md) before you move on :slightly_smiling_face:
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 
 - **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/n74rXDV), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
 - **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Access-America/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
+<<<<<<< HEAD
 ## Tech stack
 
 The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightweight [Flask](https://github.com/pallets/flask) backend hosted on [Azure](https://azure.microsoft.com/en-us/), utilizing [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) for the API and [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/) for the database with [Redis](https://redis.io/documentation) for caching. The frontend is written in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the backend is written in [Node.JS](https://nodejs.org/en/about/).
@@ -161,6 +202,28 @@ We have our own priorities for our 2020 launch which you can see:
 - Fully broken down in the [issues](https://github.com/Access-America/Citizen-Center/issues)
 
 Are we missing something super important? [Create an issue](https://github.com/Access-America/Citizen-Center/issues/new), assign it to yourself, and get going!
+=======
+1.  `git clone` repo
+
+<<<<<<< HEAD
+2.  Check out the `master` branch:
+    ```sh
+    git checkout master
+    ```
+3.  Create a new branch using Git Flow branch naming structure and mention Github Issue number:
+    ```sh
+    git checkout -b #12345/my-fun-thing
+    ```
+4.  # Check out individual READMEs in frontend and backend root directories for specific setup instructions
+        ```sh
+        git checkout master
+        ```
+5.  Create a new branch using Git Flow branch naming structure and mention Github Issue number:
+    ```sh
+    git checkout -b #12345/my-fun-thing
+    ```
+6.  Check out individual READMEs in frontend and backend root directories for specific setup instructions
+>>>>>>> 0191edd143401a7a5aa6d32798124faa2470c3c3
 =======
 2. Check out the `master` branch:
    ```sh
