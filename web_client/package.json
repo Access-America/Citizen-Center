@@ -1,77 +1,44 @@
 {
-  "name": "citizen-center",
-  "version": "1.0.0",
-  "description": "Initial demo of what a Citizen Center could look like.",
-  "author": "Ricky Lalwani",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "jest",
-    "test:watch": "jest test --watch"
-  },
-  "dependencies": {
-    "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
-    "@nuxtjs/axios": "^5.12.1",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "nuxt": "^2.14.4",
-    "uswds": "^2.8.1"
-=======
-    "nuxt": "^2.14.1",
-    "uswds": "^2.8.0"
->>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
-=======
-    "nuxt": "^2.14.3",
-    "uswds": "^2.8.1"
->>>>>>> 5fdd6d6... Issue #69 signup component (#113)
-  },
-  "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fdd6d6... Issue #69 signup component (#113)
-    "@nuxtjs/tailwindcss": "^3.0.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@vue/cli-service": "^4.5.4",
-    "@vue/test-utils": "^1.0.4",
-<<<<<<< HEAD
-=======
-    "@nuxtjs/tailwindcss": "^3.0.0",
-    "@testing-library/jest-dom": "^5.11.2",
-    "@vue/cli-service": "^4.4.6",
-    "@vue/test-utils": "^1.0.0-beta.27",
->>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
-=======
->>>>>>> 5fdd6d6... Issue #69 signup component (#113)
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^26.3.0",
-    "eslint": "7.7.0",
-    "eslint-config-airbnb-base": "14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "jest": "^26.4.2",
-    "jest-serializer-vue": "^2.0.2",
-    "node-sass": "^4.14.1",
-    "nuxt-purgecss": "^1.0.0",
-    "prettier": "2.0.5",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "sass-loader": "^10.0.1",
-    "vue-jest": "^5.0.0-alpha.3"
-=======
-    "sass-loader": "^9.0.3",
-    "vue-jest": "^5.0.0-alpha.2"
->>>>>>> 82d01c4... Issue 58/azure serverless integrations (#63)
-=======
-    "sass-loader": "^10.0.1",
-    "vue-jest": "^5.0.0-alpha.3"
->>>>>>> 5fdd6d6... Issue #69 signup component (#113)
-  }
+    "name": "citizen-center",
+    "version": "1.0.0",
+    "description": "Initial demo of what a Citizen Center could look like.",
+    "author": "Ricky Lalwani",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "test": "jest",
+        "test:watch": "jest test --watch"
+    },
+    "dependencies": {
+        "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
+        "@nuxtjs/axios": "^5.12.1",
+        "@nuxtjs/dotenv": "^1.4.0",
+        "@nuxtjs/pwa": "^3.0.0-0",
+        "nuxt": "^2.14.4",
+        "uswds": "^2.8.1"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^3.1.0",
+        "@nuxtjs/eslint-module": "^2.0.0",
+        "@nuxtjs/tailwindcss": "^3.0.1",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@vue/cli-service": "^4.5.4",
+        "@vue/test-utils": "^1.0.4",
+        "babel-eslint": "^10.0.1",
+        "babel-jest": "^26.3.0",
+        "eslint": "7.7.0",
+        "eslint-config-airbnb-base": "14.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-nuxt": ">=0.4.2",
+        "jest": "^26.4.2",
+        "jest-serializer-vue": "^2.0.2",
+        "node-sass": "^4.14.1",
+        "nuxt-purgecss": "^1.0.0",
+        "prettier": "2.0.5",
+        "sass-loader": "^10.0.1",
+        "vue-jest": "^5.0.0-alpha.3"
+    }
 }
