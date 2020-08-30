@@ -10,8 +10,8 @@ Modules in this repository use Terraform >=v.12 and are currently sourced using 
 
 Example:
 ```terraform
-module "new_hampshire_back_end" {
-    source = "../modules//back_end"
+module "front_end" {
+    source = "./modules/front_end"
 }
 ```
 Each module has a set of required parameters that need to be provided when it is sourced. Please visit the reference documentation for each module for examples on how to structure module calls.

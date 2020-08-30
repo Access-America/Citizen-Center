@@ -1,11 +1,11 @@
-name: Dev Infrastructure CI
+name: Infrastructure CI
 
 on:
   pull_request:
     branches:
-    - develop
+    - master
     paths: 
-    - 'infrastructure/dev/**'
+    - 'infrastructure/**'
 
 env:
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./infrastructure/dev
+        working-directory: ./infrastructure
     steps:
       - name: Checkout
         uses: actions/checkout@v2
