@@ -1,4 +1,4 @@
-name: Infrastructure CI
+name: tf_infrastructure_ci
 
 on:
   pull_request:
