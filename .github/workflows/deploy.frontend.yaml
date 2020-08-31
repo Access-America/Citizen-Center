@@ -4,8 +4,8 @@ on:
   push: 
     branches:
     - '#127/frontendaction'
-    paths: 
-    - 'web_client/**'
+    # paths: 
+    # - 'web_client/**'
 
 jobs:
   frontend-deploy:
