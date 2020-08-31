@@ -30,9 +30,8 @@ jobs:
         run: |
           yarn install
           yarn run generate
-
-      - name: bash ls
-        run: ls
+          
+        run: dir
 
 
       # - name: az-deploy
