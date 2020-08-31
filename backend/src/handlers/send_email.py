@@ -21,14 +21,14 @@ def main(req: func.QueueMessage) -> func.HttpResponse:
 
         logging.debug("Getting template value substitutions")
         substitutions = []
-        for substitution_key in body["substitutions"].keys():sha
+        for substitution_key in body["substitutions"].keys():
             message_substitution = Substitution(
                 key=substitution_key, value=body["substitutions"][substitution_key])
             substitutions.append(message_substitution)
 
         logging.info("Message contents parsed from request input.")
         sg = sendgrid.SendGridAPIClient(
-            api_key=os.environ.get('SENDGRID_API_KEY'))
+            api_key=environ.get('SENDGRID_API_KEY'))
         logging.info("SendGrid client initialized")
         mail = Mail(from_email=from_email, to_email=to_email,
                     subject=subject, global_substitutions=substitutions)
