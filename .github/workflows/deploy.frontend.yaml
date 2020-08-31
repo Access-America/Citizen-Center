@@ -3,10 +3,9 @@ name: frontend_deploy
 on:
   push: 
     branches:
-    - master
+    - '#127/frontendaction'
     paths: 
     - 'web_client/**'
-  workflow_dispatch:
 
 jobs:
   frontend-deploy:
