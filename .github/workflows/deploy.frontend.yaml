@@ -9,21 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  frontend-build:
-    name: 'yarn'
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./web_client
-    steps:
-      uses: actions/checkout@v2
-      uses: actions/setup-node@v2
-
-      run: yarn install
-      run: yarn run generate
-
   frontend-deploy:
-    name: az-cli
+    name: 'frontend-deploy'
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -33,6 +20,13 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: yarn build
+        uses: actions/checkout@v2
+        uses: actions/setup-node@v2
+        run: |
+          yarn install
+          yarn run generate
 
       - name: az-deploy
         uses: azure/CLI@v1
