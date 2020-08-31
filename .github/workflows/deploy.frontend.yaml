@@ -31,14 +31,18 @@ jobs:
           yarn install
           yarn run generate
 
-      - name: az-deploy
-        uses: azure/CLI@v1
-        with:
-            inlineScript: |
-              az storage blob upload-batch -d '$web' --account-name ccusfrontend -s './dist'
+      - name: bash ls
+        run: ls
 
-      - name: az-cdn-purge
-        uses: azure/CLI@v1
-        with:
-            inlineScript: |
-              az cdn endpoint purge -g ccusfrontend -n ccusfrontend --profile-name ccusfrontendcdn --content-paths '/*' --no-wait
+
+      # - name: az-deploy
+      #   uses: azure/CLI@v1
+      #   with:
+      #       inlineScript: |
+      #         az storage blob upload-batch -d '$web' --account-name ccusfrontend -s './dist'
+
+      # - name: az-cdn-purge
+      #   uses: azure/CLI@v1
+      #   with:
+      #       inlineScript: |
+      #         az cdn endpoint purge -g ccusfrontend -n ccusfrontend --profile-name ccusfrontendcdn --content-paths '/*' --no-wait
