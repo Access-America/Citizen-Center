@@ -29,19 +29,19 @@ jobs:
       run:
         working-directory: ./web_client
     steps:
-      name: az-login
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: az-login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      name: az-deploy
-      uses: azure/CLI@v1
-      with:
-          inlineScript: |
-            az storage blob upload-batch -d '$web' --account-name ccusfrontend -s .\dist\
+      - name: az-deploy
+        uses: azure/CLI@v1
+        with:
+            inlineScript: |
+              az storage blob upload-batch -d '$web' --account-name ccusfrontend -s .\dist\
 
-      name: az-cdn-purge
-      uses: azure/CLI@v1
-      with:
-          inlineScript: |
-            az cdn endpoint purge -g ccusfrontend -n ccusfrontend --profile-name ccusfrontendcdn --content-paths '/*' --no-wait
+      - name: az-cdn-purge
+        uses: azure/CLI@v1
+        with:
+            inlineScript: |
+              az cdn endpoint purge -g ccusfrontend -n ccusfrontend --profile-name ccusfrontendcdn --content-paths '/*' --no-wait
