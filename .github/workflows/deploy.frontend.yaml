@@ -21,9 +21,13 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: yarn build
+      - name: git checkout
         uses: actions/checkout@v2
+
+      - name: node setup
         uses: actions/setup-node@v2
+
+      - name: yarn build
         run: |
           yarn install
           yarn run generate
