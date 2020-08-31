@@ -3,9 +3,9 @@ name: frontend_deploy
 on:
   push: 
     branches:
-    - '#127/frontendaction'
-    # paths: 
-    # - 'web_client/**'
+    - master
+    paths: 
+    - 'web_client/**'
 
 jobs:
   frontend-deploy:
@@ -15,11 +15,6 @@ jobs:
       run:
         working-directory: ./web_client
     steps:
-      - name: az-login
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
       - name: git checkout
         uses: actions/checkout@v2
 
@@ -30,6 +25,11 @@ jobs:
         run: |
           yarn install
           yarn run generate
+
+      - name: az-login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: az-deploy
         uses: azure/CLI@v1
