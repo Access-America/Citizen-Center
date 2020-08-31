@@ -35,7 +35,7 @@ jobs:
         uses: azure/CLI@v1
         with:
             inlineScript: |
-              az storage blob upload-batch -d '$web' --account-name ccusfrontend -s dist
+              az storage blob upload-batch -d '$web' --account-name ccusfrontend -s $GITHUB_WORKSPACE/web_client/dist
 
       - name: az-cdn-purge
         uses: azure/CLI@v1
