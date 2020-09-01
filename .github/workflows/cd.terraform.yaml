@@ -1,4 +1,4 @@
-name: Infrastructure CD
+name: tf_infrastructure_cd
 
 on:
   push: 
