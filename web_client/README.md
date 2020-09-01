@@ -7,6 +7,12 @@
 ## Build Setup
 
 ```bash
+# clone this project
+$ git clone https://https://github.com/Access-America/Citizen-Center
+
+# cd into the Nuxt directory
+$ cd web_client
+
 # install dependencies
 $ yarn install
 

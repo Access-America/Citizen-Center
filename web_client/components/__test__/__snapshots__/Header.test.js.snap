@@ -17,21 +17,27 @@ exports[`Header matches snapshot 1`] = `
         <ul class="usa-nav__primary usa-accordion">
           <li class="usa-nav__primary-item"><button aria-expanded="false" aria-controls="basic-nav-section-one" class="usa-accordion__button usa-nav__link"><span>Voting</span></button>
             <ul id="basic-nav-section-one" hidden="hidden" class="usa-nav__submenu">
-              <li class="usa-nav__submenu-item"><a href="#"> Your National Representatives</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  Your National Representatives</a></li>
               <li class="usa-nav__submenu-item"><a href="#"> US Senators</a></li>
-              <li class="usa-nav__submenu-item"><a href="#"> Members Of US Congress</a></li>
-              <li class="usa-nav__submenu-item"><a href="#"> State Representatives</a></li>
-              <li class="usa-nav__submenu-item"><a href="#"> Local Representatives</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  Members Of US Congress</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  State Representatives</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  Local Representatives</a></li>
             </ul>
           </li>
           <li class="usa-nav__primary-item"><button aria-expanded="false" aria-controls="basic-nav-section-two" class="usa-accordion__button usa-nav__link"><span>UBI</span></button>
             <ul id="basic-nav-section-two" hidden="hidden" class="usa-nav__submenu">
-              <li class="usa-nav__submenu-item"><a href="#"> File for Universal Basic Income</a></li>
-              <li class="usa-nav__submenu-item"><a href="#"> Connect A Bank Account</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  File for Universal Basic Income</a></li>
+              <li class="usa-nav__submenu-item"><a href="#">
+                  Connect A Bank Account</a></li>
             </ul>
           </li>
         </ul>
-        <form role="search" class="usa-search usa-search--small "><label for="basic-search-field-small" class="usa-sr-only">Search small</label> <input id="basic-search-field-small" type="search" name="search" class="usa-input"> <button type="submit" class="usa-button"><span class="usa-sr-only">Search</span></button></form>
+        <form role="search" class="usa-search usa-search--small"><label for="basic-search-field-small" class="usa-sr-only">Search small</label> <input id="basic-search-field-small" type="search" name="search" class="usa-input"> <button type="submit" class="usa-button"><span class="usa-sr-only">Search</span></button></form>
       </nav>
     </div>
   </header>

@@ -1,44 +1,51 @@
 {
     "name": "citizen-center",
     "version": "1.0.0",
+    "private": true,
     "description": "Initial demo of what a Citizen Center could look like.",
     "author": "Ricky Lalwani",
-    "private": true,
     "scripts": {
-        "dev": "nuxt",
         "build": "nuxt build",
-        "start": "nuxt start",
+        "dev": "nuxt",
         "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "start": "nuxt start",
         "test": "jest",
         "test:watch": "jest test --watch"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,vue}": "yarn lint"
+    },
     "dependencies": {
         "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
-        "@nuxtjs/axios": "^5.12.1",
+        "@nuxtjs/axios": "^5.3.6",
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/pwa": "^3.0.0-0",
-        "nuxt": "^2.14.4",
+        "nuxt": "^2.0.0",
         "uswds": "^2.8.1"
     },
     "devDependencies": {
-        "@nuxtjs/eslint-config": "^3.1.0",
-        "@nuxtjs/eslint-module": "^2.0.0",
-        "@nuxtjs/tailwindcss": "^3.0.1",
-        "@testing-library/jest-dom": "^5.11.4",
-        "@vue/cli-service": "^4.5.4",
-        "@vue/test-utils": "^1.0.5",
+        "@nuxt/types": "~2.14.0",
+        "@nuxtjs/eslint-config": "^2.0.0",
+        "@nuxtjs/eslint-module": "^1.0.0",
+        "@nuxtjs/tailwindcss": "^1.0.0",
+        "@vue/test-utils": "^1.0.0-beta.27",
         "babel-eslint": "^10.0.1",
-        "babel-jest": "^26.3.0",
-        "eslint": "7.7.0",
-        "eslint-config-airbnb-base": "14.2.0",
-        "eslint-plugin-import": "^2.22.0",
+        "babel-jest": "^24.1.0",
+        "eslint": "^6.1.0",
+        "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-nuxt": ">=0.4.2",
-        "jest": "^26.4.2",
+        "eslint-plugin-prettier": "^3.1.2",
+        "husky": "^4.0.0",
+        "jest": "^24.1.0",
         "jest-serializer-vue": "^2.0.2",
-        "node-sass": "^4.14.1",
-        "nuxt-purgecss": "^1.0.0",
-        "prettier": "2.0.5",
-        "sass-loader": "^10.0.1",
-        "vue-jest": "^5.0.0-alpha.3"
+        "lint-staged": "^10.0.0",
+        "prettier": "^1.19.1",
+        "vue-jest": "^4.0.0-0"
     }
 }
