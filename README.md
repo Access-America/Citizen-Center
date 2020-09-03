@@ -72,12 +72,12 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 ## Tech stack
 
-The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on an a lightweight [Flask](https://github.com/pallets/flask) backend hosted on [Azure](https://azure.microsoft.com/en-us/), utilizing [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) for the API and [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/) for the database with [Redis](https://redis.io/documentation) for caching. The frontend is written in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the backend is written in [Node.JS](https://nodejs.org/en/about/).
+The Citizen Center is a [Nuxt.js](https://nuxtjs.org/) app built on a lightweight serverless backend hosted on [Azure](https://azure.microsoft.com/en-us/), utilizing [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) for the API and [Azure SQL](https://docs.microsoft.com/en-us/azure/azure-sql/database/) for the database with [Redis](https://redis.io/documentation) for caching. The frontend is written in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the backend functions are written in [Node.JS](https://nodejs.org/en/about/), [Python](https://www.python.org/), and [.NET](#https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet).
 
 ### Working on the Nuxt.js client
 
 - **CSS:** [Tailwind](https://tailwindcss.com/#what-is-tailwind).
-- **Interacting with APIs:** [Isomorphic Unfetch](https://github.com/developit/unfetch/tree/master/packages/isomorphic-unfetch) (it's like axios, but waaay smaller)
+- **Interacting with APIs:** [Axios](https://axios.nuxtjs.org/)
 - **Interacting with the database:** TBD
 
 ## Getting started

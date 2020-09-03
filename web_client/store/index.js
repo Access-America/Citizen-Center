@@ -1,9 +1,9 @@
 export const state = () => ({
-  acceptedDisclaimer: false
+    acceptedDisclaimer: false
 })
 
 export const mutations = {
-  accept (state) {
-    state.acceptedDisclaimer = true
-  }
+    accept(state) {
+        state.acceptedDisclaimer = true
+    }
 }

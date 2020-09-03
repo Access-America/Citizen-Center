@@ -7,6 +7,12 @@
 ## Build Setup
 
 ```bash
+# clone this project
+$ git clone https://https://github.com/Access-America/Citizen-Center
+
+# cd into the Nuxt directory
+$ cd web_client
+
 # install dependencies
 $ yarn install
 
@@ -39,7 +45,7 @@ https://citizenshipportal.org
 
 ` npm run test:watch `
 
- -- [Edd Yerburgh - Unit testing Vue components Why test, what to test, and how to test Vue components](https://www.youtube.com/watch?v=LxXsGNXsMo8&t=1092s)
+ - [Edd Yerburgh - Unit testing Vue components Why test, what to test, and how to test Vue components](https://www.youtube.com/watch?v=LxXsGNXsMo8&t=1092s)
 
  ### What to Test
 
