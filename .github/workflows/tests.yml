@@ -27,5 +27,5 @@ jobs:
           working-directory: ./web_client
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
-          coverageCommand: yarn --cwd ./web-client test:ci
+          coverageCommand: yarn --cwd ${{github.workspace}}/web_client/ test:ci
           coverageLocations: ${{github.workspace}}/web_client/coverage/lcov.info:lcov
