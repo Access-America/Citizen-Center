@@ -1,6 +1,6 @@
 name: test_and_lint
 
-on: push
+on: [push, pull_request]
   paths:
     - 'web_client/**'
 
