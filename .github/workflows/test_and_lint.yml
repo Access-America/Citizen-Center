@@ -1,14 +1,19 @@
 name: test_and_lint
 
-on: [push, pull_request]
-  paths:
-    - 'web_client/**'
+on:
+  push:
+    paths:
+      - 'web_client/**'
+  pull_request:
+    types: [assigned, opened, synchronize, reopened]
 
 jobs:
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./web_client
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
@@ -27,9 +32,13 @@ jobs:
           # Enable linters
           eslint: true
           prettier: true
+          auto_fix: true
   test:
     name: Tests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web_client
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2-beta
