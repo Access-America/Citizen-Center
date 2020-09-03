@@ -9,6 +9,9 @@ jobs:
   coverage:
     name: Test & publish code coverage
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web_client
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2-beta
