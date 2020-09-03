@@ -1,4 +1,4 @@
-name: test_and_lint
+name: ci
 
 on:
   push:
@@ -31,7 +31,9 @@ jobs:
           github_token: ${{ secrets.github_token }}
           # Enable linters
           eslint: true
+          eslint_dir: web_client/
           prettier: true
+          prettier_dir: web_client/
           auto_fix: true
   test:
     name: Tests
@@ -49,6 +51,9 @@ jobs:
     needs: [ test ]
     name: coverage
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web_client
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v2-beta
@@ -59,3 +64,4 @@ jobs:
           CC_TEST_REPORTER_ID: 6dc12ffb563215d618c598fd823f318f11d7655bcdd72a78fbb2ac5e48dfbb8e
         with:
           coverageCommand: yarn test:ci
+          debug: true
