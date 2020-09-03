@@ -27,4 +27,4 @@ jobs:
           working-directory: ./web_client
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
-          coverageCommand: yarn coverage
+          coverageCommand: yarn -cwd ./web-client coverage
