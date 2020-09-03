@@ -13,12 +13,18 @@ jobs:
       run:
         working-directory: ./web_client
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@v2-beta
-      - run: yarn install
-      - run: yarn build
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2-beta
+
+      - name: Install Node.js dependencies
+        run: yarn install
+
       - uses: paambaati/codeclimate-action@v2.6.0
         env:
+          working-directory: ./web_client
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
           coverageCommand: yarn coverage
