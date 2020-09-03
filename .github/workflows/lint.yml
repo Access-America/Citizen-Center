@@ -1,4 +1,4 @@
-name: ci
+name: lint
 
 on:
   push:
@@ -35,33 +35,3 @@ jobs:
           prettier: true
           prettier_dir: web_client/
           auto_fix: true
-  test:
-    name: Tests
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./web_client
-    steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@v2-beta
-      - run: yarn install
-      - run: yarn build
-      - run: yarn test:ci
-  coverage:
-    needs: [ test ]
-    name: coverage
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./web_client
-    steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@v2-beta
-      - run: yarn install
-      - run: yarn build
-      - uses: paambaati/codeclimate-action@v2.2.4
-        env:
-          CC_TEST_REPORTER_ID: 6dc12ffb563215d618c598fd823f318f11d7655bcdd72a78fbb2ac5e48dfbb8e
-        with:
-          coverageCommand: yarn test:ci
-          debug: true
