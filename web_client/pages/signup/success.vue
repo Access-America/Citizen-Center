@@ -76,7 +76,7 @@ import Footer from '../../components/Footer'
 
 export default {
     name: 'Success',
-    components: { Footer, Header }
+    components: { Footer, Header },
 }
 </script>
 

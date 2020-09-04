@@ -23,8 +23,8 @@ export default {
         onSignUp(signupData) {
             // console.log(signupData) // todo send this to some authentication service
             this.$router.push({ path: '/signup/success' })
-        }
-    }
+        },
+    },
 }
 </script>
 

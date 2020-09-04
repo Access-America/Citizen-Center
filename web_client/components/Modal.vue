@@ -59,8 +59,8 @@ export default {
     props: {
         open: {
             type: Boolean,
-            default: false
-        }
+            default: false,
+        },
     },
     data() {
         return {
@@ -68,13 +68,13 @@ export default {
             showBackdrop: false,
             showContent: false,
             backdropLeaving: false,
-            cardLeaving: false
+            cardLeaving: false,
         }
     },
     computed: {
         leaving() {
             return this.backdropLeaving || this.cardLeaving
-        }
+        },
     },
     watch: {
         open: {
@@ -85,14 +85,14 @@ export default {
                     this.close()
                 }
             },
-            immediate: true
+            immediate: true,
         },
         leaving(newValue) {
             if (newValue === false) {
                 this.showModal = false
                 this.$emit('close')
             }
-        }
+        },
     },
     mounted() {
         const onEscape = (e) => {
@@ -116,7 +116,7 @@ export default {
         close() {
             this.showBackdrop = false
             this.showContent = false
-        }
-    }
+        },
+    },
 }
 </script>

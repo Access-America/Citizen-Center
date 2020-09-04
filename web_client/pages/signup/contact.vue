@@ -100,7 +100,7 @@ export default {
             firstName: null,
             middleName: null,
             lastName: null,
-            phone: null
+            phone: null,
         }
     },
     methods: {
@@ -114,8 +114,8 @@ export default {
             }
 
             e.preventDefault()
-        }
-    }
+        },
+    },
 }
 </script>
 

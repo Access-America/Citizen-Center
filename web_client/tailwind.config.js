@@ -3,33 +3,33 @@ module.exports = {
     theme: {
         container: {
             center: true,
-            padding: '1rem'
+            padding: '1rem',
         },
         fontFamily: {
             heading: ['Roboto Condensed', 'sans-serif'],
-            sans: ['Public Sans', 'sans-serif']
+            sans: ['Public Sans', 'sans-serif'],
         },
         screens: {
             sm: '640px',
             md: '768px',
-            lg: '1024px'
+            lg: '1024px',
         },
         boxShadow: {
-            outline: '0 0 0 4px rgba(36, 145, 255, 1)'
+            outline: '0 0 0 4px rgba(36, 145, 255, 1)',
         },
         extend: {
             maxWidth: { 'min-content': 'min-content' },
             spacing: {
-                '72': '20rem'
+                72: '20rem',
             },
             screens: {
-                print: { raw: 'print' }
-            }
-        }
+                print: { raw: 'print' },
+            },
+        },
     },
     variants: {
         textColor: ['responsive', 'hover', 'focus', 'visited'],
-        backgroundColor: ['responsive', 'hover', 'focus', 'active']
+        backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     },
     plugins: [require('@hursey013/tailwindcss-uswds')],
     purge: {
@@ -40,10 +40,10 @@ module.exports = {
             'layouts/**/*.vue',
             'pages/**/*.vue',
             'plugins/**/*.js',
-            'nuxt.config.js'
+            'nuxt.config.js',
         ],
         options: {
-            whitelist: ['/is-visible$/']
-        }
-    }
+            whitelist: ['/is-visible$/'],
+        },
+    },
 }

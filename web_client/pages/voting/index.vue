@@ -71,9 +71,9 @@ export default {
                 'Democratic Party',
                 'Green Party',
                 'Libertarian Party',
-                'Republican Party'
+                'Republican Party',
             ],
-            checked: 'Democratic Party'
+            checked: 'Democratic Party',
         }
     },
     methods: {
@@ -82,8 +82,8 @@ export default {
             this.$router.push({ path: '/voting/reps' })
 
             e.preventDefault()
-        }
-    }
+        },
+    },
 }
 </script>
 

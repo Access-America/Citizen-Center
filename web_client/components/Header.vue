@@ -65,9 +65,7 @@
                                 <slot></slot> </a
                         ></em>
                     </div>
-                    <button class="usa-menu-btn">
-                        Menu
-                    </button>
+                    <button class="usa-menu-btn">Menu</button>
                 </div>
                 <nav aria-label="Primary navigation" class="usa-nav">
                     <button class="usa-nav__close">
@@ -163,7 +161,7 @@
 <script>
 export default {
     name: 'Header',
-    data: () => ({})
+    data: () => ({}),
 }
 </script>
 
