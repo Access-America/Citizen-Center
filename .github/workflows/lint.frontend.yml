@@ -1,11 +1,10 @@
 name: lint
 
 on:
-  push:
-    paths:
-      - 'web_client/**'
   pull_request:
     types: [assigned, opened, synchronize, reopened]
+    paths:
+      - 'web_client/**'
 
 jobs:
   run-linters:
