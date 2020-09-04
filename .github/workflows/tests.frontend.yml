@@ -1,10 +1,9 @@
 name: tests
 on:
-  push:
-    paths:
-      - 'web_client/**'
   pull_request:
     types: [assigned, opened, synchronize, reopened]
+    paths:
+      - 'web_client/**'
 jobs:
   coverage:
     name: Test & publish code coverage
