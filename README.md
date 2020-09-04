@@ -1,6 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/86a32f9feb586dcafb43/maintainability)](https://codeclimate.com/github/Access-America/Citizen-Center/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
-[![Discord](https://img.shields.io/discord/715185380055580752?style=flat-square&logo=discord)](https://discord.gg/hQktjt5)
+[![Discord](https://img.shields.io/discord/715185380055580752?style=flat-square&logo=discord)](https://discord.gg/tbcdybD)
 
 # [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
 
@@ -67,7 +67,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 
 # Contributing
 
-- **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/hQktjt5), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
+- **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/tbcdybD), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
 - **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Access-America/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Tech stack
