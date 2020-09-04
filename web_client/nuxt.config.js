@@ -63,9 +63,6 @@ export default {
         meta: {
             name: 'Citizen Center',
         },
-        icon: {
-            iconSrc: '~/assets/images/logo.png',
-        },
         manifest: {
             name: 'Citizen Center',
             lang: 'en',
