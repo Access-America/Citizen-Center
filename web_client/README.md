@@ -42,7 +42,7 @@ https://citizenshipportal.org
 
 ### Get Started
 
-`npm run test:watch`
+`yarn test:watch`
 
 -   [Edd Yerburgh - Unit testing Vue components Why test, what to test, and how to test Vue components](https://www.youtube.com/watch?v=LxXsGNXsMo8&t=1092s)
 
