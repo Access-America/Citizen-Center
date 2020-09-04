@@ -32,4 +32,5 @@ jobs:
           eslint: true
           eslint_dir: web_client/
           eslint_args: "--ignore-path .gitignore -c .eslintrc.js"
+          eslint_extensions: js,vue
           auto_fix: true
