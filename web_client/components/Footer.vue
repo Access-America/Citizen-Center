@@ -84,9 +84,7 @@
                         />
                     </div>
                     <div class="grid-col-auto">
-                        <h3 class="usa-footer__logo-heading">
-                            Access America
-                        </h3>
+                        <h3 class="usa-footer__logo-heading">Access America</h3>
                     </div>
                 </div>
             </div>
@@ -101,8 +99,8 @@ export default {
     methods: {
         scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' })
-        }
-    }
+        },
+    },
 }
 </script>
 

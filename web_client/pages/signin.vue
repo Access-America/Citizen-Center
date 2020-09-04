@@ -77,7 +77,7 @@ export default {
         return {
             errors: [],
             username: null,
-            password: null
+            password: null,
         }
     },
     methods: {
@@ -91,8 +91,8 @@ export default {
             }
 
             e.preventDefault()
-        }
-    }
+        },
+    },
 }
 </script>
 

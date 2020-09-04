@@ -37,28 +37,28 @@ export default {
     props: {
         name: {
             type: String,
-            default: 'Kamala Harris'
+            default: 'Kamala Harris',
         },
         affiliation: {
             type: String,
-            default: 'D'
+            default: 'D',
         },
         house: {
             type: Boolean,
-            default: false
+            default: false,
         },
         senate: {
             type: Boolean,
-            default: false
+            default: false,
         },
         contactURL: {
             type: String,
-            default: 'https://www.harris.senate.gov/'
+            default: 'https://www.harris.senate.gov/',
         },
         votingRecord: {
             type: String,
-            default: 'https://www.harris.senate.gov/about/voting-record'
-        }
+            default: 'https://www.harris.senate.gov/about/voting-record',
+        },
     },
     computed: {
         profilePic() {
@@ -69,13 +69,13 @@ export default {
                 return 'Senate'
             }
             return 'Congressional'
-        }
+        },
     },
     methods: {
         getImgPath() {
             return require(`~/assets/images/${this.name}.jpg`)
-        }
-    }
+        },
+    },
 }
 </script>
 

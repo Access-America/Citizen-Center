@@ -41,7 +41,7 @@ import Candidate from '../../components/Candidate'
 
 export default {
     name: 'Reps',
-    components: { Candidate, Footer, Header }
+    components: { Candidate, Footer, Header },
 }
 </script>
 
