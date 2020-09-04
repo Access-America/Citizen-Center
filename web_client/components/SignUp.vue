@@ -184,7 +184,7 @@ export default {
             zipcode: null,
             // component state
             page: 0,
-            error: null
+            error: null,
         }
     },
     methods: {
@@ -221,7 +221,7 @@ export default {
                             firstName,
                             middleName,
                             lastName,
-                            zipcode
+                            zipcode,
                         })
                     }
                     break
@@ -239,8 +239,8 @@ export default {
                     this.password
                 )
             )
-        }
-    }
+        },
+    },
 }
 </script>
 

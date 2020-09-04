@@ -3,7 +3,7 @@
         <Header>Citizen Center</Header>
         <img
             class="tw-mt-2 tw-object-cover tw-object-center tw-w-full"
-            style="max-height: 418px;"
+            style="max-height: 418px"
             src="~/assets/images/statue-of-liberty.jpg"
             alt="Statue of Liberty"
         />
@@ -29,14 +29,10 @@
                     class="tw-mt-6 tw-flex tw-flex-col tw-space-y-6 tw-items-center md:tw-flex-row md:tw-justify-center md:tw-space-y-0 md:tw-justify-between"
                 >
                     <nuxt-link to="/signup">
-                        <button class="usa-button">
-                            Create Account
-                        </button>
+                        <button class="usa-button">Create Account</button>
                     </nuxt-link>
                     <nuxt-link to="/signin">
-                        <button class="usa-button">
-                            Current Account
-                        </button>
+                        <button class="usa-button">Current Account</button>
                     </nuxt-link>
                 </div>
                 <h2 class="tw-mt-10 tw-text-ink tw-text-2xl tw-text-center">
@@ -115,13 +111,13 @@ export default {
     computed: {
         open() {
             return !this.$store.state.acceptedDisclaimer
-        }
+        },
     },
     methods: {
         accept() {
             this.$store.commit('accept')
-        }
-    }
+        },
+    },
 }
 </script>
 

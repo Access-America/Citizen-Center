@@ -105,24 +105,24 @@
                                 <option value="WV">West Virginia</option>
                                 <option value="WI">Wisconsin</option>
                                 <option value="WY">Wyoming</option>
-                                <option value="AA"
-                                    >AA - Armed Forces Americas</option
-                                >
-                                <option value="AE"
-                                    >AE - Armed Forces Africa</option
-                                >
-                                <option value="AE"
-                                    >AE - Armed Forces Canada</option
-                                >
-                                <option value="AE"
-                                    >AE - Armed Forces Europe</option
-                                >
-                                <option value="AE"
-                                    >AE - Armed Forces Middle East</option
-                                >
-                                <option value="AP"
-                                    >AP - Armed Forces Pacific</option
-                                >
+                                <option value="AA">
+                                    AA - Armed Forces Americas
+                                </option>
+                                <option value="AE">
+                                    AE - Armed Forces Africa
+                                </option>
+                                <option value="AE">
+                                    AE - Armed Forces Canada
+                                </option>
+                                <option value="AE">
+                                    AE - Armed Forces Europe
+                                </option>
+                                <option value="AE">
+                                    AE - Armed Forces Middle East
+                                </option>
+                                <option value="AP">
+                                    AP - Armed Forces Pacific
+                                </option>
                             </select>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ export default {
             streetAddress2: null,
             city: null,
             state: null,
-            zipCode: null
+            zipCode: null,
         }
     },
     methods: {
@@ -186,8 +186,8 @@ export default {
             }
 
             e.preventDefault()
-        }
-    }
+        },
+    },
 }
 </script>
 
