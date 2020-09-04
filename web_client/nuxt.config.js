@@ -9,24 +9,24 @@ export default {
         script: [
             {
                 src:
-                    'https://cdnjs.cloudflare.com/ajax/libs/uswds/2.7.0/js/uswds.min.js'
-            }
+                    'https://cdnjs.cloudflare.com/ajax/libs/uswds/2.7.0/js/uswds.min.js',
+            },
         ],
 
         meta: [
             { charset: 'utf-8' },
             {
                 name: 'viewport',
-                content: 'width=device-width, initial-scale=1'
+                content: 'width=device-width, initial-scale=1',
             },
             {
                 hid: 'description',
                 name: 'description',
                 content:
-                    'Initial demo of what a Citizen Center could look like.'
-            }
+                    'Initial demo of what a Citizen Center could look like.',
+            },
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
     /*
      ** Customize the progress-bar color
@@ -47,7 +47,7 @@ export default {
         // Doc: https://github.com/nuxt-community/eslint-module
         '@nuxtjs/eslint-module',
         // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
     ],
     /*
      ** Nuxt.js modules
@@ -57,19 +57,19 @@ export default {
         '@nuxtjs/axios',
         '@nuxtjs/pwa',
         // Doc: https://github.com/nuxt-community/dotenv-module
-        '@nuxtjs/dotenv'
+        '@nuxtjs/dotenv',
     ],
     pwa: {
         meta: {
-            name: 'Citizen Center'
+            name: 'Citizen Center',
         },
         icon: {
-            iconSrc: '~/assets/images/logo.png'
+            iconSrc: '~/assets/images/logo.png',
         },
         manifest: {
             name: 'Citizen Center',
-            lang: 'en'
-        }
+            lang: 'en',
+        },
     },
     /*
      ** Axios module configuration
@@ -83,6 +83,6 @@ export default {
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {}
-    }
+        extend(config, ctx) {},
+    },
 }

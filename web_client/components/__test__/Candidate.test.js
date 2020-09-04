@@ -14,13 +14,13 @@ describe('Candidate', () => {
         house: true,
         senate: false,
         contactURL: 'www.google.com',
-        votingRecord: 'lol.com'
+        votingRecord: 'lol.com',
     }
     const profilePic = jest.fn()
     // eslint-disable-next-line no-unused-vars
     const wrapper = shallowMount(Candidate, {
         props,
-        computed: { profilePic }
+        computed: { profilePic },
     })
 
     beforeEach(() => {})
