@@ -31,6 +31,5 @@ jobs:
           # Enable linters
           eslint: true
           eslint_dir: web_client/
-          prettier: true
-          prettier_dir: web_client/
+          eslint_args: "--ignore-path .gitignore -c .eslintrc.js"
           auto_fix: true
