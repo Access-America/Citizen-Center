@@ -5,18 +5,18 @@
 # [Humanity Forward's Citizen Center](https://www.beautiful.ai/player/-M7TXW9Wpl9Jqh3Azfwc/citizenship)
 
 # Table of Contents
-- [Who and What Are We?](#Who%20and%20What%20Are%20We%3F)
-- [Project Overview](#project%20overview)
-    - [Right now: Giving the project a presence](#right%20now%3a%20giving%20the%20project%20a%20presence)
-    - [What's next: MVP](#what%27s%20next%3A%20mvp)
-    - [In the roadmap](#in%20the%20roadmap)
+- [Who and What Are We?](#who-and-What-Are-We)
+- [Project Overview](#project-overview)
+    - [Right now: Giving the project a presence](#right-now-giving-the-project-a-presence)
+    - [What's next: MVP](#whats-next-mvp)
+    - [In the roadmap](#in-the-roadmap)
 - [Contributing](#contributing)
-    - [Tech stack](#tech%20stack)
-    - [Getting started](#getting%20started)
-    - [Running the project locally](#running%20the%20project%20locally)
-    - [Writing commit messages](#writing%20commit%20messages)
-    - [Submitting a pull request](#submitting%20a%20pull%20request)
-    - [I'm ready! But what should I work on?](#I%27m%20ready%21%20But%20what%20should%20I%20work%20on%3F)
+    - [Tech stack](#tech-stack)
+    - [Getting started](#getting-started)
+    - [Running the project locally](#running-the-project-locally)
+    - [Writing commit messages](#writing-commit-messages)
+    - [Submitting a pull request](#submitting-a-pull-request)
+    - [I'm ready! But what should I work on?](#im-ready-But-what-should-I-work-on)
 
 # Who and What Are We?
 
