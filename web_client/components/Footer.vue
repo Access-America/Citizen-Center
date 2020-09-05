@@ -78,8 +78,8 @@
                 <div class="usa-footer__logo grid-row grid-gap-2">
                     <div class="grid-col-auto">
                         <img
-                            class="usa-footer__logo-img"
-                            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg"
+                            class="tw-w-full usa-footer__logo-img"
+                            src="~/assets/images/DEPT_OF_TECH_LOGO_WIP.svg"
                             alt=""
                         />
                     </div>
