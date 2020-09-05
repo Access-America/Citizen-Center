@@ -79,7 +79,7 @@
                     <div class="grid-col-auto">
                         <img
                             class="tw-w-full usa-footer__logo-img"
-                            src="~/assets/images/DEPT_OF_TECH_LOGO_SMALL_UPDATE.svg"
+                            src="~/assets/images/DEPT_OF_TECH_LOGO_WIP.svg"
                             alt=""
                         />
                     </div>
