@@ -1,5 +1,6 @@
 export default {
-    mode: 'universal',
+    mode: 'spa', // Disable server for development only
+    target: 'static', // Enable static mode for `nuxt generate`
     /*
      ** Headers of the page
      */
