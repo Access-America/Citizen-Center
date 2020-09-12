@@ -8,6 +8,8 @@ module.exports = {
         fontFamily: {
             heading: ['Roboto Condensed', 'sans-serif'],
             sans: ['Public Sans', 'sans-serif'],
+            fenix: ['Fenix', 'serif'],
+            nunito: ['Nunito', 'sans-serif'],
         },
         screens: {
             sm: '640px',
