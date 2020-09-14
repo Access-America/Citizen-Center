@@ -35,9 +35,7 @@
                 class="tw-max-w-xs lg:tw-max-w-xl tw-flex tw-flex-col tw-mx-auto tw-space-y-8 md:tw-space-y-12 lg:tw-space-y-16"
             >
                 <div>
-                    <h3
-                        class="tw-text-gray-4 tw-font-fenix tw-text-sm tw-underline"
-                    >
+                    <h3 class="tw-text-gray-4 tw-font-fenix tw-underline">
                         What Is This?
                     </h3>
                     <p class="tw-text-gray-4 tw-font-nunito tw-text-lg tw-mt-2">
@@ -46,9 +44,7 @@
                     </p>
                 </div>
                 <div>
-                    <h3
-                        class="tw-text-gray-4 tw-font-fenix tw-text-sm tw-underline"
-                    >
+                    <h3 class="tw-text-gray-4 tw-font-fenix tw-underline">
                         What's Different About It?
                     </h3>
                     <p class="tw-text-gray-4 tw-font-nunito tw-text-lg tw-mt-2">
@@ -127,9 +123,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3
-                        class="tw-text-gray-4 tw-font-fenix tw-text-sm tw-underline"
-                    >
+                    <h3 class="tw-text-gray-4 tw-font-fenix tw-underline">
                         How can I find out more and can I get involved?
                     </h3>
                     <p class="tw-text-gray-4 tw-font-nunito tw-text-lg tw-mt-2">
@@ -143,7 +137,8 @@
                         <a
                             class="tw-flex tw-items-center"
                             href="https://twitter.com/USAccessAmerica"
-                            ><svg
+                        >
+                            <svg
                                 width="12"
                                 height="10"
                                 viewBox="0 0 12 10"
