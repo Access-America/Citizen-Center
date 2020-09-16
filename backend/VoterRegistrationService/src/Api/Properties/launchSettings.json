@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "AA.VoterRegistration.Api": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31991,
+      "useSSL": false
+    }
+  }
+}
