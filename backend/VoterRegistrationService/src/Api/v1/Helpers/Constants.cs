@@ -88,7 +88,6 @@ namespace AA.VoterRegistration.Api.v1.Helpers
         {
             "Mr.",
             "Mrs.",
-            "Asian",
             "Miss",
             "Ms."
         };

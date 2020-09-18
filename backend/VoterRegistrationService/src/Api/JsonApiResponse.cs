@@ -3,21 +3,21 @@
 namespace AA.VoterRegistration.Api
 {
     // TODO: Move this to a Core library to be reused in the future
-    public class JsonApiResponse
+    public class JsonApiResponse<T>
     {
-        public JsonApiResponse()
+        public JsonApiResponse(T value)
         {
-            Data = true;
+            Data = value;
             Errors = null;
         }
 
         public JsonApiResponse(Dictionary<string, string[]> errors)
         {
-            Data = false;
+            Data = default;
             Errors = errors;
         }
 
-        public bool Data { get; set; }
+        public T Data { get; set; }
 
         public Dictionary<string, string[]> Errors { get; set; }
     }

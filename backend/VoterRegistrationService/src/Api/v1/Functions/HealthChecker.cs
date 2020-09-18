@@ -11,9 +11,9 @@ namespace AA.VoterRegistration.Api.v1.Functions
         [FunctionName("HealthChecker")]
         public async Task<IActionResult> GetAsync(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = "v1/healthcheck")]
-            HttpRequest req)
+            HttpRequest request)
         {
-            return new OkObjectResult(true);
+            return new OkObjectResult(await Task.FromResult(true));
         }
     }
 }

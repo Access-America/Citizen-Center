@@ -33,26 +33,23 @@ namespace AA.VoterRegistration.Api.v1.Functions
                 if (results.Any())
                 {
                     return new BadRequestObjectResult(
-                        new JsonApiResponse(
+                        new JsonApiResponse<bool>(
                             ValidateVoterAttributes.GenerateErrors(results)));
                 }
+
+                return new OkObjectResult(new JsonApiResponse<bool>(true));
             }
             catch (Exception ex)
             {
                 log.LogError(ex, "Unable to parse Voter");
                 return new UnprocessableEntityObjectResult("Unable to parse Voter");
             }
-
-            return new OkObjectResult(new JsonApiResponse());
         }
 
         private async Task<Voter> GenerateRequestVoter(Stream requestBody)
         {
             string body = await new StreamReader(requestBody).ReadToEndAsync();
-            var voter = JsonConvert.DeserializeObject<Voter>(body);
-            voter?.StateRequirements?.SetState(voter.HomeAddress?.State);
-
-            return voter;
+            return JsonConvert.DeserializeObject<Voter>(body);
         }
     }
 }

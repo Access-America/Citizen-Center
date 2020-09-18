@@ -21,11 +21,7 @@ namespace AA.VoterRegistration.UnitTests.v1.Functions.HealthCheckerTests
 
             // assert
             ((OkObjectResult)result).Value.Should().BeEquivalentTo(
-                new JsonApiResponse
-                {
-                    Data = true,
-                    Errors = null
-                });
+                new JsonApiResponse<bool>(true));
         }
     }
 }

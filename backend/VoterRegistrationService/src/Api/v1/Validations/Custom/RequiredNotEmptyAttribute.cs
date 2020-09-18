@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace AA.VoterRegistration.Api.v1.Validations.Custom
 {
@@ -9,6 +10,11 @@ namespace AA.VoterRegistration.Api.v1.Validations.Custom
             if (value is string)
             {
                 return !string.IsNullOrEmpty(value as string);
+            }
+
+            if (value is Guid)
+            {
+                return Guid.Parse(value.ToString()) != Guid.Empty;
             }
 
             return base.IsValid(value);

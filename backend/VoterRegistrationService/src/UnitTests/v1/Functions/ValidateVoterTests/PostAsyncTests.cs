@@ -29,23 +29,32 @@ namespace AA.VoterRegistration.UnitTests.v1.Functions.ValidateVoterTests
             unprocessableResult.Value.Should().Be("Unable to parse Voter");
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(GetStateRequirements), DynamicDataSourceType.Method)]
-        public async Task ShouldReturn_OkObjectResult_WhenVoterFormattedCorrectly(KeyValuePair<string, StateRequirements> stateRequirements)
+        [TestMethod]
+        public async Task ShouldReturn_OkObjectResult_WhenVoterFormattedCorrectly()
         {
             // arrange
-            Voter voter = TestingHelper.GenerateFullyHydratedVoterByState(stateRequirements);
+            Voter voter = TestingHelper.GenerateFullyHydratedVoter();
 
             // act
             var result = await InvokePostAsyncRequest(voter);
 
             // assert
             ((OkObjectResult)result).Value.Should().BeEquivalentTo(
-                new JsonApiResponse
-                {
-                    Data = true,
-                    Errors = null
-                });
+                new JsonApiResponse<bool>(true));
+        }
+
+        [TestMethod]
+        public async Task ShouldReturn_OkObjectResult_WhenVoterFormattedCorrectly_WithMinRequirements()
+        {
+            // arrange
+            Voter voter = TestingHelper.GenerateHydratedVoterWithMinRequirements();
+
+            // act
+            var result = await InvokePostAsyncRequest(voter);
+
+            // assert
+            ((OkObjectResult)result).Value.Should().BeEquivalentTo(
+                new JsonApiResponse<bool>(true));
         }
 
         private async Task<IActionResult> InvokePostAsyncRequest(Voter voter)
@@ -74,12 +83,6 @@ namespace AA.VoterRegistration.UnitTests.v1.Functions.ValidateVoterTests
             reqMock.Setup(req => req.Body).Returns(outputStream);
 
             return reqMock.Object;
-        }
-
-        private static IEnumerable<object[]> GetStateRequirements()
-        {
-            yield return new object[] { TestingHelper.ForAlabama() };
-            yield return new object[] { TestingHelper.ForAlaska() };
         }
     }
 }

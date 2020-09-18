@@ -1,8 +1,19 @@
 # AzureFunction
 Initial setup for AccessAmerica Voter Registration 
 
+To run the Azure Functions locally using VS Code:
+* cd into src/Api folder
+* run the following command: func start
+* to shut down: Ctrl+C
 
-200 OK Success (fully hydrated entity) - State of Alabama
+In your terminal, you should see the following:
+Functions:
+  HealthChecker: [GET] http://localhost:7071/api/v1/healthcheck
+  ValidateVoter: [POST] http://localhost:7071/api/v1/validate
+
+--------------------------------------------------------------------------------
+
+200 OK Success (fully hydrated entity)
 ```
 {
   "id": "ef8e735a-e475-4325-b992-42030c0f8ebc",
@@ -32,11 +43,6 @@ Initial setup for AccessAmerica Voter Registration
   "idNumber": "QWERTY123",
   "choiceOfParty": "Green",
   "raceEthnicity": "Other",
-  "stateRequirements": {
-    "convictedOfFelonyInvolingMoralTurpitude": false,
-    "swearToAffirmToSupportAndDefendTheConstituiton": true,
-    "declaredMentallyIncompetent": false
-  },
   "applicantAid": {
     "name": {
       "firstName": "Johnny",
@@ -53,7 +59,7 @@ Initial setup for AccessAmerica Voter Registration
 }
 ```
 
-200 OK Success (only necessary fields hydrated) - State of Alabama
+200 OK Success (only required fields hydrated)
 ```
 {
   "id": "ef8e735a-e475-4325-b992-42030c0f8ebc",
@@ -75,29 +81,25 @@ Initial setup for AccessAmerica Voter Registration
   },
   "phoneNumber": "(979) 778 1098",
   "dateOfBirth": "1990-11-25",
-  "idNumber": "QWERTY123",
-  "stateRequirements": {
-    "convictedOfFelonyInvolingMoralTurpitude": false,
-    "swearToAffirmToSupportAndDefendTheConstituiton": true,
-    "declaredMentallyIncompetent": false
+  "idNumber": "QWERTY123"
 }
 ```
 
-
-400 BadRequest
+400 BadRequest -> failed requirements or missing mandatory fields
 ```
 {
-  "uuid": "ef8e735a-e475-4325-b992-42030c0f8ebc",
-  "given_name": "John",
+  "id": "00000000-0000-0000-0000-000000000000",
   "email": "johngmail.com",
-  "address": {
+  "name": {
+    "lastName": "Doe"
+  },
+  "homeAddress": {
     "address1": "My Street",
     "city": "Springfield",
     "state": "Alabama"
   },
-  "phone": "+1 (555) 555-5555",
-  "birthdate": "2010-05-20",
-  "social_security_number": "078-05-1120",
-  "verified_at": 737341624840543870
+  "phoneNumber": "null",
+  "dateOfBirth": "2100-11-25",
+  "idNumber": null
 }
 ```

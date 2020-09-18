@@ -1,6 +1,5 @@
 ﻿using AA.VoterRegistration.Api.v1.Helpers;
 using AA.VoterRegistration.Api.v1.Validations.Custom;
-using AA.VoterRegistration.Api.v1.Validations.States;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,7 +11,7 @@ namespace AA.VoterRegistration.Api.v1.Models
     {
         [RequiredNotEmpty]
         public Guid Id { get; set; }
-        
+
         [Required]
         public Address MailingAddress { get; set; }
 
@@ -34,9 +33,6 @@ namespace AA.VoterRegistration.Api.v1.Models
         /// </summary>
         public BaseVoter ApplicantAid { get; set; }
 
-        [Required]
-        public StateRequirements StateRequirements { get; set; }
-
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
             List<ValidationResult> results = new List<ValidationResult>();
@@ -46,19 +42,6 @@ namespace AA.VoterRegistration.Api.v1.Models
                 results.Add(new ValidationResult("Must be at least 18 years old before next election", new[] { nameof(DateOfBirth) }));
             }
 
-            switch (HomeAddress.State)
-            {
-                case "Alabama":
-                    AlabamaValidator.Validate(this, results);
-                    break;
-                case "Alaska":
-                    AlaskaValidator.Validate(this, results);
-                    break;
-                //case "Arizona":
-                //    ArizonaValidator.Validate(this, results);
-                //    break;
-            }
-        
             return results;
         }
     }
