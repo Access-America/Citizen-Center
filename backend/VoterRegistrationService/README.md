@@ -1,6 +1,10 @@
 # AzureFunction
 Initial setup for AccessAmerica Voter Registration 
 
+Pre-requisites: 
+* install Azure Functions Core Tools
+run: npm install -g azure-functions-core-tools
+
 To run the Azure Functions locally using VS Code:
 * cd into src/Api folder
 * run the following command: func start
