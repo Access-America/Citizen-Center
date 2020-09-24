@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "profiles_ccusfrontendcdn_name": {
@@ -60,8 +60,7 @@
                 "[resourceId('Microsoft.Cdn/profiles', parameters('profiles_ccusfrontendcdn_name'))]"
             ],
             "properties": {
-                "originHostHeader": "ccusfrontend.z13.web.core.windows.net",
-                "isHttpAllowed": false,
+                "isHttpAllowed": true,
                 "isHttpsAllowed": true,
                 "queryStringCachingBehavior": "IgnoreQueryString",
                 "origins": [
@@ -101,8 +100,41 @@
                 "defaultOriginGroup": {
                     "id": "[resourceId('Microsoft.Cdn/profiles/endpoints/origingroups', parameters('profiles_ccusfrontendcdn_name'), 'ccusfrontend', 'ccusfrontend')]"
                 },
+                "contentTypesToCompress": [],
+                "isCompressionEnabled": false,
                 "optimizationType": "GeneralWebDelivery",
                 "geoFilters": [],
+                "deliveryPolicy": {
+                    "rules": [
+                        {
+                            "name": "HTTPtoHTTPS",
+                            "order": 1,
+                            "conditions": [
+                                {
+                                    "name": "RequestScheme",
+                                    "parameters": {
+                                        "@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRuleRequestSchemeConditionParameters",
+                                        "operator": "Equal",
+                                        "negateCondition": false,
+                                        "matchValues": [
+                                            "HTTP"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "actions": [
+                                {
+                                    "name": "UrlRedirect",
+                                    "parameters": {
+                                        "@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRuleUrlRedirectActionParameters",
+                                        "redirectType": "Found",
+                                        "destinationProtocol": "Https"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
                 "urlSigningKeys": []
             }
         },
