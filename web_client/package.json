@@ -28,7 +28,7 @@
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/pwa": "^3.0.2",
         "nuxt": "^2.14.5",
-        "uswds": "^2.8.1"
+        "uswds": "^2.9.0"
     },
     "devDependencies": {
         "@nuxt/types": "~2.14.5",
