@@ -27,7 +27,7 @@
         "@nuxtjs/axios": "^5.3.6",
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/pwa": "^3.0.2",
-        "nuxt": "^2.14.5",
+        "nuxt": "^2.14.7",
         "uswds": "^2.9.0"
     },
     "devDependencies": {
