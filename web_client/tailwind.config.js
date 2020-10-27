@@ -1,41 +1,28 @@
 module.exports = {
-    prefix: 'tw-',
     theme: {
-        container: {
-            center: true,
-            padding: '1rem',
-        },
         fontFamily: {
-            heading: ['Roboto Condensed', 'sans-serif'],
-            sans: ['Public Sans', 'sans-serif'],
-            fenix: ['Fenix', 'serif'],
-            nunito: ['Nunito', 'sans-serif'],
+            sans:
+                'Public Sans Web, Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif',
         },
-        screens: {
-            sm: '640px',
-            md: '768px',
-            lg: '1024px',
-        },
-        boxShadow: {
-            outline: '0 0 0 4px rgba(36, 145, 255, 1)',
-        },
-        extend: {
-            maxWidth: { 'min-content': 'min-content' },
-            spacing: {
-                72: '20rem',
-            },
-            screens: {
-                print: { raw: 'print' },
-            },
-        },
+    },
+    future: {
+        removeDeprecatedGapUtilities: true,
     },
     variants: {
         textColor: ['responsive', 'hover', 'focus', 'visited'],
         backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     },
-    plugins: [require('@hursey013/tailwindcss-uswds')],
+    plugins: [
+        require('@hursey013/tailwindcss-uswds')({
+            overrides: {
+                colors: 'extended',
+                flex: false,
+                fontSize: false,
+                leading: false,
+            },
+        }),
+    ],
     purge: {
-        // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
         enabled: process.env.NODE_ENV === 'production',
         content: [
             'components/**/*.vue',
@@ -43,6 +30,9 @@ module.exports = {
             'pages/**/*.vue',
             'plugins/**/*.js',
             'nuxt.config.js',
+            // TypeScript
+            'plugins/**/*.ts',
+            'nuxt.config.ts',
         ],
         options: {
             whitelist: ['/is-visible$/'],
