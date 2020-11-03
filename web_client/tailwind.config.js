@@ -19,6 +19,7 @@ module.exports = {
                 flex: false,
                 fontSize: false,
                 leading: false,
+                screens: false,
             },
         }),
     ],
