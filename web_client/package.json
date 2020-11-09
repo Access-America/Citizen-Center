@@ -12,22 +12,24 @@
         "start": "nuxt start",
         "test": "jest",
         "test:ci": "jest --coverage",
-        "test:watch": "jest test --watch"
+        "test:watch": "jest test --watch",
+        "prettier": "prettier --write ."
     },
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
+            "pre-commit": "lint-staged, prettier"
         }
     },
     "lint-staged": {
         "*.{js,vue}": "yarn lint"
     },
     "dependencies": {
+        "@azure/msal-browser": "^2.6.0",
         "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
         "@nuxtjs/axios": "^5.3.6",
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/pwa": "^3.0.2",
-        "nuxt": "^2.14.5",
+        "nuxt": "^2.14.7",
         "uswds": "^2.9.0"
     },
     "devDependencies": {
@@ -48,7 +50,7 @@
         "lint-staged": "^10.3.0",
         "node-sass": "^4.14.1",
         "nuxt-purgecss": "^1.0.0",
-        "prettier": "^2.1.1",
+        "prettier": "^2.1.2",
         "sass-loader": "^10.0.2",
         "vue-jest": "^5.0.0-alpha.3"
     }

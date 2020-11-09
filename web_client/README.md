@@ -31,7 +31,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 https://www.citizencenter.us
 
-
 # Testing
 
 -   [Vue Test Utils](https://vue-test-utils.vuejs.org)
