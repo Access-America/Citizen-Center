@@ -14,7 +14,7 @@ export const b2cPolicies = {
             authority: "https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1_sisu",
         },
         forgotPassword: {
-            authority: "https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1_reset",
+            authority: "https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1_reset_password",
         },
         editProfile: {
             authority: "https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1_edit_profile"
