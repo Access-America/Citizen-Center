@@ -23,7 +23,7 @@
                 <h1 class="text-sm font-bold text-gray-90">Citizen Center</h1>
             </div>
             <div>
-                <nuxt-link to="Eligibility">Voter Registration</nuxt-link>
+                <nuxt-link to="/voter_registration/Eligibility">Voter Registration</nuxt-link>
             </div>
             <div class="p-2 text-sm text-white uppercase bg-primary">Menu</div>
         </div>
