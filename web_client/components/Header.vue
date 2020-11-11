@@ -135,6 +135,26 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="usa-nav__primary-item">
+                            <button
+                                id="signIn"
+                                type="button"
+                                class="usa-nav__link"
+                                @click="signIn()"
+                            >
+                                Register/Login
+                            </button>
+                        </li>
+                        <li class="usa-nav__primary-item">
+                            <button
+                                id="signOut"
+                                type="button"
+                                class="usa-nav__link"
+                                @click="signOut()"
+                            >
+                                Sign Out
+                            </button>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -142,10 +162,33 @@
     </div>
 </template>
 
+<script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+></script>
+
 <script>
+import * as authPopup from '../auth_config/authPopup'
+import authConfig from '../auth_config/authConfig'
+import policies from '../auth_config/policies'
+
 export default {
     name: 'Header',
     data: () => ({}),
+    methods: {
+        signIn() {
+            return authPopup.signIn()
+        },
+        signOut() {
+            return authPopup.signOut()
+        },
+    },
 }
 </script>
 
