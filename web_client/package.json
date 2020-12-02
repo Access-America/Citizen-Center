@@ -9,15 +9,28 @@
         "dev": "nuxt",
         "generate": "nuxt generate",
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-        "start": "nuxt start"
+        "start": "nuxt start",
+        "test": "jest",
+        "test:ci": "jest --coverage",
+        "test:watch": "jest test --watch",
+        "prettier": "prettier --write ."
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged, prettier"
+        }
+    },
+    "lint-staged": {
+        "*.{js,vue}": "yarn lint"
     },
     "dependencies": {
-        "@nuxtjs/axios": "^5.12.2",
-        "@nuxtjs/dotenv": "^1.4.1",
-        "@nuxtjs/pwa": "^3.2.2",
-        "eslint-plugin-vue": "^7.1.0",
-        "eslint-plugin-vue-libs": "^4.0.0",
-        "nuxt": "^2.14.7"
+        "@azure/msal-browser": "^2.6.0",
+        "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/dotenv": "^1.4.0",
+        "@nuxtjs/pwa": "^3.0.2",
+        "nuxt": "^2.14.7",
+        "uswds": "^2.9.0"
     },
     "devDependencies": {
         "@hursey013/tailwindcss-uswds": "^1.2.0",
