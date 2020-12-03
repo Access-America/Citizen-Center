@@ -25,7 +25,6 @@
     },
     "dependencies": {
         "@azure/msal-browser": "^2.6.0",
-        "@hursey013/tailwindcss-uswds": "https://github.com/ricky-sb/tailwindcss-uswds",
         "@nuxtjs/axios": "^5.3.6",
         "@nuxtjs/dotenv": "^1.4.0",
         "@nuxtjs/pwa": "^3.0.2",
