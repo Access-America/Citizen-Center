@@ -192,7 +192,8 @@
                     </div>
                 </div>
                 <div class="tw-text-gray-4 tw-font-nunito tw-text-center">
-                    <p class="tw-font-bold">More To Come Soon</p>
+                    <p class="tw-font-bold">More To Come Soon</p><br>
+                    <nuxt-link style="color:white;" to="/features/Feature_Template">Features</nuxt-link>
                     <a
                         href="https://movehumanityforward.com"
                         class="tw-block hover:tw-text-gray-4 tw-cursor-pointer tw-underline tw-mt-8"
