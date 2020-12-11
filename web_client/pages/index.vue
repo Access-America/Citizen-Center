@@ -125,7 +125,7 @@
                     ]"
                 />
                 <section-links
-                    img-src="financial.svg"
+                    img-src="registration.svg"
                     img-alt="Financial"
                     header="Financial"
                     :links="[
