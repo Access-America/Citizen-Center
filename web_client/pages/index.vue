@@ -24,8 +24,8 @@
             </div>
             <div class="flex flex-col mx-auto max-w-mobile-lg md:max-w-full">
                 <section-links
-                    imgSrc="taxes.svg"
-                    imgAlt="Filing taxes"
+                    img-src="taxes.svg"
+                    img-alt="Filing taxes"
                     header="On The Pulse"
                     :links="[
                         {
@@ -56,8 +56,8 @@
                     ]"
                 />
                 <section-links
-                    imgSrc="assistance.svg"
-                    imgAlt="Government Assistance"
+                    img-src="assistance.svg"
+                    img-alt="Government Assistance"
                     header="Benefits and Services"
                     :links="[
                         {
@@ -80,8 +80,8 @@
                     ]"
                 />
                 <section-links
-                    imgSrc="registration.svg"
-                    imgAlt="Voter Registration"
+                    img-src="registration.svg"
+                    img-alt="Voter Registration"
                     header="Elections"
                     :links="[
                         {
@@ -115,8 +115,8 @@
                     ]"
                 />
                 <section-links
-                    imgSrc="registration.svg"
-                    imgAlt="Financial"
+                    img-src="registration.svg"
+                    img-alt="Financial"
                     header="Financial"
                     :links="[
                         {

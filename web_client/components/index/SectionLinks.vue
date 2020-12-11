@@ -15,10 +15,10 @@
             </h2>
             <div class="items-start justify-center custom-grid">
                 <Item
-                    class="mt-2"
                     v-for="link in links"
-                    :link="link.href"
                     :key="link.text"
+                    class="mt-2"
+                    :link="link.href"
                     >{{ link.text }}</Item
                 >
             </div>
@@ -45,7 +45,12 @@ export default {
             type: String,
             default: '',
         },
-        links: Array,
+        links: {
+            type: Array,
+            default() {
+                return []
+            },
+        },
     },
 }
 </script>
