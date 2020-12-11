@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .custom-grid {
     @apply grid grid-cols-1;
 }
