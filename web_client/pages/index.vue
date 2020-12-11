@@ -10,16 +10,26 @@
                     Citizen Center
                 </h1>
                 <p class="mx-auto mt-3 leading-tight max-w-mobile-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Neque, morbi non aliquet vitae. Convallis nunc in commodo
-                    egestas consectetur urna consequat tincidunt ornare. Proin
-                    amet nunc rutrum vel elit. Sit faucibus nisl senectus risus.
+                    A 21st century nation deserves a 21st century government.
+                    America is dreadfully behind the times when it comes to
+                    leveraging the latest technology in publicly-funded spaces.
                 </p>
                 <p class="mx-auto mt-3 leading-tight max-w-mobile-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Neque, morbi non aliquet vitae. Convallis nunc in commodo
-                    egestas consectetur urna consequat tincidunt ornare. Proin
-                    amet nunc rutrum vel elit. Sit faucibus nisl senectus risus.
+                    While Silicon Valley enjoys breakthrough after breakthrough,
+                    our federal and state governments fail to keep pace with the
+                    tools that would drastically improve civic processes for
+                    millions of Americans.
+                </p>
+                <p class="mx-auto mt-3 leading-tight max-w-mobile-lg">
+                    Innovation is a home-grown American ideal, and the Citizen
+                    Center will transform our government, helping to pull the
+                    United States out of the 20th century.
+                </p>
+                <p class="mx-auto mt-3 leading-tight max-w-mobile-lg">
+                    This website is to demonstrate the enormous potential of a
+                    unified government portal. Prototypes of features will
+                    become available as they are developed, but the broad scope
+                    of the site is currently available for browsing.
                 </p>
             </div>
             <div class="flex flex-col mx-auto max-w-mobile-lg md:max-w-full">
