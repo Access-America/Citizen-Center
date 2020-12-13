@@ -1,22 +1,46 @@
 <template>
     <footer class="text-white">
-        <div class="return-top">
-            <div class="m-auto py-1 px-2 md:px-4 xl:container">
-                <a class="underline" href="#">Return to top</a>
+        <div class="return-top bg-base-lightest">
+            <div class="m-auto py-1 px-2 md:px-4 max-w-desktop">
+                <a
+                    class="underline text-primary hover:text-primary-dark"
+                    href="#"
+                    >Return to top</a
+                >
             </div>
         </div>
-        <div class="head">
-            <div class="head-inner m-auto xl:container md:px-2">
-                <a href="#" class="link">Documentation</a>
-                <a href="#" class="link">Features</a>
-                <a href="#" class="link">Getting Started</a>
-                <a href="#" class="link">About Us</a>
-                <a href="#" class="link">Privacy Policy</a>
+        <div class="head bg-primary-dark">
+            <div class="head-inner m-auto max-w-desktop md:px-2">
+                <a
+                    href="#"
+                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
+                    >Documentation</a
+                >
+                <a
+                    href="#"
+                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
+                    >Features</a
+                >
+                <a
+                    href="#"
+                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
+                    >Getting Started</a
+                >
+                <a
+                    href="#"
+                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
+                    >About Us</a
+                >
+                <a
+                    href="#"
+                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
+                    >Privacy Policy</a
+                >
             </div>
         </div>
-        <div class="bottom pb-2">
+        <div class="bottom pb-2 bg-primary-darker">
             <div
-                class="m-auto flex flex-col-reverse xl:container md:justify-between md:flex-row md:py-3 md:px-4"
+                class="m-auto flex flex-col-reverse max-w-desktop md:justify-between md:flex-row md:py-3 md:px-4"
             >
                 <div class="dept-of-tech flex items-center py-3 px-2 md:pl-0">
                     <img
@@ -31,16 +55,24 @@
                 <div>
                     <div class="social hidden justify-end md:flex">
                         <a href="#" class="social-link">
-                            <img src="@/assets/images/social/facebook.svg" />
+                            <img
+                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/facebook25.svg"
+                            />
                         </a>
                         <a href="#" class="social-link">
-                            <img src="@/assets/images/social/twitter.svg" />
+                            <img
+                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/twitter16.svg"
+                            />
                         </a>
                         <a href="#" class="social-link">
-                            <img src="@/assets/images/social/youtube.svg" />
+                            <img
+                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/youtube15.svg"
+                            />
                         </a>
                         <a href="#" class="social-link">
-                            <img src="@/assets/images/social/rss.svg" />
+                            <img
+                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/rss25.svg"
+                            />
                         </a>
                     </div>
                     <div class="text-white p-2 md:pr-0">
@@ -77,42 +109,11 @@ export default {
 </script>
 
 <style scoped>
-.return-top {
-    background: #eeeeee;
-}
-
-.return-top a {
-    color: #0f4f93;
-}
-
-.head {
-    background: #15498d;
-}
-
 .head-inner {
     @screen md {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     }
-}
-
-.head-inner .link {
-    border-top: 1px solid #112f4e;
-    color: white;
-    padding: 16px;
-    display: block;
-
-    @screen md {
-        border: none;
-    }
-}
-
-.head-inner .link:hover {
-    background: #1855a5;
-}
-
-.bottom {
-    background: #112f4e;
 }
 
 .tech-logo {

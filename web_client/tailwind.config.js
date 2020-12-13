@@ -1,23 +1,26 @@
 module.exports = {
-    theme: {
-        fontFamily: {
-            sans:
-                'Public Sans Web, Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif',
-        },
-    },
     future: {
         removeDeprecatedGapUtilities: true,
     },
     variants: {
-        textColor: ['responsive', 'hover', 'focus', 'visited'],
-        backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+        textColor: ['responsive', 'hover', 'focus', 'visited', 'group-hover'],
+        display: ['responsive', 'hover', 'group-hover'],
+        transform: ['hover', 'group-hover'],
+        borderWidth: ['last'],
+        margin: ['last'],
+        backgroundColor: [
+            'responsive',
+            'hover',
+            'focus',
+            'active',
+            'group-hover',
+        ],
     },
     plugins: [
         require('@hursey013/tailwindcss-uswds')({
             overrides: {
                 colors: 'extended',
                 flex: false,
-                fontSize: false,
                 leading: false,
                 screens: false,
             },
