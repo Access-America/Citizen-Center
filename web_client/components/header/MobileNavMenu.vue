@@ -20,10 +20,13 @@
                 <accordion
                     :label="label"
                     :items="submenu"
-                    :on-click-label="() => handleAccordionLabelClick(idx)"
+                    :on-click-label="() => handleClickAccordionLabel(idx)"
+                    :on-click-item="handleClickAccordionItem"
                     :expanded="activeSubmenu === idx"
                 />
-                <a v-if="type === 'link'" :href="href">{{ label }}</a>
+                <NuxtLink v-if="type === 'link'" :to="href">{{
+                    label
+                }}</NuxtLink>
             </li>
         </ul>
 
@@ -56,7 +59,10 @@ export default {
         }
     },
     methods: {
-        handleAccordionLabelClick(idx) {
+        handleClickAccordionItem() {
+            this.closeMenu()
+        },
+        handleClickAccordionLabel(idx) {
             if (this.activeSubmenu === idx) {
                 // close the active submenu
                 this.activeSubmenu = undefined

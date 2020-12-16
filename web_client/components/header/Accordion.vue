@@ -25,7 +25,11 @@
                 :key="idx"
                 class="border-t-1px border-base-lighter py-105 pl-4 pr-2 text-ui-2xs"
             >
-                <a :href="item.href">{{ item.label }}</a>
+                <NuxtLink
+                    :to="item.href"
+                    @click.native="() => onClickItem(item)"
+                    >{{ item.label }}</NuxtLink
+                >
             </li>
         </ul>
     </div>
@@ -40,6 +44,10 @@ export default {
             default: false,
         },
         onClickLabel: {
+            type: Function,
+            default() {},
+        },
+        onClickItem: {
             type: Function,
             default() {},
         },
