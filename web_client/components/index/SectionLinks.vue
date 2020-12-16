@@ -12,10 +12,10 @@
             <div class="items-start justify-center custom-grid">
                 <Item
                     v-for="link in links"
-                    :key="link.text"
+                    :key="link.label"
                     class="mb-105 last:mb-0"
                     :link="link.href"
-                    >{{ link.text }}</Item
+                    >{{ link.label }}</Item
                 >
             </div>
         </div>
