@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * Enter here the user flows and custom policies for your B2C application
  * To learn more about user flows, visit: https://docs.microsoft.com/en-us/azure/active-directory-b2c/user-flow-overview

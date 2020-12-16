@@ -1,3 +1,4 @@
+/* eslint-disable */
 function callApi(endpoint, token) {
     const headers = new Headers()
     const bearer = `Bearer ${token}`

@@ -46,10 +46,10 @@
                     <img
                         class="tech-logo mr-2"
                         src="@/assets/images/dept-of-tech-logo.svg"
-                        imgAlt="Department of Technology logo"
+                        imgAlt="Access America"
                     />
                     <div class="tech-header flex items-center font-bold">
-                        Department of Technology
+                        Access America
                     </div>
                 </div>
                 <div>

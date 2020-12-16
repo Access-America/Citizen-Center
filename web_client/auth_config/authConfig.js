@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { b2cPolicies } from './policies'
 import { apiConfig } from './apiConfig'
 
