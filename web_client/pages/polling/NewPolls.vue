@@ -1,8 +1,8 @@
 <template>
-  <div class="section">
-    <h1>Polls for You</h1>
+  <div>
     <div v-if="answeredAll === true">You're all caught up-- Great job making your voice heard!</div>
     <div v-else>
+      <h1>Polls for You</h1>
       <form @submit.prevent="goToPollDetails">
         <ul style="line-height: 1.8;">
           <li v-for="poll in userSpecificPolls" :key="poll.pollId">
@@ -112,9 +112,7 @@ export default {
 </script>
 
 <style scoped>
-.section {
-  margin-left: 100px;
-}
+
 
 li {
   padding: 10px;
@@ -136,6 +134,7 @@ input[type='submit'] {
   float: right;
   margin-top: 20px;
   margin-right: 100px;
+  margin-bottom: 20px;
   padding: 12px;
   color: white;
   background-color: rgba(39, 39, 250, 0.763);

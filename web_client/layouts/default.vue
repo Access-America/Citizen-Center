@@ -19,7 +19,7 @@ const HEADER_MENU = [
         submenu: [
             {
                 label: 'Canvas America',
-                href: '#',
+                href: '/polling/PollsOverview',
             },
             {
                 label: 'View congressional voting histories',

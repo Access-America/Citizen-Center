@@ -1,25 +1,25 @@
 <template>
     <div>
-        <Header />
-        <h1 style="text-align: center; font-weight: bold; margin-top: 80px;">On the Pulse</h1>
-        <div style="display: flex; margin-left: 400px;">
-            <div style="width: 250px; margin: 20px;">
-                <img src="https://cdn.pixabay.com/photo/2012/04/24/17/47/scale-40635_1280.png" alt="Poll icon" style="object-fit: contain;">
+        <h1 style="font-weight: bold; margin-top: 80px;" class="block sm:hidden text-heading-lg md:text-heading-xl font-heading font-bold text-center">On the Pulse</h1>
+
+        <div style="display: flex;" class="max-w-desktop m-auto flex-wrap">
+
+            <div style="width: 250px; margin: 20px; display: flex; justify-content: center; align-items: center;">
+                <img src="https://cdn.pixabay.com/photo/2012/04/24/17/47/scale-40635_1280.png" alt="Poll icon" style="object-fit: contain; min-width: 150px;">
             </div>
             <div>
+                <h1 style="font-weight: bold; margin-top: 80px;" class="hidden sm:block text-heading-lg md:text-heading-xl font-heading font-bold mb-3">On the Pulse</h1>
                 <button v-show="hideTabs === false" v-for="tab in tabs" :key="tab" @click="selected = tab;" :class="['tab-btn', { active: selected === tab }]">
                     {{ tab }}
                 </button>
                 <component :is="selected" @clicked="onPollChoice" v-bind:pollId="pollId"></component>
             </div>
         </div>
-        <Footer />
     </div>
 </template>
 
 <script>
-import Header from './../../components/Header';
-import Footer from './../../components/Footer';
+
 import New from './NewPolls';
 import VoteCast from './ParticipatedPolls';
 import VoteOnPoll from './VoteOnPoll';
@@ -27,8 +27,6 @@ import VoteOnPoll from './VoteOnPoll';
 export default {
     name: "PollsOverview",
     components: {
-        Header,
-        Footer,
         New,
         VoteCast,
         VoteOnPoll
