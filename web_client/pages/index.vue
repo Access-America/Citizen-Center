@@ -38,123 +38,12 @@
             </div>
             <div class="mb-10 sm:mb-15 flex flex-col md:items-center">
                 <section-links
-                    img-src="taxes.svg"
-                    img-alt="Filing taxes"
-                    header="On The Pulse"
-                    :links="[
-                        {
-                            href: '#',
-                            text: 'Canvas America (participate in petitions)',
-                        },
-                        {
-                            href: '#',
-                            text: 'Contact congressional representatives',
-                        },
-                        {
-                            href: '#',
-                            text: 'Review congressional voting histories',
-                        },
-                        {
-                            href: '#',
-                            text: 'Review special interest money in politics',
-                        },
-                        {
-                            href: '#',
-                            text: 'View The American Scorecard',
-                        },
-                        {
-                            href: '#',
-                            text:
-                                'View congressional bills, supreme court cases, calendars',
-                        },
-                    ]"
-                />
-                <section-links
-                    img-src="assistance.svg"
-                    img-alt="Government Assistance"
-                    header="Benefits and Services"
-                    :links="[
-                        {
-                            href: '#',
-                            text: 'Apply for Government Assistance Programs',
-                        },
-                        {
-                            href: '#',
-                            text: 'Apply for unemployment',
-                        },
-                        {
-                            href: '#',
-                            text: 'Apply for or renew a passport',
-                        },
-                        {
-                            href: '#',
-                            text:
-                                'Redirects to useful state or local govt sites',
-                        },
-                    ]"
-                />
-                <section-links
-                    img-src="registration.svg"
-                    img-alt="Voter Registration"
-                    header="Elections"
-                    :links="[
-                        {
-                            href: '#',
-                            text: 'Check voter registration',
-                        },
-                        {
-                            href: '#',
-                            text: 'Register to run for office',
-                        },
-                        {
-                            href: '#',
-                            text: 'Register to vote',
-                        },
-                        {
-                            href: '#',
-                            text: 'Request absentee ballot',
-                        },
-                        {
-                            href: '#',
-                            text: 'Review voting history',
-                        },
-                        {
-                            href: '#',
-                            text: 'Volunteer as poll worker',
-                        },
-                        {
-                            href: '#',
-                            text: 'Vote',
-                        },
-                    ]"
-                />
-                <section-links
-                    img-src="financial.svg"
-                    img-alt="Financial"
-                    header="Financial"
-                    :links="[
-                        {
-                            href: '#',
-                            text:
-                                'Connect a bank account (make or receive payments)',
-                        },
-                        {
-                            href: '#',
-                            text: 'File taxes',
-                        },
-                        {
-                            href: '#',
-                            text: 'Pay fines',
-                        },
-                        {
-                            href: '#',
-                            text: 'Review tax history',
-                        },
-                        {
-                            href: '#',
-                            text: 'Sign up for Freedom Dividend',
-                        },
-                    ]"
+                    v-for="({ label, img, imgAlt, submenu }, idx) in submenus"
+                    :key="idx"
+                    :img-src="img"
+                    :img-alt="imgAlt"
+                    :header="label"
+                    :links="submenu"
                 />
             </div>
         </div>
@@ -163,10 +52,21 @@
 
 <script>
 import SectionLinks from '@/components/index/SectionLinks'
+import { MENU } from '@/content/menu'
 
 export default {
     name: 'Home',
     components: { SectionLinks },
+    data() {
+        return {
+            menu: MENU,
+        }
+    },
+    computed: {
+        submenus() {
+            return this.menu.filter(({ type }) => type === 'submenu')
+        },
+    },
 }
 </script>
 
