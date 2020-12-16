@@ -86,6 +86,5 @@ img {
 
 p {
     font-size: 16px;
-    line-height:
 }
 </style>
