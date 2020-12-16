@@ -23,7 +23,8 @@
         "@nuxtjs/axios": "^5.12.3",
         "@nuxtjs/dotenv": "^1.4.1",
         "@nuxtjs/pwa": "^3.3.2",
-        "nuxt": "^2.14.9"
+        "nuxt": "^2.14.9",
+        "portal-vue": "^2.1.7"
     },
     "devDependencies": {
         "@hursey013/tailwindcss-uswds": "^1.2.0",

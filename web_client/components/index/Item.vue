@@ -1,5 +1,5 @@
 <template>
-    <div class="text-2xl highlight">
+    <div class="text-body-md highlight">
         <a :href="link"><slot></slot></a>
     </div>
 </template>
@@ -17,7 +17,11 @@ export default {
 }
 </script>
 <style scoped>
+.highlight {
+    @apply text-primary underline;
+}
+
 .highlight:hover {
-    @apply px-1 border-l-1 border-primary;
+    @apply text-primary-dark;
 }
 </style>
