@@ -1,5 +1,4 @@
 export default {
-    mode: 'spa', // Disable server for development only
     target: 'static', // Enable static mode for `nuxt generate`
     /*
      ** Headers of the page
@@ -7,27 +6,7 @@ export default {
     head: {
         title: 'Citizen Center',
 
-        script: [
-            {
-                src:
-                    'https://cdnjs.cloudflare.com/ajax/libs/uswds/2.7.0/js/uswds.min.js',
-            },
-        ],
-
-        meta: [
-            { charset: 'utf-8' },
-            {
-                name: 'viewport',
-                content: 'width=device-width, initial-scale=1',
-            },
-            {
-                hid: 'description',
-                name: 'description',
-                content:
-                    'Initial demo of what a Citizen Center could look like.',
-            },
-        ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        script: [],
     },
     /*
      ** Customize the progress-bar color
@@ -36,7 +15,7 @@ export default {
     /*
      ** Global CSS
      */
-    css: [{ src: 'uswds/dist/scss/uswds.scss', lang: 'scss' }],
+    css: ['@/assets/css/global.css'],
     /*
      ** Plugins to load before mounting the App
      */
@@ -58,6 +37,8 @@ export default {
         '@nuxtjs/pwa',
         // Doc: https://github.com/nuxt-community/dotenv-module
         '@nuxtjs/dotenv',
+        'portal-vue/nuxt',
+        '@nuxt/content',
     ],
     pwa: {
         meta: {

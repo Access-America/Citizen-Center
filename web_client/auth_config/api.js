@@ -6,7 +6,7 @@ function callApi(endpoint, token) {
 
     const options = {
         method: 'GET',
-        headers: headers,
+        headers,
     }
 
     logMessage('Calling Web API...')

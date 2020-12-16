@@ -12,7 +12,7 @@ auth.handleRedirectPromise()
 
         // Check for forgot password error
         // Learn more about AAD error codes at https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes
-        if (error.errorMessage.indexOf('AADB2C90118') > -1) {
+        if (error.errorMessage.includes('AADB2C90118')) {
             try {
                 auth.loginRedirect(b2cPolicies.authorities.forgotPassword)
             } catch (err) {
@@ -30,7 +30,6 @@ function selectAccount() {
     const currentAccounts = auth.getAllAccounts()
 
     if (!currentAccounts || currentAccounts.length < 1) {
-        return
     } else if (currentAccounts.length > 1) {
         // Add your account choosing logic here
         console.warn('Multiple accounts detected.')
@@ -55,9 +54,7 @@ function handleResponse(response) {
          * To learn more about B2C tokens, visit https://docs.microsoft.com/en-us/azure/active-directory-b2c/tokens-overview
          */
 
-        if (
-            response.idTokenClaims['acr'] === b2cPolicies.names.forgotPassword
-        ) {
+        if (response.idTokenClaims.acr === b2cPolicies.names.forgotPassword) {
             window.alert(
                 'Password has been reset successfully. \nPlease sign-in with your new password.'
             )
@@ -69,7 +66,7 @@ function handleResponse(response) {
 
             auth.logout(logoutRequest)
         } else if (
-            response.idTokenClaims['acr'] === b2cPolicies.names.editProfile
+            response.idTokenClaims.acr === b2cPolicies.names.editProfile
         ) {
             window.alert('Profile has been updated successfully.')
 

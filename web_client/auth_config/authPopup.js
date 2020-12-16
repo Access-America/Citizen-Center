@@ -18,7 +18,6 @@ export function selectAccount() {
     const currentAccounts = auth.getAllAccounts()
 
     if (!currentAccounts || currentAccounts.length < 1) {
-        return
     } else if (currentAccounts.length > 1) {
         // Add your account choosing logic here
         console.warn('Multiple accounts detected.')
@@ -63,7 +62,7 @@ export function signIn() {
             if (error.errorMessage) {
                 // Check for forgot password error
                 // Learn more about AAD error codes at https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-aadsts-error-codes
-                if (error.errorMessage.indexOf('AADB2C90118') > -1) {
+                if (error.errorMessage.includes('AADB2C90118')) {
                     auth.loginPopup(
                         b2cPolicies.authorities.forgotPassword
                     ).then((response) => {
