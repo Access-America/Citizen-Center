@@ -38,7 +38,7 @@
             </div>
             <div class="mb-10 sm:mb-15 flex flex-col md:items-center">
                 <section-links
-                    v-for="({ label, img, imgAlt, submenu }, idx) in submenu"
+                    v-for="({ label, img, imgAlt, submenu }, idx) in submenus"
                     :key="idx"
                     :img-src="img"
                     :img-alt="imgAlt"
@@ -63,7 +63,7 @@ export default {
         }
     },
     computed: {
-        submenu() {
+        submenus() {
             return this.menu.filter(({ type }) => type === 'submenu')
         },
     },
