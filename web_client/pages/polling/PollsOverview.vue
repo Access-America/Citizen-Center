@@ -36,20 +36,22 @@ export default {
             tabs: ["New", "VoteCast"],
             selected: "New",
             hideTabs: false,
+            pollId: ''
         }
     },
-    props: [
-        'pollId'
-    ],
     methods: {
         onPollChoice(value) {
             console.log('value: ', value);
-            this.selected = "VoteOnPoll";
-            this.hideTabs = true;
-            this.$props.pollId = value;
+            if (value === "VoteCast") {
+                this.selected = "VoteCast";
+                this.hideTabs = false;
+            } else {
+                this.selected = "VoteOnPoll";
+                this.hideTabs = true;
+                this.pollId = value;
+            }
+           
         }
-    },
-    created() {
     }
 }
 </script>
