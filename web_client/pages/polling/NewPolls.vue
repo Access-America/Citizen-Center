@@ -1,27 +1,29 @@
 <template>
   <div>
     <div v-if="answeredAll === true">You're all caught up-- Great job making your voice heard!</div>
-    <div v-else>
-      <h1>Polls for You</h1>
+    <div v-else class="ml-15 mb-15">
+      <h1 class="text-heading-lg md:text-heading-m font-heading mb-2">Polls for You</h1>
       <form @submit.prevent="goToPollDetails">
         <ul style="line-height: 1.8;">
-          <li v-for="poll in userSpecificPolls" :key="poll.pollId">
-            <input
-              type="radio"
-              v-bind:id="poll.pollIid"
-              v-bind:value="poll.pollId"
-              v-model="picked"
-            />
-            <label :for="poll.pollId">
-              {{poll.short}}
-              <br />
-              <span>{{poll.expiration_date}}</span>
-            </label>
-          </li>
+            <div v-for="(poll, index) in prodPolls" :key="poll.pollId">
+                <li v-if="index <= pollsToShow">
+                    <input
+                        type="radio"
+                        v-bind:id="poll.pollIid"
+                        v-bind:value="poll.pollId"
+                        v-model="picked"
+                    />
+                    <label :for="poll.pollId">
+                        {{poll.title}}
+                        <br />
+                        <span>{{poll.endDateTimeUtc}}</span>
+                    </label>
+                </li>
+            </div>
+
         </ul>
         <input type="submit" value="Participate" />
       </form>
-      <span>Picked: {{picked}}</span>
     </div>
   </div>
 </template>
@@ -34,6 +36,8 @@ export default {
         return {
             picked: '',
             answeredAll: false,
+            prodPolls: [],
+            pollsToShow: 2,
             userSpecificPolls: [
                 {
                     "pollId": "efbc7f93-17d9-49d2-b9bb-e806c928ee52",
@@ -87,33 +91,40 @@ export default {
         }
     }, 
     methods: {
-        // getUserSpecificPolls() {
-        //     console.log('working');
-        //     axios.get('https://ccusbackendcontituentpolling.azurewebsites.net/api/v1/polls')
-        //         .then((res) => {
-        //             console.log('res: ', res);
-        //         })
-        //         .catch((err) => {
-        //             console.error('err: ', err);
-        //         })
+        //if you provide Auth --> get polls specific to a state, city, etc.
+        getUserSpecificPolls() {
+            return new Promise((resolve, reject) => {
+                 axios.get('https://ccusbackendcontituentpolling.azurewebsites.net/api/v1/polls')
+                    .then((res) => {
+                        console.log('res: ', res.data);
+                        resolve(res.data);
+                    })
+                    .catch((err) => {
+                        reject(err);
+                    })
 
-        // },
+            })  
+
+        },
         goToPollDetails() {
             if (this.picked) {
                 console.log('form poll id: ', this.picked);
                 this.$emit('clicked', this.picked);
             } 
+        },
+        async expandAndRerender() {
+            this.pollsToShow += 2;
+            this.prodPolls = await this.getUserSpecificPolls();
         }
     },
-    // async created() {
-    //     await this.getUserSpecificPolls();
-    // }
+    async created() {
+        this.prodPolls = await this.getUserSpecificPolls();
+        console.log('electoral college answers: ', this.prodPolls[2].answers);
+    }
 }
 </script>
 
 <style scoped>
-
-
 li {
   padding: 10px;
 }
