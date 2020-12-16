@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npm ci",
     "start-local": "npm run build && export SENDGRID_API_KEY=123 && export QUEUE_CONNECTION=localhost && sls offline ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
