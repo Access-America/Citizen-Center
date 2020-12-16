@@ -1,6 +1,6 @@
 <template>
     <div class="text-body-md highlight">
-        <a :href="link"><slot></slot></a>
+        <NuxtLink :to="link"><slot></slot></NuxtLink>
     </div>
 </template>
 

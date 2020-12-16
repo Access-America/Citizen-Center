@@ -25,6 +25,7 @@
                         :show="activeSubmenu === idx"
                         :button-label="label"
                         :items="submenu"
+                        :on-click-item="closeSubmenu"
                     />
 
                     <a
@@ -55,10 +56,13 @@ export default {
         }
     },
     methods: {
+        closeSubmenu() {
+            this.activeSubmenu = undefined
+        },
         handleSubmenuButtonClick(idx) {
             if (this.activeSubmenu === idx) {
                 // close the active submenu
-                this.activeSubmenu = undefined
+                this.closeSubmenu()
             } else {
                 this.activeSubmenu = idx
             }

@@ -2,7 +2,8 @@
     <div class="bg-white">
         <Overlay :show="mobileNavOpen" />
 
-        <div
+        <NuxtLink
+            to="/"
             class="navbar flex justify-between max-w-desktop pl-2 sm:pr-2 m-auto sm:pt-4 sm:pb-3"
         >
             <div class="flex items-center">
@@ -23,7 +24,7 @@
             >
                 Menu
             </div>
-        </div>
+        </NuxtLink>
 
         <nav-menu :menu="menu" />
 
