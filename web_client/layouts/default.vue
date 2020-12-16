@@ -18,28 +18,36 @@ const HEADER_MENU = [
         label: 'On The Pulse',
         submenu: [
             {
-                label: 'Canvas America',
-                href: '#',
-            },
-            {
-                label: 'View congressional voting histories',
-                href: '#',
-            },
-            {
-                label: 'View the American Scorecard',
-                href: '#',
-            },
-            {
-                label: 'Contact congressional representatives',
-                href: '#',
+                label: 'Review congressional voting histories',
+                href: '/on-the-pulse/voting-histories',
             },
             {
                 label: 'Review special interest money in politics',
-                href: '#',
+                href: '/on-the-pulse/special-interest-money',
             },
             {
-                label: 'View bills, supreme court cases, calendars',
-                href: '#',
+                label: 'View Congressional Bills and Supreme Court Cases',
+                href: '/on-the-pulse/bills-cases',
+            },
+            {
+                label: 'Contact congressional representatives',
+                href: '/on-the-pulse/contact-representatives',
+            },
+            {
+                label: 'Complete the U.S. Census',
+                href: '/on-the-pulse/census',
+            },
+            {
+                label: 'View the American Scorecard',
+                href: '/on-the-pulse/american-scorecard',
+            },
+            {
+                label: 'Citizen Survey',
+                href: '/on-the-pulse/citizen-survey',
+            },
+            {
+                label: 'Canvas America',
+                href: '/on-the-pulse/canvas-america',
             },
         ],
     },
@@ -49,19 +57,19 @@ const HEADER_MENU = [
         submenu: [
             {
                 label: 'Apply for government assistance programs',
-                href: '#',
+                href: '/benefits-and-services/government-assistance',
             },
             {
                 label: 'Apply for unemployment',
-                href: '#',
+                href: '/benefits-and-services/unemployment',
             },
             {
-                label: 'Apply or renew passport',
-                href: '#',
+                label: 'Apply for or renew passport',
+                href: '/benefits-and-services/passport',
             },
             {
                 label: 'Other state/local sites',
-                href: '#',
+                href: '/benefits-and-services/websites',
             },
         ],
     },
@@ -70,32 +78,28 @@ const HEADER_MENU = [
         label: 'Elections',
         submenu: [
             {
-                label: 'Vote',
-                href: '#',
+                label: 'Register to vote',
+                href: '/elections/register-to-vote',
             },
             {
                 label: 'Check voter registration',
-                href: '#',
+                href: '/elections/check-voter-registration',
             },
             {
-                label: 'Register to run for office',
-                href: '#',
-            },
-            {
-                label: 'Register to vote',
-                href: '#',
+                label: 'Online Voting',
+                href: '/elections/vote-online',
             },
             {
                 label: 'Request absentee ballot',
-                href: '#',
+                href: '/elections/absentee-ballot',
             },
             {
-                label: 'Review voting history',
-                href: '#',
+                label: 'Register to run for office',
+                href: '/elections/run-for-office',
             },
             {
                 label: 'Volunteer as poll worker',
-                href: '#',
+                href: '/elections/volunteer',
             },
         ],
     },
@@ -104,24 +108,54 @@ const HEADER_MENU = [
         label: 'Financial',
         submenu: [
             {
-                label: 'Connect bank account',
-                href: '#',
-            },
-            {
                 label: 'File taxes',
-                href: '#',
-            },
-            {
-                label: 'Pay fines',
-                href: '#',
+                href: '/financial/file-taxes',
             },
             {
                 label: 'Review tax history',
-                href: '#',
+                href: '/financial/tax-history',
+            },
+            {
+                label: 'Connect bank account',
+                href: '/financial/connect-bank',
+            },
+            {
+                label: 'Pay fines',
+                href: '/financial/pay-fines',
             },
             {
                 label: 'Sign up for Freedom Dividend',
-                href: '#',
+                href: '/financial/freedom-dividend',
+            },
+        ],
+    },
+    {
+        type: 'submenu',
+        label: 'Profile',
+        submenu: [
+            {
+                label: 'Update Your Information',
+                href: '/profile/update',
+            },
+            {
+                label: 'Link Family Members',
+                href: '/profile/link-family',
+            },
+            {
+                label: 'Apply for Name Change',
+                href: '/profile/name-change',
+            },
+            {
+                label: 'Manage Notifications',
+                href: '/profile/notifications',
+            },
+            {
+                label: 'Manage Permissions',
+                href: '/profile/permissions',
+            },
+            {
+                label: 'Decentralized Identity',
+                href: '/profile/did',
             },
         ],
     },

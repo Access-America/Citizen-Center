@@ -1,6 +1,6 @@
 <template>
     <FeatureTemplate
-        header="On The Pulse"
+        header="Profile"
         featured-image="taxes.svg"
         featured-image-alt="Filing taxes"
         :article="article"
@@ -12,7 +12,7 @@
 <script>
 import FeatureTemplate from '@/components/FeatureTemplate'
 
-const DIR_NAME = 'on-the-pulse'
+const DIR_NAME = 'profile'
 
 export default {
     components: { FeatureTemplate },

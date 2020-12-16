@@ -13,7 +13,7 @@
                     <h1
                         class="text-heading-md lg:text-heading-lg font-heading font-bold text-base"
                     >
-                        On The Pulse
+                        {{ header }}
                     </h1>
                     <h2
                         v-if="article.title"
@@ -29,7 +29,7 @@
                     </h3>
                 </div>
 
-                <div class="mb-4 sm:mb-6">
+                <div class="pb-4 sm:pb-6">
                     <nuxt-content :document="article" />
                 </div>
 
