@@ -68,7 +68,7 @@ Not quite sure what we're doing? [Check out our wiki for more information](https
 # Contributing
 
 - **If you'd like to be actively involved with the team,** you can [join our Discord](https://discord.gg/tbcdybD), where you can chat with us about the vision, new features, ideas, design, and get access to more documentation + ways to collaborate.
-- **Anyone outside the team** is welcome to collaborate with us through [issues](https://github.com/Access-America/Citizen-Center/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+- **Anyone outside the team** is welcome to collaborate with us through [our Jira](https://accessamerica.atlassian.net/jira/software/c/projects/CC/issues) and [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Tech stack
 
