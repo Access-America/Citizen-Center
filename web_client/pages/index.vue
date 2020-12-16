@@ -6,7 +6,7 @@
                 <h3
                     class="mt-5 text-2xl text-center text-base-darkest font-heading text-heading-lg"
                 >
-                    Welcome to
+                    Welcome to the
                 </h3>
                 <h1
                     class="mt-1 text-4xl font-bold text-center text-primary font-heading text-heading-2xl"
