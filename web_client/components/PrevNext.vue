@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col flex-wrap sm:flex-row sm:justify-between">
-        <div class="order-3 pt-2 sm:pt-0 sm:order-1">
+        <div class="order-3 m-1 sm:order-1">
             <Link v-if="prev" :to="prev.slug" class="flex items-center">
                 <img
                     v-if="prev"
@@ -10,7 +10,7 @@
                 {{ prev.title }}</Link
             >
         </div>
-        <div class="order-2">
+        <div class="order-2 m-1">
             <Link v-if="next" :to="next.slug" class="flex items-center"
                 >{{ next.title }}
                 <img
@@ -19,6 +19,7 @@
                     src="@/assets/images/icons/arrow-right_primary.svg"
                 />
             </Link>
+            <Link v-if="!next" to="/">Home</Link>
         </div>
     </div>
 </template>
