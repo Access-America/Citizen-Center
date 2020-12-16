@@ -20,14 +20,17 @@
         "*.{js,vue}": "yarn lint"
     },
     "dependencies": {
+        "@azure/msal-browser": "^2.6.0",
         "@nuxtjs/axios": "^5.12.3",
         "@nuxtjs/dotenv": "^1.4.1",
         "@nuxtjs/pwa": "^3.3.2",
         "nuxt": "^2.14.9",
-        "portal-vue": "^2.1.7"
+        "portal-vue": "^2.1.7",
+        "uswds": "^2.9.0"
     },
     "devDependencies": {
         "@hursey013/tailwindcss-uswds": "^1.2.0",
+        "@nuxt/content": "^1.11.1",
         "@nuxt/types": "~2.14.9",
         "@nuxtjs/eslint-config": "^5.0.0",
         "@nuxtjs/eslint-module": "^3.0.1",
