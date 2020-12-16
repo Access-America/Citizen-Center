@@ -1,6 +1,5 @@
 <template>
   <div class="page">
-      <Header />
 
     <div>
       <h1 class="heading">On The Pulse</h1>
@@ -38,22 +37,13 @@
       </p>
     </div>
 
-    <div>
-      <Footer />
-    </div>
   </div>
 </template>
 
 <script>
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 
 export default {
-    name: 'Feature_Template',
-    components: {
-        Header,
-        Footer
-    }
+    name: 'Feature_Template'
     
 }
 </script>
