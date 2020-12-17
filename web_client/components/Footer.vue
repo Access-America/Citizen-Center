@@ -54,24 +54,13 @@
                 </div>
                 <div>
                     <div class="social hidden justify-end md:flex">
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/facebook25.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
+                        <a
+                            href="https://twitter.com/USAccessAmerica"
+                            class="social-link"
+                            target="_blank"
+                        >
                             <img
                                 src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/twitter16.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/youtube15.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/rss25.svg"
                             />
                         </a>
                     </div>
@@ -79,14 +68,9 @@
                         <div
                             class="contact-header font-bold hidden md:block md:text-right md:mb-1"
                         >
-                            Agency Contact Center
+                            Contact Us
                         </div>
-                        <div class="flex justify-between">
-                            <a
-                                class="text-white md:pr-4"
-                                href="tel:+1800-123-4567"
-                                >(800) CALL-GOVT</a
-                            >
+                        <div class="md:text-right">
                             <a href="mailto:info@agency.gov">info@agency.gov</a>
                         </div>
                     </div>
