@@ -1,5 +1,5 @@
 <template>
-    <div class="feature-template flex justify-center items-center">
+    <div class="feature-template">
         <div
             class="max-w-desktop m-auto py-6 md:py-10 px-2 flex flex-col md:flex-row md:space-x-10"
         >
@@ -82,7 +82,7 @@ export default {
 
 <style>
 .feature-template {
-    min-height: 70vh;
+    min-height: 63vh;
 }
 
 .feature-template .nuxt-content h1,
