@@ -3,12 +3,11 @@ title: Apply for Government Assistance Programs
 order: 1
 ---
 
-### this is an h3
+The story of every American is different. They come from different backgrounds, homes, schools, and environments. Their struggles are as unique as they are as individuals, and a role of the government should be to help them when they need it.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturkko
+There are many different government assistance programs, such as food stamps, welfare, temporary assistance, or child healthcare. These social programs are vital to helping our most vulnerable citizens, and it should not be difficult to apply to them. The Citizen Center will make it easy for anyone to apply to various government assistance programs. Americans deserve the services that are available to them, without having to worry about difficult application processes.
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Problems it solves:
+- Aides our most vulnerable citizens
+- Makes it easier to apply to GAPs
+- Streamlines a process that is currently filled with red-tape and lag times

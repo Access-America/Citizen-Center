@@ -1,6 +1,6 @@
 ---
-title: Decentralized Identity with Verifiable Credentials (DID)
+title: Decentralized Identity (DID)
 order: 6
 ---
 
-insert content here
+Coming soon!

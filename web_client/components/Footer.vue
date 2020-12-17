@@ -9,35 +9,6 @@
                 >
             </div>
         </div>
-        <div class="head bg-primary-dark">
-            <div class="head-inner m-auto max-w-desktop md:px-2">
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Documentation</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Features</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Getting Started</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >About Us</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Privacy Policy</a
-                >
-            </div>
-        </div>
         <div class="bottom pb-2 bg-primary-darker">
             <div
                 class="m-auto flex flex-col-reverse max-w-desktop md:justify-between md:flex-row md:py-3 md:px-4"
@@ -46,32 +17,21 @@
                     <img
                         class="tech-logo mr-2"
                         src="@/assets/images/dept-of-tech-logo.svg"
-                        imgAlt="Department of Technology logo"
+                        imgAlt="Access America"
                     />
                     <div class="tech-header flex items-center font-bold">
-                        Department of Technology
+                        Access America
                     </div>
                 </div>
                 <div>
                     <div class="social hidden justify-end md:flex">
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/facebook25.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
+                        <a
+                            href="https://twitter.com/USAccessAmerica"
+                            class="social-link"
+                            target="_blank"
+                        >
                             <img
                                 src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/twitter16.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/youtube15.svg"
-                            />
-                        </a>
-                        <a href="#" class="social-link">
-                            <img
-                                src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/social-icons/rss25.svg"
                             />
                         </a>
                     </div>
@@ -79,14 +39,9 @@
                         <div
                             class="contact-header font-bold hidden md:block md:text-right md:mb-1"
                         >
-                            Agency Contact Center
+                            Contact Us
                         </div>
-                        <div class="flex justify-between">
-                            <a
-                                class="text-white md:pr-4"
-                                href="tel:+1800-123-4567"
-                                >(800) CALL-GOVT</a
-                            >
+                        <div class="md:text-right">
                             <a href="mailto:info@agency.gov">info@agency.gov</a>
                         </div>
                     </div>

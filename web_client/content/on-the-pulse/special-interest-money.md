@@ -3,12 +3,11 @@ title: Review Special Interest Money in Politics
 order: 2
 ---
 
-### this is an h3
+Money is the driving force behind a lot of moves that are made in Washington. Organizations and Special Interest Groups lobby for congress people to vote a certain way, or to push legislation that would be beneficial to them. The oil industry lobbies against clean energy. The automotive industry lobbies against self-driving cars.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturkko
+These groups drown out the voice of the American people. At the very least, the money donated to politicians by Special Interest Groups should be available to the public. The Citizen Center will present this information, in order to hold politicians and groups accountable for the biases they are working with.
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Problems it solves:
+- Shines a light on Special Interest Groups
+- Keep politicians accountable as to where their funding comes from
+- Informs citizens about where their voices are being suppressed

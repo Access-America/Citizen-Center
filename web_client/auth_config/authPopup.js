@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as msal from '@azure/msal-browser'
 import { msalConfig, loginRequest } from './authConfig'
 import { b2cPolicies } from './policies'

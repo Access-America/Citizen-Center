@@ -3,12 +3,11 @@ title: Apply for Unemployment
 order: 2
 ---
 
-### this is an h3
+The current methods for applying for unemployment in U.S. states is archaic. Americans have to call a hotline and suffer through long hold times, phone disconnections, and inexplicable busy signals. Why is applying for unemployment not as simple as filling out a form online?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturkko
+U.S. residents who are unfortunate enough to lose their jobs should not have to then endure a painstaking process to get relief. The Citizen Center will make filing for unemployment easier than ever before. Simply fill out an online application explaining your situation, and the application will be submitted for review. No phone calls, no long wait times, and no frustration. 
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Problems it solves:
+- Makes it easier to file for unemployment
+- Does not kick Americans when they are already down
+- Streamlines the currently inefficient and unnecessary government agencies

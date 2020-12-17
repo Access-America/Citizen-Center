@@ -7,11 +7,11 @@ export const MENU = [
         imgAlt: 'Filing taxes',
         submenu: [
             {
-                label: 'Review congressional voting histories',
+                label: 'Review Congressional Voting Histories',
                 href: '/on-the-pulse/voting-histories',
             },
             {
-                label: 'Review special interest money in politics',
+                label: 'Review Special Interest Money in Politics',
                 href: '/on-the-pulse/special-interest-money',
             },
             {
@@ -19,7 +19,7 @@ export const MENU = [
                 href: '/on-the-pulse/bills-cases',
             },
             {
-                label: 'Contact congressional representatives',
+                label: 'Contact Congressional Representatives',
                 href: '/on-the-pulse/contact-representatives',
             },
             {
@@ -34,10 +34,6 @@ export const MENU = [
                 label: 'Citizen Survey',
                 href: '/on-the-pulse/citizen-survey',
             },
-            {
-                label: 'Canvas America',
-                href: '/on-the-pulse/canvas-america',
-            },
         ],
     },
     {
@@ -47,19 +43,19 @@ export const MENU = [
         label: 'Benefits & Services',
         submenu: [
             {
-                label: 'Apply for government assistance programs',
+                label: 'Apply for Government Assistance Programs',
                 href: '/benefits-and-services/government-assistance',
             },
             {
-                label: 'Apply for unemployment',
+                label: 'Apply for Unemployment',
                 href: '/benefits-and-services/unemployment',
             },
             {
-                label: 'Apply for or renew passport',
+                label: 'Apply for or Renew Passport',
                 href: '/benefits-and-services/passport',
             },
             {
-                label: 'Other state/local sites',
+                label: 'Useful Websites in Your Area',
                 href: '/benefits-and-services/websites',
             },
         ],
@@ -71,11 +67,11 @@ export const MENU = [
         label: 'Elections',
         submenu: [
             {
-                label: 'Register to vote',
+                label: 'Register to Vote',
                 href: '/elections/register-to-vote',
             },
             {
-                label: 'Check voter registration',
+                label: 'Check Voter Registration',
                 href: '/elections/check-voter-registration',
             },
             {
@@ -83,15 +79,15 @@ export const MENU = [
                 href: '/elections/vote-online',
             },
             {
-                label: 'Request absentee ballot',
+                label: 'Request Absentee Ballot',
                 href: '/elections/absentee-ballot',
             },
             {
-                label: 'Register to run for office',
+                label: 'Register to Run for Office',
                 href: '/elections/run-for-office',
             },
             {
-                label: 'Volunteer as poll worker',
+                label: 'Volunteer as Poll Worker',
                 href: '/elections/volunteer',
             },
         ],
@@ -103,19 +99,19 @@ export const MENU = [
         label: 'Financial',
         submenu: [
             {
-                label: 'File taxes',
+                label: 'File Taxes',
                 href: '/financial/file-taxes',
             },
             {
-                label: 'Review tax history',
+                label: 'Review Tax History',
                 href: '/financial/tax-history',
             },
             {
-                label: 'Connect bank account',
+                label: 'Connect Bank Account',
                 href: '/financial/connect-bank',
             },
             {
-                label: 'Pay fines',
+                label: 'Pay Fines',
                 href: '/financial/pay-fines',
             },
             {
@@ -143,7 +139,7 @@ export const MENU = [
                 href: '/profile/name-change',
             },
             {
-                label: 'Manage Notifications',
+                label: 'Receive Notifications',
                 href: '/profile/notifications',
             },
             {
