@@ -34,10 +34,6 @@ export const MENU = [
                 label: 'Citizen Survey',
                 href: '/on-the-pulse/citizen-survey',
             },
-            {
-                label: 'Canvas America',
-                href: '/on-the-pulse/canvas-america',
-            },
         ],
     },
     {
@@ -143,7 +139,7 @@ export const MENU = [
                 href: '/profile/name-change',
             },
             {
-                label: 'Manage Notifications',
+                label: 'Receive Notifications',
                 href: '/profile/notifications',
             },
             {
