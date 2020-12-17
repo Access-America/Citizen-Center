@@ -9,35 +9,6 @@
                 >
             </div>
         </div>
-        <div class="head bg-primary-dark">
-            <div class="head-inner m-auto max-w-desktop md:px-2">
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Documentation</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Features</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Getting Started</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >About Us</a
-                >
-                <a
-                    href="#"
-                    class="block link border-t-1px p-2 border-primary-darker text-white hover:underline md:border-0"
-                    >Privacy Policy</a
-                >
-            </div>
-        </div>
         <div class="bottom pb-2 bg-primary-darker">
             <div
                 class="m-auto flex flex-col-reverse max-w-desktop md:justify-between md:flex-row md:py-3 md:px-4"
