@@ -1,5 +1,5 @@
 <template>
-    <div class="feature-template flex justify-center items-center">
+    <div class="feature-template">
         <div
             class="max-w-desktop m-auto py-6 md:py-10 px-2 flex flex-col md:flex-row md:space-x-10"
         >
@@ -10,17 +10,17 @@
             />
             <article>
                 <div class="mb-4">
-                    <h1
+                    <h2
                         class="text-heading-md lg:text-heading-lg font-heading font-bold text-base"
                     >
                         {{ header }}
-                    </h1>
-                    <h2
+                    </h2>
+                    <h1
                         v-if="article.title"
                         class="text-heading-xl lg:text-heading-3xl font-heading font-bold text-primary-darker"
                     >
                         {{ article.title }}
-                    </h2>
+                    </h1>
                     <h3
                         v-if="article.subtitle"
                         class="text-heading-md lg:text-heading-lg font-heading text-base-primary-darker"
@@ -83,6 +83,10 @@ export default {
 <style>
 .feature-template {
     min-height: 70vh;
+}
+
+.nuxt-content {
+    @apply text-base-darker;
 }
 
 .feature-template .nuxt-content h1,

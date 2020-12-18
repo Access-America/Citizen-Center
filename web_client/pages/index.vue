@@ -2,9 +2,9 @@
     <div>
         <Header />
         <div class="px-3">
-            <div class="mb-6 md:mb-10 max-w-tablet m-auto">
+            <div class="mb-6 md:mb-10 max-w-tablet m-auto text-base-darker">
                 <h3
-                    class="mt-5 text-2xl text-center text-base-darkest font-heading text-heading-lg"
+                    class="mt-5 text-2xl text-center font-heading text-heading-lg"
                 >
                     Welcome to the
                 </h3>
