@@ -2,19 +2,18 @@
     <div class="bg-white">
         <Overlay :show="mobileNavOpen" />
 
-        <NuxtLink
-            to="/"
+        <div
             class="navbar flex justify-between max-w-desktop pl-2 sm:pr-2 m-auto sm:pt-4 sm:pb-3"
         >
-            <div class="flex items-center">
+            <NuxtLink to="/" class="flex items-center">
                 <img
                     class="logo mr-105 sm:mr-2 sm:w-5 sm:h-5 w-3 h-3"
                     src="@/assets/images/logo.svg"
                 />
-                <div class="font-bold text-ui-sm sm:text-ui-lg md:text-ui-xl">
+                <span class="font-bold text-ui-sm sm:text-ui-lg md:text-ui-xl">
                     Citizen Center
-                </div>
-            </div>
+                </span>
+            </NuxtLink>
 
             <account-buttons class="hidden sm:block" />
 
@@ -24,7 +23,7 @@
             >
                 Menu
             </div>
-        </NuxtLink>
+        </div>
 
         <nav-menu :menu="menu" />
 
