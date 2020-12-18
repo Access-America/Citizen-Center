@@ -2,7 +2,7 @@
     "name": "citizen-center",
     "version": "1.0.0",
     "private": true,
-    "description": "Initial demo of what a Citizen Center could look like.",
+    "description": "The one-stop shop for every American.",
     "author": "Access America",
     "scripts": {
         "build": "nuxt generate",
