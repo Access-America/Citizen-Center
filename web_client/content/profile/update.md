@@ -3,7 +3,7 @@ title: Easily Update Your Information
 order: 1
 ---
 
-On the Citizen Center, you will have a profile, just like many other modern-day sites. This profile will include the information you have voluntarily provided, such as your name, email, mailing address, and so on.
+On the Citizen Center you will have a profile, just like many other modern-day sites. This profile will include the information you have voluntarily provided, such as your name, email, mailing address, and so on.
 
 Instead of mailing in various forms to the DMV, the Social Security Administration, or a dozen other government agencies, you can easily update your personal information right in the Citizen Center. Did you move? No need to send in a form. Just update your new address online. All of your past addresses would also be listed.
 
