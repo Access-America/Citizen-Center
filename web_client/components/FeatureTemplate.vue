@@ -82,7 +82,7 @@ export default {
 
 <style>
 .feature-template {
-    min-height: 63vh;
+    min-height: 70vh;
 }
 
 .nuxt-content {
