@@ -27,7 +27,7 @@
         "@nuxtjs/pwa": "^3.3.2",
         "nuxt": "^2.14.12",
         "portal-vue": "^2.1.7",
-        "uswds": "^2.9.0"
+        "uswds": "^2.10.0"
     },
     "devDependencies": {
         "@hursey013/tailwindcss-uswds": "^1.2.0",
