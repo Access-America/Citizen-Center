@@ -42,7 +42,9 @@
                             Contact Us
                         </div>
                         <div class="md:text-right">
-                            <a href="mailto:info@agency.gov">info@agency.gov</a>
+                            <a href="mailto:info@accessamerica.us">
+                                info@accessamerica.us
+                            </a>
                         </div>
                     </div>
                 </div>
