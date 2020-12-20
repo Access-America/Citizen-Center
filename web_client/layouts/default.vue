@@ -1,7 +1,6 @@
 <template>
     <div>
         <portal-target name="nav-overlay"></portal-target>
-        <gov-banner />
         <Header :menu="headerMenu" />
         <nuxt />
         <Footer />
