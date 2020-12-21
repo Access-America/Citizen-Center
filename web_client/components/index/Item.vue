@@ -1,13 +1,15 @@
 <template>
     <div class="text-body-md highlight">
-        <NuxtLink :to="link"><slot></slot></NuxtLink>
+        <Link :to="link"><slot></slot></Link>
     </div>
 </template>
 
 <script>
+import Link from '@/components/Link'
+
 export default {
     name: 'Item',
-    components: {},
+    components: { Link },
     props: {
         link: {
             type: String,
@@ -16,6 +18,7 @@ export default {
     },
 }
 </script>
+
 <style scoped>
 .highlight {
     @apply text-primary underline;

@@ -112,4 +112,8 @@ export default {
 .feature-template .nuxt-content ol {
     @apply my-3 text-body-md font-body list-decimal ml-205;
 }
+
+.feature-template .nuxt-content a {
+    @apply text-primary underline;
+}
 </style>
