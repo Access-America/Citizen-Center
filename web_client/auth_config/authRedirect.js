@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 // Create the main myMSALObj instance
 // configuration parameters are located at authConfig.js
 const auth = new msal.PublicClientApplication(msalConfig)

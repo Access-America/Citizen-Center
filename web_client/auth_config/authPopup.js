@@ -43,6 +43,9 @@ function handleResponse(response) {
         console.log(
             `Welcome, ${response.idTokenClaims.given_name}. Your token is ${response.idToken}`
         )
+
+        localStorage.setItem('idToken', response.idToken)
+        location.reload()
     } else {
         selectAccount()
     }
@@ -83,6 +86,8 @@ export function signOut() {
      * https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-browser/docs/request-response-object.md#request
      */
 
+    // remove token data
+    localStorage.clear()
     // Choose which account to logout from by passing a username.
     const logoutRequest = {
         account: auth.getAccountByHomeId(accountId),
