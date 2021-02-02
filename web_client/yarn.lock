@@ -1429,13 +1429,13 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/axios@^5.12.4":
-  version "5.12.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.4.tgz"
-  integrity sha512-NKDIkrhtteOwC163Qlglw7YyjWHfLecpC/wXax4Z2tVVDlYnvSBa1KGoH9AnDY30lfvi0gjBKWCcTnUY8PaWDA==
+"@nuxtjs/axios@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.13.0.tgz#e0771829fc093b1232ed0a94eae379fd64c7994d"
+  integrity sha512-ppTgvKENzXhz7Ro7uqDWVlFJfiaoYfDXlSbUwMIabPsTZOJ/sR3+366KNy7fE/PY0qjzFe4ftA8ZWjY2ZWWesA==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
-    axios "^0.21.0"
+    axios "^0.21.1"
     axios-retry "^3.1.9"
     consola "^2.15.0"
     defu "^3.2.2"
@@ -2607,10 +2607,10 @@ axios-retry@^3.1.9:
   dependencies:
     is-retry-allowed "^1.1.0"
 
-axios@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.21.0.tgz"
-  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
