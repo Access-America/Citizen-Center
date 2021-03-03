@@ -22,7 +22,7 @@
     },
     "dependencies": {
         "@azure/msal-browser": "^2.8.0",
-        "@nuxt/content": "^1.11.1",
+        "@nuxt/content": "^1.14.0",
         "@nuxtjs/axios": "^5.12.4",
         "@nuxtjs/dotenv": "^1.4.1",
         "@nuxtjs/pwa": "^3.3.3",
