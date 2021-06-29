@@ -21,7 +21,7 @@
         "*.{js,vue}": "yarn lint"
     },
     "dependencies": {
-        "@azure/msal-browser": "^2.8.0",
+        "@azure/msal-browser": "^2.15.0",
         "@nuxt/content": "^1.11.1",
         "@nuxtjs/axios": "^5.12.4",
         "@nuxtjs/dotenv": "^1.4.1",
