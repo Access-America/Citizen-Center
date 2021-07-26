@@ -18,7 +18,7 @@ export const msalConfig = {
     },
     cache: {
         cacheLocation: 'localStorage', // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO.
-        storeAuthStateInCookie: false, // If you wish to store cache items in cookies as well as browser cache, set this to "true"
+        storeAuthStateInCookie: false, // If you wish to store cache items in cookies as well as browser cache, set this to "true".
     },
 }
 
