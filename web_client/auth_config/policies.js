@@ -9,7 +9,7 @@ export const b2cPolicies = {
         signUpSignIn: 'B2C_1_sisu',
         forgotPassword: 'B2C_1_reset_password',
         editProfile: 'B2C_1_edit_profile',
-        vcSignIn: 'B2C_1A_VC_susi_vc',
+        vcSignIn: 'B2C_1A_VC_SIGNINVCONLY',
         vcLinkAccounts: 'B2C_1A_VC_Link'
     },
     authorities: {
@@ -26,7 +26,7 @@ export const b2cPolicies = {
                 'https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1_edit_profile',
         },
         vcSignIn: {
-            authority: 'https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1A_VC_susi_vc'
+            authority: 'https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1A_VC_SIGNINVCONLY'
         },
         vcLinkAccounts: {
             authority: 'https://uscitizencenter.b2clogin.com/uscitizencenter.onmicrosoft.com/B2C_1A_VC_Link'
