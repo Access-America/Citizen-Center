@@ -13,7 +13,7 @@
                             'text-white': activeSubmenu === idx,
                             open: activeSubmenu === idx,
                         }"
-                        class="flex relative items-center p-2 font-bold select-none nav-item-button text-ui-2xs text-base-dark"
+                        class="relative flex items-center p-2 font-bold select-none nav-item-button text-ui-2xs text-base-dark"
                         @click="() => handleSubmenuButtonClick(idx)"
                     >
                         <span>
