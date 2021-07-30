@@ -14,7 +14,7 @@
             >
                 {{ header }}
             </h2>
-            <div class="items-start justify-center custom-grid">
+            <div class="grid items-start justify-center grid-cols-1 md:grid-cols-[repeat(2,minmax(0,360px))] md:gap-x-9">
                 <Item
                     v-for="link in links"
                     :key="link.label"
@@ -56,17 +56,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-.custom-grid {
-    @apply grid grid-cols-1;
-}
-
-@screen md {
-    .custom-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 360px));
-        column-gap: 2.25rem;
-    }
-}
-</style>
