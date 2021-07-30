@@ -6,7 +6,10 @@ export default {
     head: {
         title: 'Citizen Center',
 
-        script: [],
+        script: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' },
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js'}
+        ],
     },
     /*
      ** Customize the progress-bar color
