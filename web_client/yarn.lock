@@ -85,7 +85,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/eslint-parser@^7.12.16":
+"@babel/eslint-parser@^7.12.16", "@babel/eslint-parser@^7.14.7":
   version "7.14.7"
   resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.14.7.tgz#91be59a4f7dd60d02a3ef772d156976465596bda"
   integrity sha512-6WPwZqO5priAGIwV6msJcdc9TsEPzYeYdS/Xuoap+/ihkgN6dzHp2bcAAwyWZ5bLzk0vvjDmKvRwkqNaiJ8BiQ==
@@ -4330,6 +4330,11 @@ core-js@^2.6.5:
   resolved "https://registry.npmjs.org/core-js/-/core-js-2.6.11.tgz"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
 
+core-js@^3.15.1:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.0.tgz#1d46fb33720bc1fa7f90d20431f36a5540858986"
+  integrity sha512-5+5VxRFmSf97nM8Jr2wzOwLqRo6zphH2aX+7KsAUONObyzakDNq2G/bgbhinxB4PoV9L3aXQYhiDKyIKWd2c8g==
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
@@ -5527,7 +5532,7 @@ eslint-plugin-vue@^7.1.0:
     semver "^7.3.2"
     vue-eslint-parser "^7.1.1"
 
-eslint-plugin-vue@^7.9.0:
+eslint-plugin-vue@^7.12.1, eslint-plugin-vue@^7.9.0:
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.14.0.tgz#8c00f211064bd2708fc1aa4abd0592538fbb2cb1"
   integrity sha512-IW5A2Td0wEWjFGaGVEO24JNXa8cVFzAQTXrYv/Vu3zyDVS9sjwOpZY0iqub7FOkT2AK3Imtw4U4wg48pP9oWww==
