@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .highlight {
-    @apply text-primary underline;
+    @apply text-primary-default underline;
 }
 
 .highlight:hover {

@@ -1,7 +1,7 @@
 <template>
     <NuxtLink
         v-bind="{ ...$props, ...$attrs }"
-        class="underline text-primary hover:text-primary-dark"
+        class="underline text-primary-default hover:text-primary-dark"
     >
         <slot></slot>
     </NuxtLink>

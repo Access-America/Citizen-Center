@@ -9,7 +9,7 @@
                     Welcome to the
                 </h3>
                 <h1
-                    class="mt-1 text-4xl font-bold text-center text-primary font-heading text-heading-2xl"
+                    class="mt-1 text-4xl font-bold text-center text-primary-default font-heading text-heading-2xl"
                 >
                     Citizen Center
                 </h1>

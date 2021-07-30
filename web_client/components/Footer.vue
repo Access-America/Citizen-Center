@@ -3,7 +3,7 @@
         <div class="return-top bg-base-lightest">
             <div class="m-auto py-1 px-2 md:px-4 max-w-desktop">
                 <a
-                    class="underline text-primary hover:text-primary-dark"
+                    class="underline text-primary-default hover:text-primary-dark"
                     href="#"
                     >Return to top</a
                 >

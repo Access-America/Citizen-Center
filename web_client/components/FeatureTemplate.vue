@@ -1,23 +1,23 @@
 <template>
     <div class="feature-template">
         <div
-            class="max-w-desktop m-auto py-6 md:py-10 px-2 flex flex-col md:flex-row md:space-x-10"
+            class="flex flex-col px-2 py-6 m-auto max-w-desktop md:py-10 md:flex-row md:space-x-10"
         >
             <icon-image
                 :src="featuredImage"
                 :alt="featuredImageAlt"
-                class="mb-3 self-start"
+                class="self-start mb-3"
             />
             <article>
                 <div class="mb-4">
                     <h2
-                        class="text-heading-md lg:text-heading-lg font-heading font-bold text-base"
+                        class="text-base font-bold text-heading-md lg:text-heading-lg font-heading"
                     >
                         {{ header }}
                     </h2>
                     <h1
                         v-if="article.title"
-                        class="text-heading-xl lg:text-heading-3xl font-heading font-bold text-primary-darker"
+                        class="font-bold text-heading-xl lg:text-heading-3xl font-heading text-primary-darker"
                     >
                         {{ article.title }}
                     </h1>
@@ -114,6 +114,6 @@ export default {
 }
 
 .feature-template .nuxt-content a {
-    @apply text-primary underline;
+    @apply text-primary-default underline;
 }
 </style>
