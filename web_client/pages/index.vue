@@ -2,7 +2,7 @@
     <div>
         <Header />
         <div class="px-3">
-            <div class="mb-6 md:mb-10 max-w-tablet m-auto text-base-darker">
+            <div class="m-auto mb-6 md:mb-10 max-w-tablet text-base-darker">
                 <h3
                     class="mt-5 text-2xl text-center font-heading text-heading-lg"
                 >
@@ -36,7 +36,7 @@
                     of the site is currently available for browsing.
                 </p>
             </div>
-            <div class="mb-10 sm:mb-15 flex flex-col md:items-center">
+            <div class="flex flex-col mb-10 md:items-center sm:mb-15">
                 <section-links
                     v-for="({ label, img, imgAlt, submenu }, idx) in submenus"
                     :key="idx"

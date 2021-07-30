@@ -1,7 +1,7 @@
 <template>
     <portal to="nav-overlay">
         <div
-            class="nav-overlay fixed inset-0 bg-black opacity-0 z-300"
+            class="fixed inset-0 bg-black opacity-0 nav-overlay z-300"
             :class="{
                 invisible: !show,
                 'opacity-20': show,

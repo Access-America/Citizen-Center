@@ -1,11 +1,11 @@
 <template>
-    <nav class="nav border-t-1px sm:border-b-1px border-base-lighter">
-        <div class="nav-inner max-w-desktop px-2 m-auto hidden sm:block">
+    <nav class="nav border-t-1px border-base-lighter sm:border-b-1px">
+        <div class="hidden px-2 m-auto sm:block nav-inner max-w-desktop">
             <ul class="flex">
                 <li
                     v-for="({ type, label, submenu, href }, idx) in menu"
                     :key="idx"
-                    class="nav-item cursor-pointer"
+                    class="cursor-pointer nav-item"
                 >
                     <div
                         :class="{
@@ -13,7 +13,7 @@
                             'text-white': activeSubmenu === idx,
                             open: activeSubmenu === idx,
                         }"
-                        class="nav-item-button select-none p-2 text-ui-2xs font-bold text-base-dark flex items-center relative"
+                        class="flex relative items-center p-2 font-bold select-none nav-item-button text-ui-2xs text-base-dark"
                         @click="() => handleSubmenuButtonClick(idx)"
                     >
                         <span>
@@ -30,7 +30,7 @@
 
                     <a
                         v-if="type === 'link'"
-                        class="nav-item-link p-2 block text-ui-2xs font-bold text-base-dark"
+                        class="block p-2 font-bold nav-item-link text-ui-2xs text-base-dark"
                         :href="href"
                         >{{ label }}</a
                     >

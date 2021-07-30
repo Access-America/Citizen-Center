@@ -1,14 +1,14 @@
 <template>
     <div
         v-if="show"
-        class="megamenu absolute left-0 right-0 w-auto bg-primary-darker text-white"
+        class="absolute left-0 right-0 w-auto text-white megamenu bg-primary-darker"
     >
-        <div class="megamenu-inner max-w-desktop m-auto pt-4 pb-3 pl-2">
+        <div class="pt-4 pb-3 pl-2 m-auto megamenu-inner max-w-desktop">
             <NuxtLink
                 v-for="({ href, label }, idx) in items"
                 :key="idx"
                 :to="href"
-                class="megamenu-link hover:underline text-ui-2xs pl-2 pb-105"
+                class="pl-2 hover:underline megamenu-link text-ui-2xs pb-105"
                 @click.native="() => onClickItem(items[idx])"
             >
                 {{ label }}

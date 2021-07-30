@@ -1,7 +1,7 @@
 <template>
     <div class="feature-template">
         <div
-            class="flex flex-col px-2 py-6 m-auto max-w-desktop md:py-10 md:flex-row md:space-x-10"
+            class="flex flex-col px-2 py-6 m-auto md:flex-row md:py-10 md:space-x-10 max-w-desktop"
         >
             <icon-image
                 :src="featuredImage"
@@ -11,19 +11,19 @@
             <article>
                 <div class="mb-4">
                     <h2
-                        class="text-base font-bold text-heading-md lg:text-heading-lg font-heading"
+                        class="text-base font-bold text-heading-md font-heading lg:text-heading-lg"
                     >
                         {{ header }}
                     </h2>
                     <h1
                         v-if="article.title"
-                        class="font-bold text-heading-xl lg:text-heading-3xl font-heading text-primary-darker"
+                        class="font-bold text-heading-xl font-heading text-primary-darker lg:text-heading-3xl"
                     >
                         {{ article.title }}
                     </h1>
                     <h3
                         v-if="article.subtitle"
-                        class="text-heading-md lg:text-heading-lg font-heading text-base-primary-darker"
+                        class="text-heading-md font-heading text-base-primary-darker lg:text-heading-lg"
                     >
                         {{ article.subtitle }}
                     </h3>

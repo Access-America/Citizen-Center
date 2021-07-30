@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="relative p-1 header sm:p-05 bg-base-lightest font-ui">
+        <header class="relative p-1 header bg-base-lightest font-ui sm:p-05">
             <div class="flex pl-1">
                 <img
                     class="self-start mr-1 mt-05"
@@ -12,14 +12,14 @@
                         An official website of the United States government
                     </div>
                     <p
-                        class="flex items-center underline text-primary-default sm:hidden"
+                        class="flex items-center underline sm:hidden text-primary-default"
                     >
                         Here's how you know
                         <img class="w-1 h-1 ml-05" :src="angleImagePath" />
                     </p>
                 </div>
                 <button
-                    class="absolute inset-0 flex items-center w-full underline button text-primary-default focus:outline-none sm:static sm:w-auto"
+                    class="absolute inset-0 flex items-center w-full underline sm:static sm:w-auto focus:outline-none button text-primary-default"
                     @click.prevent="toggleOpen"
                 >
                     <span class="items-center hidden sm:flex">
@@ -28,7 +28,7 @@
                     </span>
                     <div
                         v-if="open"
-                        class="absolute top-0 right-0 flex items-center justify-center w-6 h-6 bg-base-lighter sm:hidden"
+                        class="absolute top-0 right-0 flex items-center justify-center w-6 h-6 sm:hidden bg-base-lighter"
                     >
                         <img
                             src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/close-blue-60v-alt.svg"
@@ -39,7 +39,7 @@
         </header>
         <div
             v-if="open"
-            class="flex flex-col pb-2 pl-1 pr-2 text-body-xs bg-base-lightest pt-05 md:flex-row md:space-x-6"
+            class="flex flex-col pb-2 pl-1 pr-2 md:flex-row md:space-x-6 text-body-xs bg-base-lightest pt-05"
         >
             <div class="flex pt-2">
                 <div class="mr-1 min-w-5">

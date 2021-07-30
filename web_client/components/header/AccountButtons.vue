@@ -13,8 +13,6 @@
 import Button from '@/components/button/Button'
 import ButtonGroup from '@/components/button/ButtonGroup'
 import * as authPopup from '../../auth_config/authPopup'
-import authConfig from '../../auth_config/authConfig'
-import policies from '../../auth_config/policies'
 
 export default {
     name: 'AccountButtons',
@@ -22,19 +20,19 @@ export default {
     data: () => ({
         tokenValue: process.browser ? localStorage.getItem('idToken') : null,
     }),
+    computed: {
+        token: {
+            get () {
+                return this.tokenValue
+            },
+        },
+    },
     methods: {
         signIn() {
             return authPopup.signIn()
         },
         signOut() {
             return authPopup.signOut()
-        },
-    },
-    computed: {
-        token: {
-            get: function () {
-                return this.tokenValue
-            },
         },
     },
 }
