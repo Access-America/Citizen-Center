@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="relative p-1 header bg-base-lightest font-ui sm:p-05">
+        <header class="relative p-1 text-heading-3xs bg-base-lightest font-ui sm:p-05">
             <div class="flex pl-1">
                 <img
                     class="self-start mr-1 mt-05"
@@ -97,18 +97,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-.header {
-    font-size: 0.8rem;
-}
-
-@screen sm {
-    .button {
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: auto;
-    }
-}
-</style>
