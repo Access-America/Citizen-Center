@@ -2,14 +2,14 @@
     <div>
         <Header />
         <div class="px-3">
-            <div class="mb-6 md:mb-10 max-w-tablet m-auto text-base-darker">
+            <div class="m-auto mb-6 md:mb-10 max-w-tablet text-base-darker">
                 <h3
                     class="mt-5 text-2xl text-center font-heading text-heading-lg"
                 >
                     Welcome to the
                 </h3>
                 <h1
-                    class="mt-1 text-4xl font-bold text-center text-primary font-heading text-heading-2xl"
+                    class="mt-1 text-4xl font-bold text-center text-primary-default font-heading text-heading-2xl"
                 >
                     Citizen Center
                 </h1>
@@ -36,7 +36,7 @@
                     of the site is currently available for browsing.
                 </p>
             </div>
-            <div class="mb-10 sm:mb-15 flex flex-col md:items-center">
+            <div class="flex flex-col mb-10 md:items-center sm:mb-15">
                 <section-links
                     v-for="({ label, img, imgAlt, submenu }, idx) in submenus"
                     :key="idx"
@@ -69,18 +69,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-/* Do this instead: */
-.custom-grid {
-    @apply grid grid-cols-1;
-}
-
-@screen md {
-    .custom-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 420px));
-        column-gap: 2rem;
-    }
-}
-</style>

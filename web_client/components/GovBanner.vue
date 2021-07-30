@@ -1,9 +1,9 @@
 <template>
     <div>
-        <header class="header p-1 sm:p-05 bg-base-lightest relative font-ui">
+        <header class="relative p-1 header bg-base-lightest font-ui sm:p-05">
             <div class="flex pl-1">
                 <img
-                    class="mr-1 mt-05 self-start"
+                    class="self-start mr-1 mt-05"
                     src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/us_flag_small.png"
                     alt="U.S. flag"
                 />
@@ -12,23 +12,23 @@
                         An official website of the United States government
                     </div>
                     <p
-                        class="underline text-primary flex items-center sm:hidden"
+                        class="flex items-center underline sm:hidden text-primary-default"
                     >
                         Here's how you know
                         <img class="w-1 h-1 ml-05" :src="angleImagePath" />
                     </p>
                 </div>
                 <button
-                    class="button flex items-center underline text-primary absolute inset-0 w-full focus:outline-none sm:static sm:w-auto"
+                    class="absolute inset-0 flex items-center w-full underline sm:static sm:w-auto focus:outline-none button text-primary-default"
                     @click.prevent="toggleOpen"
                 >
-                    <span class="hidden sm:flex items-center">
+                    <span class="items-center hidden sm:flex">
                         Here's how you know
                         <img class="w-1 h-1 ml-05" :src="angleImagePath" />
                     </span>
                     <div
                         v-if="open"
-                        class="w-6 h-6 bg-base-lighter flex justify-center items-center absolute top-0 right-0 sm:hidden"
+                        class="absolute top-0 right-0 flex items-center justify-center w-6 h-6 sm:hidden bg-base-lighter"
                     >
                         <img
                             src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/close-blue-60v-alt.svg"
@@ -39,10 +39,10 @@
         </header>
         <div
             v-if="open"
-            class="flex text-body-xs bg-base-lightest pt-05 pr-2 pb-2 pl-1 flex-col md:flex-row md:space-x-6"
+            class="flex flex-col pb-2 pl-1 pr-2 md:flex-row md:space-x-6 text-body-xs bg-base-lightest pt-05"
         >
-            <div class="pt-2 flex">
-                <div class="min-w-5 mr-1">
+            <div class="flex pt-2">
+                <div class="mr-1 min-w-5">
                     <img
                         src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/icon-dot-gov.svg"
                     />
@@ -56,8 +56,8 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-2 flex">
-                <div class="min-w-5 mr-1">
+            <div class="flex pt-2">
+                <div class="mr-1 min-w-5">
                     <img
                         src="@/node_modules/@hursey013/tailwindcss-uswds/dist/img/icon-https.svg"
                     />
