@@ -69,18 +69,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-/* Do this instead: */
-.custom-grid {
-    @apply grid grid-cols-1;
-}
-
-@screen md {
-    .custom-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 420px));
-        column-gap: 2rem;
-    }
-}
-</style>
