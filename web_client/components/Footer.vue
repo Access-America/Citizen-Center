@@ -15,7 +15,7 @@
             >
                 <div class="flex items-center px-2 py-3 md:pl-0 dept-of-tech">
                     <img
-                        class="mr-2 tech-logo"
+                        class="w-6 h-auto mr-2 md:w-10"
                         src="@/assets/images/dept-of-tech-logo.svg"
                         imgAlt="Access America"
                     />
@@ -66,23 +66,6 @@ export default {
 </script>
 
 <style scoped>
-.head-inner {
-    @screen md {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    }
-}
-
-.tech-logo {
-    width: 48px;
-    height: 48px;
-
-    @screen md {
-        width: 80px;
-        height: 80px;
-    }
-}
-
 .tech-header {
     font-size: 24px;
     line-height: 26px;
