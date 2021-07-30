@@ -6,7 +6,7 @@
     "author": "Access America",
     "scripts": {
         "dev": "nuxt",
-        "build": "nuxt build",
+        "build": "nuxt generate",
         "start": "nuxt start",
         "generate": "nuxt generate",
         "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
