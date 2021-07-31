@@ -2,12 +2,12 @@
     <div class="accordion">
         <div
             :class="{ 'text-primary': expanded, 'font-bold': expanded }"
-            class="title cursor-pointer flex justify-between items-center py-105 px-2 relative"
+            class="relative flex items-center justify-between px-2 cursor-pointer title py-105"
             @click="onClickLabel"
         >
             <div
                 v-if="expanded"
-                class="accent absolute top-05 left-0 bg-primary w-05 h-4 rounded-pill"
+                class="absolute left-0 h-4 accent top-05 bg-primary w-05 rounded-pill"
             ></div>
             <span>{{ label }}</span
             ><img
@@ -23,7 +23,7 @@
             <li
                 v-for="(item, idx) in items"
                 :key="idx"
-                class="border-t-1px border-base-lighter py-105 pl-4 pr-2 text-ui-2xs"
+                class="pl-4 pr-2 border-t-1px border-base-lighter py-105 text-ui-2xs"
             >
                 <NuxtLink
                     :to="item.href"

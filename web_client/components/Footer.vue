@@ -1,30 +1,30 @@
 <template>
     <footer class="text-white">
         <div class="return-top bg-base-lightest">
-            <div class="m-auto py-1 px-2 md:px-4 max-w-desktop">
+            <div class="px-2 py-1 m-auto md:px-4 max-w-desktop">
                 <a
-                    class="underline text-primary hover:text-primary-dark"
+                    class="underline text-primary-default hover:text-primary-dark"
                     href="#"
                     >Return to top</a
                 >
             </div>
         </div>
-        <div class="bottom pb-2 bg-primary-darker">
+        <div class="pb-2 bottom bg-primary-darker">
             <div
-                class="m-auto flex flex-col-reverse max-w-desktop md:justify-between md:flex-row md:py-3 md:px-4"
+                class="flex flex-col-reverse m-auto md:flex-row md:justify-between md:py-3 md:px-4 max-w-desktop"
             >
-                <div class="dept-of-tech flex items-center py-3 px-2 md:pl-0">
+                <div class="flex items-center px-2 py-3 md:pl-0 dept-of-tech">
                     <img
-                        class="tech-logo mr-2"
+                        class="w-6 h-auto mr-2 md:w-10"
                         src="@/assets/images/dept-of-tech-logo.svg"
                         imgAlt="Access America"
                     />
-                    <div class="tech-header flex items-center font-bold">
+                    <div class="flex items-center font-bold tech-header">
                         Access America
                     </div>
                 </div>
                 <div>
-                    <div class="social hidden justify-end md:flex">
+                    <div class="justify-end hidden md:flex social">
                         <a
                             href="https://twitter.com/USAccessAmerica"
                             class="social-link"
@@ -35,9 +35,9 @@
                             />
                         </a>
                     </div>
-                    <div class="text-white p-2 md:pr-0">
+                    <div class="p-2 text-white md:pr-0">
                         <div
-                            class="contact-header font-bold hidden md:block md:text-right md:mb-1"
+                            class="hidden font-bold md:block md:mb-1 md:text-right contact-header"
                         >
                             Contact Us
                         </div>
@@ -66,23 +66,6 @@ export default {
 </script>
 
 <style scoped>
-.head-inner {
-    @screen md {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    }
-}
-
-.tech-logo {
-    width: 48px;
-    height: 48px;
-
-    @screen md {
-        width: 80px;
-        height: 80px;
-    }
-}
-
 .tech-header {
     font-size: 24px;
     line-height: 26px;

@@ -1,11 +1,11 @@
 <template>
     <nav
         v-if="show"
-        class="mobile-nav z-400 fixed top-0 right-0 bottom-0 p-2 w-card-lg bg-white overflow-y-auto select-none"
+        class="fixed top-0 bottom-0 right-0 p-2 overflow-y-auto bg-white select-none mobile-nav z-400 w-card-lg"
     >
-        <div class="close-nav-button flex justify-end">
+        <div class="flex justify-end close-nav-button">
             <div
-                class="w-6 h-6 flex justify-center items-center cursor-pointer -mt-2 -mr-2"
+                class="flex items-center justify-center w-6 h-6 -mt-2 -mr-2 cursor-pointer"
                 @click="closeMenu"
             >
                 <img class="w-2 h-2" src="@/assets/images/icons/close.svg" />

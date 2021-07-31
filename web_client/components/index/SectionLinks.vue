@@ -1,24 +1,24 @@
 <template>
     <div
-        class="flex flex-col lg:flex-row justify-center md:items-center lg:items-start lg:space-x-8 pb-3 pt-3 sm:pb-6 sm:pt-6 max-w-desktop md:m-auto border-b-2px border-base-lighter last:border-0"
+        class="flex flex-col justify-center pt-3 pb-3 sm:pt-6 sm:pb-6 md:items-center md:m-auto lg:flex-row lg:items-start lg:space-x-8 last:border-0 max-w-desktop border-b-2px border-base-lighter"
     >
         <icon-image
             :src="imgSrc"
             :alt="imgAlt"
-            class="mb-205 self-start md:self-auto"
+            class="self-start md:self-auto mb-205"
         />
 
         <div>
             <h2
-                class="text-heading-lg md:text-heading-xl font-heading font-bold text-left md:text-center lg:text-left text-base-darkest mb-1 sm:mb-4"
+                class="mb-1 font-bold text-left sm:mb-4 md:text-center lg:text-left text-heading-lg font-heading text-base-darkest md:text-heading-xl"
             >
                 {{ header }}
             </h2>
-            <div class="items-start justify-center custom-grid">
+            <div class="grid items-start justify-center grid-cols-1 md:grid-cols-[repeat(2,minmax(0,360px))] md:gap-x-9">
                 <Item
                     v-for="link in links"
                     :key="link.label"
-                    class="mb-105 last:mb-0"
+                    class="last:mb-0 mb-105"
                     :link="link.href"
                     >{{ link.label }}</Item
                 >
@@ -56,17 +56,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-.custom-grid {
-    @apply grid grid-cols-1;
-}
-
-@screen md {
-    .custom-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 360px));
-        column-gap: 2.25rem;
-    }
-}
-</style>
