@@ -144,3 +144,15 @@ export function editProfile() {
         console.log(response)
     })
 }
+
+export function vcSignIn() {
+    auth.loginPopup(b2cPolicies.authorities.vcSignIn).then(handleResponse).catch((error) => {
+        console.error(error)
+    })
+}
+
+export function vcLinkAccounts() {
+    auth.loginPopup(b2cPolicies.authorities.vcLinkAccounts).then(handleResponse).catch((error) => {
+        console.error(error)
+    })
+}
