@@ -29,7 +29,7 @@
         "uswds": "^2.12.0"
     },
     "devDependencies": {
-        "@babel/eslint-parser": "^7.14.9",
+        "@babel/eslint-parser": "^7.17.0",
         "@hursey013/tailwindcss-uswds": "^1.2.0",
         "@nuxt/types": "~2.15.7",
         "@nuxtjs/eslint-config": "^6.0.1",
