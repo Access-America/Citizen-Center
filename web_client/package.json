@@ -17,7 +17,7 @@
         "*.{js,vue}": "eslint"
     },
     "dependencies": {
-        "@azure/msal-browser": "^2.16.0",
+        "@azure/msal-browser": "^2.22.1",
         "@nuxt/content": "^1.14.0",
         "@nuxtjs/axios": "^5.13.6",
         "@nuxtjs/dotenv": "^1.4.1",
