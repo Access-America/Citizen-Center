@@ -3,11 +3,11 @@
         <Overlay :show="mobileNavOpen" />
 
         <div
-            class="flex justify-between pl-2 m-auto sm:pt-4 sm:pr-2 sm:pb-3 navbar max-w-desktop"
+            class="flex justify-between pl-2 m-auto navbar max-w-desktop sm:pr-2 sm:pt-4 sm:pb-3"
         >
             <NuxtLink to="/" class="flex items-center">
                 <img
-                    class="w-3 h-3 sm:mr-2 sm:w-5 sm:h-5 logo mr-105"
+                    class="w-3 h-3 logo mr-105 sm:mr-2 sm:w-5 sm:h-5"
                     src="@/assets/images/logo.svg"
                 />
                 <span class="font-bold text-ui-sm sm:text-ui-lg md:text-ui-xl">
@@ -18,7 +18,7 @@
             <account-buttons class="hidden sm:block" />
 
             <div
-                class="flex items-center block h-6 text-white uppercase cursor-pointer sm:hidden px-105 text-ui-3xs bg-primary"
+                class="flex items-center h-6 text-white uppercase cursor-pointer px-105 text-ui-3xs bg-primary sm:hidden"
                 @click="openMobileNavMenu"
             >
                 Menu

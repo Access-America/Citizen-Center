@@ -1,5 +1,5 @@
 <template>
-    <div class="text-body-md highlight">
+    <div class="underline text-body-md text-primary-default hover:text-primary-dark">
         <Link :to="link"><slot></slot></Link>
     </div>
 </template>
@@ -18,13 +18,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-.highlight {
-    @apply text-primary-default underline;
-}
-
-.highlight:hover {
-    @apply text-primary-dark;
-}
-</style>
